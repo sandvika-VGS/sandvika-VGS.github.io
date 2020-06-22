@@ -1,4 +1,3 @@
-# IT1-fagstoff
+# Headline
 
-Nettsted for fagstoff i IT1.
-Laget med [docsify](https://docsify.js.org/)
+> An awesome project.
