@@ -4,6 +4,8 @@ HyperText Markup Language (HTML, hypertekstmarkeringsspråk) er et markeringsspr
 HTML benyttes til å strukturere informasjon – angi noe tekst som overskrifter, avsnitt, lister og så videre – og kan, i en viss grad, brukes til å beskrive utseende og semantikk i et dokument.
 Hentet fra [wikipedia.org](https://no.wikipedia.org/wiki/HTML)
 
+![alt text](./bilde.jpg "Bildetekst")
+
 ```HTML
     <!DOCTYPE html>
     <html>
@@ -29,3 +31,4 @@ Hentet fra [wikipedia.org](https://no.wikipedia.org/wiki/HTML)
 - i (Italics) – Gir kursiv tekst
 - a (Anchor) – En lenke til en annen ressurs på nettet (nettside, e-postadresse, nyhetsgruppe etc.)
 - form (Form) – Benyttes for å sette inn skjemaelementer, skrivefelt, knapper, avkryssningsbokser og lignende.
+
