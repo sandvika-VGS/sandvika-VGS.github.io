@@ -6,7 +6,7 @@
 
 ## Extensions
 
-![extensions i VS Code](extensions.png)
+![extensions i VS Code](extensions.png ':size=200')
 
 - open in browser 2.0.0
 - Atom One Dark Theme
