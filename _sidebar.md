@@ -2,9 +2,9 @@
 
 * Introduksjon til HTML og CSS
 
-  * [1. HTML](./1-oppsett/1-oppsett.md)
-  * [2. CSS](./2-html/2-html.md)
-  * [3. Grid](./3-css/3-css.md)
+  * [1. Oppsett](./1-oppsett/1-oppsett.md)
+  * [2. HTML](./2-html/2-html.md)
+  * [3. CSS](./3-css/3-css.md)
   * [4. Flex](./4-flex/4-flex.md)
 
 * Datbaser
