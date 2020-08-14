@@ -5,6 +5,9 @@
 - Google Chrome / Firefox
 
 ## Extensions
+
+![extensions i VS Code](extensions.png)
+
 - open in browser 2.0.0
 - Atom One Dark Theme
 
