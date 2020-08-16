@@ -21,15 +21,15 @@ Dersom vi skal lage en nettside må vi altså lære oss å skrive html. Vi lagre
 
 La oss prøve:
 
-- Åpne VS Code
+-Åpne VS Code
 
-- Sørg for at du har installert utvidelsen "open in browser" (les "2 - Oppsett" for hjelp)
+-Sørg for at du har installert utvidelsen "open in browser" (les "2 - Oppsett" for hjelp)
 
-- Velg File og så "New File"
+-Velg File og så "New File"
 
-- Velg File og så "Save as". Lagre den som "hjemmeside.html"
+-Velg File og så "Save as". Lagre den som "hjemmeside.html"
 
-- Kopier inn følgende tekst
+-Kopier inn følgende tekst
 
 ```HTML
     <!DOCTYPE html>
@@ -40,7 +40,7 @@ La oss prøve:
     </html>
 ```
 
-- Høyreklikk hvor som helst på siden og velg "Open in default browser"
+-Høyreklikk hvor som helst på siden og velg "Open in default browser"
 
 Gratulerer du har nå laget din første hjemmeside. La oss se nærmere på hva som skjedde.
 
