@@ -9,15 +9,12 @@ Du har trolig vært på utallige nettsider hele livet uten å tenke særlig nøy
 
 Her var det trolig mye uforståelig tekst, men dette er altså slik nettsiden er laget. Mye her er skrevet på et språk som vi kaller HTML. Dette språket bruker vi til å bestemme hva som skal være på nettsiden vår, og i en begrenset grad hvordan det skal se ut.
 
-![alt text](./bilde1.jpg "Et utsnitt av html kode på nrk.no" ':size=200')
+![alt text](./bilde.jpg "Eksempel på kildekode")
+
+Fra [wikipedia.org](https://no.wikipedia.org/wiki/HTML): _HyperText Markup Language (HTML, hypertekstmarkeringsspråk) er et markeringsspråk for formatering av nettsider med hypertekst og annen informasjon som kan vises i en nettleser.
+HTML benyttes til å strukturere informasjon – angi noe tekst som overskrifter, avsnitt, lister og så videre – og kan, i en viss grad, brukes til å beskrive utseende og semantikk i et dokument._
 
 
-
-_HyperText Markup Language (HTML, hypertekstmarkeringsspråk) er et markeringsspråk for formatering av nettsider med hypertekst og annen informasjon som kan vises i en nettleser.
-HTML benyttes til å strukturere informasjon – angi noe tekst som overskrifter, avsnitt, lister og så videre – og kan, i en viss grad, brukes til å beskrive utseende og semantikk i et dokument.
-Hentet fra [wikipedia.org](https://no.wikipedia.org/wiki/HTML)_
-
-![alt text](./bilde.jpg "Bildetekst")
 
 ```HTML
     <!DOCTYPE html>
