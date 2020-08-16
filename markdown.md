@@ -32,6 +32,7 @@ _You **can** combine them_
 
 # Images
 ![GitHub Logo](/images/logo.png)
+![extensions i VS Code](extensions.png ':size=200')
 
 # Links
 
