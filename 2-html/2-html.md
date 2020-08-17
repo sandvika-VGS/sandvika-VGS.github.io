@@ -10,7 +10,7 @@ Du har trolig vært på utallige nettsider hele livet uten å tenke særlig nøy
 
 -Se raskt gjennom
 
-Her var det trolig mye uforståelig tekst, men det er altså slik nettsiden er laget. Mye her er skrevet på et språk som vi kaller HTML. HTML bruker vi til å bestemme hva som skal være på nettsiden vår, og i en begrenset grad hvordan den skal se ut.
+Her var det nok mye uforståelig tekst, men det er altså slik nettsiden er laget. Mye her er skrevet på et språk som vi kaller HTML. HTML bruker vi til å bestemme hva som skal være på nettsiden vår, og i en begrenset grad hvordan den skal se ut.
 
 ![alt text](./bilde.jpg "Eksempel på kildekode")
 
