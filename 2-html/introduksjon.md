@@ -43,21 +43,3 @@ La oss prøve:
 -Høyreklikk hvor som helst på siden og velg "Open in default browser"
 
 Gratulerer du har nå laget din første hjemmeside. La oss se nærmere på hva som skjedde.
-
-# 3.3 Vanlige HTML-elementer
-
-- h1 (Header 1) – Overskriften på dokumentet
-- h2 – h6 (Header 2 – Header 6) – Underoverskrifter (angir underseksjoner)
-- table (Table) – Lager en tabell
-- ul (Unordered List) – Punktliste
-- ol (Ordered List) – Nummerert liste
-- br (Break) – Linjeskift
-- div (Division) – En seksjon i dokumentet
-- p (Paragraph) – Et avsnitt, vises som regel med en blank linje over og under
-- strong (Strong) – Indikerer viktig tekst, vises vanligvis i fete typer
-- b (Bold) – Gir fet skrift, men ingen viktighetshentydning
-- em (Emphasis) – Indikerer vektlagt tekst, vises normalt i kursiv
-- i (Italics) – Gir kursiv tekst
-- a (Anchor) – En lenke til en annen ressurs på nettet (nettside, e-postadresse, nyhetsgruppe etc.)
-- form (Form) – Benyttes for å sette inn skjemaelementer, skrivefelt, knapper, avkryssningsbokser og lignende.
-
