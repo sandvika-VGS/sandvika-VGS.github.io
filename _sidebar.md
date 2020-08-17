@@ -7,7 +7,7 @@
 * HTML
   * [2.1 Introduksjon](./2-html/introduksjon.md)
   * [2.2 Hva er HTML?](./2-html/hva-er-html.md)
-  * [2.3 HTML-tagger](./2-html/tagger.md)
+  * [2.3 Vanlige HTML-tagger](./2-html/tagger.md)
   
 * CSS
   * [3.1 CSS](./3-css/css.md)
