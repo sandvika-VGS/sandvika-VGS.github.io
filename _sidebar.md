@@ -1,17 +1,14 @@
 <!-- _navbar.md -->
-* Introduksjon til Informasjonsteknologi 1
+* 1. Introduksjon til Informasjonsteknologi 1
 
-  * [1. Velkommen](./1-introduksjon/1-velkommen.md)
-  * [2. Oppsett](./1-introduksjon/1-oppsett.md)
+  * [1.1 Velkommen](./1-introduksjon/velkommen.md)
+  * [1.2 Oppsett](./1-introduksjon/oppsett.md)
 
-
-* HTML og CSS
-
-  * [3. HTML](./2-html/2-html.md)
-  * [4. CSS](./3-css/3-css.md)
-  * [5. Flex](./4-flex/4-flex.md)
-
-* Databaser
-  * [7. Introduksjon til databaser](7-databaser.md)
-  * [8. Databaseteori](8-databaseteori.md)
-  * [9. Firestore](9-firestore.md)
+* 2. HTML
+  * [2.1 Introduksjon](./2-html/introduksjon.md)
+  * [2.2 Hva er HTML?](./2-html/hva-er-html.md)
+  * [2.3 HTML-tagger](./2-html/tagger.md)
+* 3. CSS
+  * [3.1 CSS](./3-css/css.md)
+  * [3.2 Flex](./3-css/flex.md)
+  * [3.3 Grid](./3-css/grid.md)
