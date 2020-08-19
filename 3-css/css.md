@@ -39,16 +39,20 @@ Under er et eksempel på en nettside med CSS-kode. Legg merke til `style`-elemen
 ## Oppbygningen av CSS-regler
 
 ![Et CSS-regelsett](css-regel.png)  
-Hele koden i bildet over utgjør et CSS-regelsett, den består av flere mindre deler som vi skal se nærmere på.
+Hele koden i bildet over utgjør et CSS-regelsett.
+Et regelsett består av flere mindre deler:  
 
 1. **Selektor:** Dette er navnet til HTML-elementet som det skal settes stil på. I dette tilfellet `<p>`-elementer.
 2. **Egenskap:** Forteller hvilken egenskap som skal endres på, eks: `color`.
 3. **Verdi:** Forteller hvilken verdi egenskapen skal ha, eks: `red`.
 4. **Deklarasjon:** Utgjøres av både egenskapen og verdien. Hele linjen med kode kalles for en CSS-regel.
 
-Et regelsett består ofte av flere regler, f.eks slik som i koden under.
+Et regelsett består ofte av flere regler, og hele CSS-koden består ofte av flere regelsett, se eksemplet under.
 
 ```CSS
+body{
+    background-color: lightgrey;
+}
 p{
     font-size: 24px;
     color: white;
