@@ -27,7 +27,7 @@ Delene av dette *p-elementet* er følgende:
 
 ## Attributter
 
-Elementer kan også ha attributter som ser slik ut:
+Elementer kan også ha attributter som ser slik ut:  
 ![HTML-element med attributt](attributt.png)  
 Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsiden.
 I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
