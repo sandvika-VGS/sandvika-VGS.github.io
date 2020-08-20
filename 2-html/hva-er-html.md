@@ -14,7 +14,7 @@ La oss se på eksempelet i forrige avsnitt:
     </html>
 ```
 
-Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Det som står med blå skrift er "taggene". *html* og *body* er viktige element vi kommer tilbake til, mens *h1* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
+Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Det som står med blå skrift er elementene som består av "tagger". *html* og *body* er viktige element vi kommer tilbake til, mens *h1* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
 
 Se for eksempel på følgende linje med innhold:
 
@@ -37,21 +37,45 @@ Delene av dette *p-elementet* er følgende:
 3. **Innholdet:** I mellom taggene er innholdet i elementet, som i dette tilfellet bare er tekst.
 4. **Hele elementet:** Åpningstaggen, lukketaggen og innholdet utgjør hele elementet.
 
-Når vi skal lære oss html så vil mye av jobben bestå av å vite hva slags funksjon de ulike elementene har.
+Når vi skal lære oss html så vil mye av jobben bestå av å vite hva slags funksjon de ulike elementene har. Lag en ny html-fil, slik som i forrige avsnitt. Skriv "html:5" og trykk tab (i stedet for enter). 
 
-- Lag en ny html-fil, slik som i forrige avsnitt. 
-- skriv "html" og trykk tab. 
+Du vil se at VS - Code generer et skjelett slik at vi slipper å skrive det samme hver gang:
 
-Du vil se at VS - Code generer et skjelett slik at vi slipper å skrive det samme hver gang.
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
 
-<Html> elementet ligger alltid rundt hele nettsiden vår.
-Inne i html-elementene ligger <head> og <body>
+Html elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger head og body. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Vi har i tillegg sett på h1 og p elementer som er til henholdsvis overskrifter og paragrafer, disse kan vi altså skrive inne i body.
 
-I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes.
+## Nøstede elementer
 
-I body skriver vi alt som skal synes på nettsiden vår.
+I HTML ser du nå kanskje at du kan putte elementer inne i elementer, dette kalles *nøsting*.
+Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi sette "veldig" i et `<strong>` element, det vil gjøre at "veldig" blir skrevet med fet skrift på nettsiden.
 
-Vi har i tillegg sett på <h1> og <p> elementer som er til henholdsvis overskrifter og paragrafer.
+```HTML
+<p>Katten min er <strong>veldig</strong> gretten.</p>
+```
+
+> OBS!
+>
+> Her må du passe på at du nøster riktig. Dette blir feil:
+>
+> ```HTML
+> <p>My cat is <strong>very grumpy.</p></strong>
+> ```
+>
+> Elementene må åpnes og lukkes korrekt, slik at de er innenfor eller utenfor hverandre.
+> Hvis de overlapper, slik som i koden over, vil nettleseren din prøve å tippe hva du mener, og det blir ofte feil.
 
 
 ## Attributter
@@ -72,23 +96,5 @@ En attributt burde alltid ha følgende:
 >
 > Noen få attributter trenger ikke attributtverdi.
 
-## Nøstede elementer
 
-I HTML kan du putte elementer inne i elementer, dette kalles *nøsting*.
-Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi sette "veldig" i et `<strong>` element, det vil gjøre at "veldig" blir skrevet med fet skrift på nettsiden.
-
-```HTML
-<p>Katten min er <strong>veldig</strong> gretten.</p>
-```
-
-> OBS!
->
-> Her må du passe på at du nøster riktig. Dette blir feil:
->
-> ```HTML
-> <p>My cat is <strong>very grumpy.</p></strong>
-> ```
->
-> Elementene må åpnes og lukkes korrekt, slik at de er innenfor eller utenfor hverandre.
-> Hvis de overlapper, slik som i koden over, vil nettleseren din prøve å tippe hva du mener, og det blir ofte feil.
 
