@@ -24,7 +24,14 @@ Katten min er veldig gretten
 Hvis vi har lyst at denne teksten skal stå for seg selv på nettsiden, kan vi legge på *paragraph*-tagger (avsnitts-tagger).
 
 ```HTML
-<p>Katten min er veldig gretten</p>
+    <!DOCTYPE html>
+    <html>
+        <body>
+            <h1>Hallo verden!</h1>
+            <p>Katten min er veldig gretten</p>
+        </body>
+    </html>
+
 ```
 
 ## Oppbygningen av et HTML-element
@@ -57,13 +64,13 @@ Du vil se at VS - Code generer et skjelett for en html side slik at vi slipper �
 </html>
 ```
 
-_Html_ elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. inne i body. Disse elementene er med i alle nettsider. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
+_Html_-elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Disse tre elementene er med i alle nettsider. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
 
-**Eksperimenter ved å sette inn noen overskrifter og paragrafer i body-elementet.**
+**Eksperimenter ved å sette inn noen overskrifter og paragrafer i body-elementet. Skriv for eksempel noen linjer om ferien din**
 
 ## Nøstede elementer
 
-I HTML ser du nå kanskje at du kan putte elementer inne i elementer, dette kalles *nøsting*.
+Du ser nå kanskje at du kan putte elementer inne i elementer, dette kalles *nøsting*.
 Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi sette "veldig" i et `<strong>` element, det vil gjøre at "veldig" blir skrevet med fet skrift på nettsiden.
 
 ```HTML
@@ -90,10 +97,10 @@ Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsi
 I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
 `class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det.  
 
-En attributt burde alltid ha følgende:
+Attributten skrives alltid inne i åpningstaggen til et element og må ha følgende:
 
 1. Mellomrom mellom attributten og elementnavnet.
-2. Attributtnavnet etterfulgf av et likhetstegn.
+2. Attributtnavnet etterfulgt av et likhetstegn.
 3. Attributtverdien inne i anførselstegn.
 
 > OBS!
