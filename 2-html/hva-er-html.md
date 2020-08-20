@@ -4,6 +4,18 @@ HTML er ikke et programmeringsspråk.
 Det er et markeringsspråk, som brukes til å strukturere innhold på nettsider.
 HTML består av *elementer*, som brukes for å pakke inn innhold, slik at det vises på en spesiell måte i nettleseren.
 *Taggene* som pakker inn innholdet forteller nettleseren om innholdet er tekst, en lenke, et bilde, og så videre.
+La oss se på eksempelet i forrige avsnitt:
+```HTML
+    <!DOCTYPE html>
+    <html>
+        <body>
+            <h1>Hallo verden!</h1>
+        </body>
+    </html>
+```
+
+Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Elementene i blått er "taggene". *<html>* og *<body>* er viktige element vi kommer tilbake til, mens *<h1>* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
+
 Se for ekesemepel på følgende linje med innhold:
 
 ```
@@ -24,6 +36,23 @@ Delene av dette *p-elementet* er følgende:
 2. **Lukketaggen:** Denne er lik som åpningstaggen, bare at vi legger til en skråstrek før navnet på elementet.
 3. **Innholdet:** I mellom taggene er innholdet i elementet, som i dette tilfellet bare er tekst.
 4. **Hele elementet:** Åpningstaggen, lukketaggen og innholdet utgjør hele elementet.
+
+Når vi skal lære oss html så vil mye av jobben bestå av å vite hva slags funksjon de ulike elementene har.
+
+- Lag en ny html-fil, slik som i forrige avsnitt. 
+- skriv "html" og trykk tab. 
+
+Du vil se at VS - Code generer et skjelett slik at vi slipper å skrive det samme hver gang.
+
+<Html> elementet ligger alltid rundt hele nettsiden vår.
+Inne i html-elementene ligger <head> og <body>
+
+I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes.
+
+I body skriver vi alt som skal synes på nettsiden vår.
+
+Vi har i tillegg sett på <h1> og <p> elementer som er til henholdsvis overskrifter og paragrafer.
+
 
 ## Attributter
 
