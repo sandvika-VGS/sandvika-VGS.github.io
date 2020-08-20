@@ -14,9 +14,9 @@ La oss se på eksempelet i forrige avsnitt:
     </html>
 ```
 
-Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Elementene i blått er "taggene". *<html>* og *<body>* er viktige element vi kommer tilbake til, mens *<h1>* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
+Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Det som står med blå skrift er "taggene". *html* og *body* er viktige element vi kommer tilbake til, mens *h1* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
 
-Se for ekesemepel på følgende linje med innhold:
+Se for eksempel på følgende linje med innhold:
 
 ```
 Katten min er veldig gretten
