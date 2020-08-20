@@ -37,9 +37,11 @@ Delene av dette *p-elementet* er følgende:
 3. **Innholdet:** I mellom taggene er innholdet i elementet, som i dette tilfellet bare er tekst.
 4. **Hele elementet:** Åpningstaggen, lukketaggen og innholdet utgjør hele elementet.
 
-Når vi skal lære oss html så vil mye av jobben bestå av å vite hva slags funksjon de ulike elementene har. Lag en ny html-fil, slik som i forrige avsnitt. Skriv "html:5" og trykk tab (i stedet for enter). 
+Når vi skal lære oss html så vil mye av jobben bestå av å vite hva slags funksjon de ulike elementene har. 
 
-Du vil se at VS - Code generer et skjelett slik at vi slipper å skrive det samme hver gang:
+**Lag en ny html-fil, slik som i forrige avsnitt. Skriv "html:5" og trykk tab (i stedet for enter).** 
+
+Du vil se at VS - Code generer et skjelett for en html side slik at vi slipper å skrive det samme hver gang:
 
 ```HTML
 <!DOCTYPE html>
@@ -55,7 +57,9 @@ Du vil se at VS - Code generer et skjelett slik at vi slipper å skrive det samm
 </html>
 ```
 
-Html elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger head og body. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Vi har i tillegg sett på h1 og p elementer som er til henholdsvis overskrifter og paragrafer, disse kan vi altså skrive inne i body.
+_Html_ elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. inne i body. Disse elementene er med i alle nettsider. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
+
+**Eksperimenter ved å sette inn noen overskrifter og paragrafer i body-elementet.**
 
 ## Nøstede elementer
 
