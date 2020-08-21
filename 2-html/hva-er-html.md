@@ -3,7 +3,7 @@
 HTML er ikke et programmeringsspråk.
 Det er et markeringsspråk, som brukes til å strukturere innhold på nettsider.
 HTML består av *elementer*, som brukes for å pakke inn innhold, slik at det vises på en spesiell måte i nettleseren.
-*Taggene* som pakker inn innholdet forteller nettleseren om innholdet er tekst, en lenke, et bilde, og så videre.
+*Elementene* består av *Tagger* som pakker inn innholdet forteller nettleseren om innholdet er tekst, en lenke, et bilde, og så videre.
 La oss se på eksempelet i forrige avsnitt:
 ```HTML
     <!DOCTYPE html>
@@ -14,7 +14,7 @@ La oss se på eksempelet i forrige avsnitt:
     </html>
 ```
 
-Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Det som står med blå skrift er elementene som består av "tagger". *html* og *body* er viktige element vi kommer tilbake til, mens *h1* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
+Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Det som står med blå skrift er tagger som starter og slutter et element. *Html* og *body* er viktige element vi kommer tilbake til, mens *h1* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
 
 Se for eksempel på følgende linje med innhold:
 
@@ -53,18 +53,18 @@ Du vil se at VS - Code generer et skjelett for en html side slik at vi slipper �
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
     
-</body>
+    </body>
 </html>
 ```
 
-_Html_-elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Disse tre elementene er med i alle nettsider. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
+_Html_-elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Disse tre elementene er med i alle nettsider, så det er lurt å huske snarveien vi nå brukte. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
 
 **Eksperimenter ved å sette inn noen overskrifter og paragrafer i body-elementet. Skriv for eksempel noen linjer om ferien din**
 
@@ -91,13 +91,27 @@ Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi set
 
 ## Attributter
 
-Elementer kan også ha attributter som ser slik ut:  
-![HTML-element med attributt](attributt.png)  
-Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsiden.
-I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
-`class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det.  
+Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dette er mulig ved å legge til _attributter_. 
 
-Attributten skrives alltid inne i åpningstaggen til et element og må ha følgende:
+Elementer med attributter ser slik ut:  
+![HTML-element med attributt](attributt.png)  
+_Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsiden._
+I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
+`class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det.
+
+Noen ganger må vi legge til en attributt for at html-elementet i det hele tatt skal fungere. Anta at vi skal lage en lenke til skolens hjemmeside, da bruker vi et såkalt anker-element
+```HTML
+<a>Sandvika VGS</a>
+```
+Dette vil ikke fungere fordi nettadressen til Sandvika Vgs ikke er med. Vi må legge til følgende attributt for at lenken skal virke:
+
+```HTML
+<a href="www.sandvika-vgs.no">Sandvika VGS</a>
+```
+
+Hvilke attributter som hører til hvilke element er noe vi kan slå opp.
+
+Attributtene skrives alltid inne i åpningstaggen til et element og bør skrives med følgende regler:
 
 1. Mellomrom mellom attributten og elementnavnet.
 2. Attributtnavnet etterfulgt av et likhetstegn.
@@ -107,5 +121,10 @@ Attributten skrives alltid inne i åpningstaggen til et element og må ha følge
 >
 > Noen få attributter trenger ikke attributtverdi.
 
+Veldig ofte skriver vi flere attributter på et element, og da skriver vi de bare etter hverandre i åpningstaggen:
+
+```HTML
+<img src="etbilde.jpg" alt="alternativ tekst dersom bildet ikke vises">
+```
 
 
