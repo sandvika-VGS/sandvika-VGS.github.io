@@ -95,9 +95,8 @@ Når vi legger til et element så vil vi ofte ha behov for å legge til litt eks
 
 Elementer med attributter ser slik ut:  
 ![HTML-element med attributt](attributt.png)  
-_Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsiden._
-I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
-`class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det.
+_Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsiden. I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
+`class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det._
 
 Noen ganger må vi legge til en attributt for at html-elementet i det hele tatt skal fungere. Anta at vi skal lage en lenke til skolens hjemmeside, da bruker vi et såkalt anker-element
 ```HTML
@@ -111,7 +110,7 @@ Dette vil ikke fungere fordi nettadressen til Sandvika Vgs ikke er med. Vi må l
 
 Hvilke attributter som hører til hvilke element er noe vi kan slå opp.
 
-Attributtene skrives alltid inne i åpningstaggen til et element og bør skrives med følgende regler:
+Attributtene skrives alltid inne i åpningstaggen til et element og må skrives med følgende regler:
 
 1. Mellomrom mellom attributten og elementnavnet.
 2. Attributtnavnet etterfulgt av et likhetstegn.
