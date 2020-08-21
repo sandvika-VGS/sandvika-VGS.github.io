@@ -94,6 +94,7 @@ Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi set
 Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dette er mulig ved å legge til _attributter_. 
 
 Elementer med attributter ser slik ut:  
+
 ![HTML-element med attributt](attributt.png)  
 _Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsiden. I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
 `class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det._
