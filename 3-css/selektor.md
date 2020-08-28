@@ -35,4 +35,10 @@ Tilsvarende som class-selektoren har vi også en egen skrivemåte for id-selekto
     border: solid red 2px;
 }
 ``` 
-*Denne css-snutten endrer bare på fjelltopp-bildet, ingen eventuelle andre bilder på nettsiden.*
+*Denne css-koden endrer bare på fjelltopp-bildet, ingen eventuelle andre bilder på nettsiden.*
+
+Vi bruker altså # foran navnet for å velge et element med en id-attributt.
+
+## Pseudoklasser
+
+Kommer...
