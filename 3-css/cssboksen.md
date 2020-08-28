@@ -1,4 +1,4 @@
-## CSS - "Boksen"
+# CSS - "Boksen"
 
 ![alt text](./cssboks.png "Boks-Modellen")
 
@@ -15,7 +15,7 @@ Da får vi følgende utseende
 
 ![alt text](./cssoverskrift.png)
 
-La oss se hvordan padding endrer på utseende:
+La oss se hva padding gjør:
 
 ```CSS
 h1{
@@ -30,3 +30,9 @@ Vi ser at padding fyller luft rundt innholdet til elementet, men innenfor den so
 > OBS!
 >
 > Ved å sette left-, right-, top- eller bottom- foran i CSS, kan man finjustere både margin, padding og border!
+
+Husk at vi kan endre margin, padding og border på alle html element
+
+## Div - elementet
+
+Et html-element vi bruker veldig mye er div-elementet. Dette elementet har satt alle delene av boks-modellen til 0, slik at vi kan se på det som en usynlig boks rundt inhholdet. Ved å nøste div-elementer rundt hverandre kan man gruppere innhold som man så kan bestemme utseende på.
