@@ -13,5 +13,6 @@
   
 * CSS
   * [3.1 CSS](./3-css/css.md)
-  * [3.2 Flex](./3-css/flex.md)
-  * [3.3 Grid](./3-css/grid.md)
+  * [3.2 Boks-Modellen](./3-css/cssboksen.md)
+  * [3.3 Flex](./3-css/flex.md)
+  * [3.4 Grid](./3-css/grid.md)
