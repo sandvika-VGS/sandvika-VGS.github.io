@@ -10,7 +10,9 @@ h1{
     border: solid black 1px;
 }
 ```
+
 Da får vi følgende utseende
+
 ![alt text](./cssoverskrift.png)
 
 La oss se hvordan padding endrer på utseende:
