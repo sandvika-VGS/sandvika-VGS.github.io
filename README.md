@@ -1,3 +1,5 @@
-# IT1
+# Fagtekster for IT1
 
-> Her finner du fagstoffet vi skal gjennom i IT-1. Bruk navigasjonsbaren til venstre for å finne det du leter etter
+Dette er et repository som inneholder fagtekster for [sandvika.it](https://sandvika.it).  
+
+[sandvika.it](https://sandvika.it) er en digital lærebok for programfaget IT1 på VGS.
