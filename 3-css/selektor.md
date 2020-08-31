@@ -23,7 +23,8 @@ Når vi har en klasse vi ønsker å endre stil på med css kan vi ikke bare skri
     font-family:cursive;
     color: lightgrey;
 }
-``` 
+```
+
 Legg merke til punktumet foran, det indikerer at du skal endre på alle elementer som har klassen "norefjell"
 
 ## Id-Selektor
@@ -34,7 +35,8 @@ Tilsvarende som class-selektoren har vi også en egen skrivemåte for id-selekto
 #fjelltopp{
     border: solid red 2px;
 }
-``` 
+```
+
 *Denne css-koden endrer bare på fjelltopp-bildet, ingen eventuelle andre bilder på nettsiden.*
 
 Vi bruker altså # foran navnet for å velge et element med en id-attributt.
@@ -42,7 +44,9 @@ Vi bruker altså # foran navnet for å velge et element med en id-attributt.
 ## Pseudoselektor
 
 For å sette stil på **deler** av et HTML-element, kan vi bruke **pseudoselektor**.
-For eksempel kan vi sette stil på kun første bokstav i en tekst, eller hele første linje i et avsnitt.
+Med pseudoselektorer kan vi for eksempel sette stil kun på første bokstav i en tekst, eller hele første linje i et avsnitt.
+
+Koden under endrer stil på første bokstav i avsnittet #norefjell:
 
 ```CSS
 #norefjell::first-letter{
