@@ -39,6 +39,36 @@ Tilsvarende som class-selektoren har vi også en egen skrivemåte for id-selekto
 
 Vi bruker altså # foran navnet for å velge et element med en id-attributt.
 
-## Pseudoklasser
+## Pseudoselektor
 
-Kommer...
+For å sette stil på **deler** av et HTML-element, kan vi bruke **pseudoselektor**.
+For eksempel kan vi sette stil på kun første bokstav i en tekst, eller hele første linje i et avsnitt.
+
+For eksempel kan vi gjøre første bokstav i ett avsnitt stor slik:
+```CSS
+#norefjell::first-letter{
+    font-size: 64px;
+}
+```
+
+Vi kan også bruke pseudoselektorer for å sette inn innhold før eller etter elementer.
+For å sette inn « » før og etter et sitat kan vi gjøre følgende:
+
+```CSS
+q::before{
+    content: "«";
+}
+q::after{
+    content: "»";
+}
+```
+
+En oversikt over vanlige pseudoselektorer:
+
+| Pseudoselektor  | Beksrivelse |
+|-----------------|-------------|
+|`::first-letter` |den første bokstaven i et element|
+|`::first-line`   |den første linjen i et element|
+|`::selection`    |del av elementet som er markert av bruker|
+|`::before`       |setter inn innhold før elementet|
+|`::after`        |setter inn innhold etter elementet|
