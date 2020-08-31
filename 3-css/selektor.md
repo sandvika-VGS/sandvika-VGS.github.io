@@ -44,7 +44,6 @@ Vi bruker altså # foran navnet for å velge et element med en id-attributt.
 For å sette stil på **deler** av et HTML-element, kan vi bruke **pseudoselektor**.
 For eksempel kan vi sette stil på kun første bokstav i en tekst, eller hele første linje i et avsnitt.
 
-For eksempel kan vi gjøre første bokstav i ett avsnitt stor slik:
 ```CSS
 #norefjell::first-letter{
     font-size: 64px;
@@ -72,3 +71,27 @@ En oversikt over vanlige pseudoselektorer:
 |`::selection`    |del av elementet som er markert av bruker|
 |`::before`       |setter inn innhold før elementet|
 |`::after`        |setter inn innhold etter elementet|
+
+## Pseudoklasse
+
+Med pseudoselektor kan vi sette stil på elementer når de er i en bestemt tilstand.
+En tilstand er for eksempel når musepekeren er over et element, mens en annen er når et element er i fokus.
+
+For å endre størrelsen på et bilde når pekeren er over bildet kan vi gjøre følgende:
+
+```CSS
+#fjelltopp:hover{
+    width: 200px;
+}
+```
+
+En oversikt over vanlige pseudoklasser:
+
+| Pseudoklasse     | Beksrivelse |
+|------------------|-------------|
+|`:hover`          |musepekeren er over elementet|
+|`:active`         |elementet er klikket på|
+|`:focus`          |elementet er i fokus|
+|`:checked`        |en radioknapp eller flervalgsboks er valgt|
+|`:nth-child(even)` |velger annen hvert element, partall|
+|`:nth-child(odd)` |velger annen hvert element, oddetall|
