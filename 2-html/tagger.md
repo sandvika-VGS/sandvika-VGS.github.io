@@ -1,5 +1,7 @@
 # Vanlige HTML-tagger
 
+La oss se nærmere på de vanligste elementene vi har med når vi skriver en nettside som består av tekst, bilder og lenker.
+
 ## Overskrifter - headings
 
 ```HTML

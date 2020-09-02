@@ -3,7 +3,7 @@
 HTML er ikke et programmeringsspråk.
 Det er et markeringsspråk, som brukes til å strukturere innhold på nettsider.
 HTML består av *elementer*, som brukes for å pakke inn innhold, slik at det vises på en spesiell måte i nettleseren.
-*Elementene* består av *Tagger* som pakker inn innholdet forteller nettleseren om innholdet er tekst, en lenke, et bilde, og så videre.
+*Elementene* består av *Tagger* rundt innholdet, og forteller nettleseren om innholdet er tekst, en lenke, et bilde, og så videre.
 La oss se på eksempelet i forrige avsnitt:
 ```HTML
     <!DOCTYPE html>
@@ -64,7 +64,7 @@ Du vil se at VS - Code generer et skjelett for en html side slik at vi slipper �
 </html>
 ```
 
-_Html_-elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementene ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Disse tre elementene er med i alle nettsider, så det er lurt å huske snarveien vi nå brukte. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
+_Html_-elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementet ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Disse tre elementene er med i alle nettsider, så det er lurt å huske snarveien vi nå brukte. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
 
 **Eksperimenter ved å sette inn noen overskrifter og paragrafer i body-elementet. Skriv for eksempel noen linjer om ferien din**
 
@@ -88,6 +88,13 @@ Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi set
 > Elementene må åpnes og lukkes korrekt, slik at de er innenfor eller utenfor hverandre.
 > Hvis de overlapper, slik som i koden over, vil nettleseren din prøve å tippe hva du mener, og det blir ofte feil.
 
+Når vi skriver html, viser vi vanligvis hvilke elementer som er nøstet i hverandre ved inhopp:
+
+```HTML
+<body>
+    <h1>Min Sommerferie</h1>
+</body>
+_Siden h1 har "hoppet" et hakk inn, er det lett å se at det ligger nøstet inn i body elementet_
 
 ## Attributter
 
@@ -100,14 +107,11 @@ _Attributter innholder ekstra informasjon om elementet, som ikke vises på netts
 `class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det._
 
 Noen ganger må vi legge til en attributt for at html-elementet i det hele tatt skal fungere. Anta at vi skal lage en lenke til skolens hjemmeside, da bruker vi et såkalt anker-element
-```HTML
-<a>Sandvika VGS</a>
-```
-Dette vil ikke fungere fordi nettadressen til Sandvika Vgs ikke er med. Vi må legge til følgende attributt for at lenken skal virke:
 
 ```HTML
 <a href="www.sandvika-vgs.no">Sandvika VGS</a>
 ```
+href er en her en attributt der URL-en til siden vi skal besøke må stå.
 
 Hvilke attributter som hører til hvilke element er noe vi kan slå opp.
 
@@ -126,5 +130,5 @@ Veldig ofte skriver vi flere attributter på et element, og da skriver vi de bar
 ```HTML
 <img src="etbilde.jpg" alt="alternativ tekst dersom bildet ikke vises">
 ```
-
+*Et element for å legge inn bilde, src attributtet forteller oss hvor bildet finnes og hva det heter, og må være med for at bildet skal vises*
 

@@ -19,7 +19,7 @@ HTML benyttes til å strukturere informasjon – angi noe tekst som overskrifter
 
 I IT-1 må vi lære oss 3(!) språk for å lage gode hjemmesider. HTML bestemmer hva som skal være med. CSS bestemmer hvordan siden skal se ut. Javascript hjelper oss med mer avansert interaksjon på nettsiden.
 
-Vi må altså først lære oss å skrive html. Akkurat som når du skriver tekstfiler som word eller onenote kan lese, må du nå skrive en _html-fil_ som nettleserene kan tolke og vise frem. I motsetning til tekstfiler så bør vi ha andre program for å skrive html. Det finnes mange gode alternativer og noen av de er gratis. I år bruker vi VS Code.
+Vi må altså først lære oss å skrive html. Akkurat som når du skriver tekstfiler som word eller onenote kan lese, må du nå skrive en _html-fil_ som nettleserene kan tolke og vise frem. Vi vil helst ha program som er designet for å hjelpe oss til å skrive html. Heldigvis finnes det mange gode alternativer og noen av de er gratis. I år bruker vi VS Code.
 
 La oss prøve:
 
@@ -42,6 +42,6 @@ La oss prøve:
     </html>
 ```
 
--Høyreklikk hvor som helst på siden og velg "Open in default browser"
+- Høyreklikk hvor som helst på siden og velg "Open in default browser"
 
 Gratulerer du har nå laget din første hjemmeside. La oss se nærmere på hva som skjedde.
