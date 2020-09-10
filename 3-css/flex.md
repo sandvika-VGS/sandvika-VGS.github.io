@@ -12,11 +12,11 @@ Grid bruker vi som regel til innhold i to dimensjoner, der vi lager et slags "ru
 (bilde - 2 dimensjoner rutenett)
 
 ## Flexboks.
-Vi skal nå lage en navigasjonsbar ved hjelp av flex, denne legger vi i header. Når vi skal bruke flex må vi alltid ha et element som ligger rundt alt vi skal plassere sammen.
+Når vi skal bruke flex må vi alltid ha et element som ligger rundt alt vi skal plassere sammen, vi kan kalle dette for en flex-boks.
 
 ![alt text](./flexboks.png)
 
-Siden vi lager navigasjonsbaren i header elementet, kan vi legge til et nav element som fungerer som en flex-boks:
+La oss bruke flex til å lage en navigasjonsbar. Denne bør ligge i header elementet, vi kan for eksempel legge til et nav element som fungerer som en flex-boks:
 
 ```HTML
 <body>
