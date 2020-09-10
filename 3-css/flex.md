@@ -98,7 +98,7 @@ nav a{
 ```
 ![alt text](./navbar3.png)
 
-## Alternativ - 3. Navigasjonsbar på mobil
+## Navigasjonsbar på mobil. Alternativ - 3
 
 For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene i en kolonne. Vi endrer flex-direction og setter litt padding mellom lenkene:
 
@@ -118,7 +118,7 @@ For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene 
 ```
 ![alt text](./navbar5.png)
 
-## Navigasjonsbar - Alternativ 4 (Avansert)
+## Navigasjonsbar (Avansert) - Alternativ 4 
 
 Ofte er det vanlig å ha lenker til nettstedet til venstre, og logg inn eller min side til høyre. Vi grupperer lenkene slik at det bare blir to fleks-element:
 
