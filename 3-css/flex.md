@@ -98,7 +98,7 @@ nav a{
 ```
 ![alt text](./navbar3.png)
 
-## Navigasjonsbar på mobil. Alternativ - 3
+## Navigasjonsbar på mobil - Alternativ 3
 
 For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene i en kolonne. Vi endrer flex-direction og setter litt padding mellom lenkene:
 
