@@ -5,11 +5,11 @@ Hittil har vi sett litt hvordan man kan endre stil på elementene vi ønsker, og
 
 Vi bruker gjerne flex når vi jobber i en dimensjon altså på en linje eller en rad. Dette passer for eksempel perfekt til en navigasjonsbar i header-elementet. 
 
-<bilde>
+(bilde - 1 dimensjon)
 
 Grid bruker vi som regel til innhold i to dimensjoner, der vi lager et slags "rutenett" som vi legger elementene i.
 
-<bilde>
+(bilde - 2 dimensjoner rutenett)
 
 ## Flexboks.
 Vi skal nå lage en navigasjonsbar ved hjelp av flex, denne legger vi i header. Når vi skal bruke flex må vi alltid ha et element som ligger rundt alt vi skal plassere sammen.
