@@ -1,6 +1,6 @@
 # Flex
 
-## Plassering av elementer: Flex og Grid.
+## Plassering av elementer
 Hittil har vi sett litt hvordan man kan endre stil på elementene vi ønsker, og vi har jobbet med egenskapene til "Boks-modellen".. Ettersom man har hatt et ønske om å ha bedre kontroll over hvordan elementer skal plasseres, er det utviklet flere mer avanserte teknikker som vi nå skal se nærmere på. De viktigste kalles *flex* og *grid*.
 
 Vi bruker gjerne flex når vi jobber i en dimensjon altså på en linje eller en rad. Dette passer for eksempel perfekt til en navigasjonsbar i header-elementet. 
@@ -11,7 +11,7 @@ Grid bruker vi som regel til innhold i to dimensjoner, der vi lager et slags "ru
 
 <bilde>
 
-## Introduksjon til Flex.
+## Flexboks.
 Vi skal nå lage en navigasjonsbar ved hjelp av flex, denne legger vi i header. Når vi skal bruke flex må vi alltid ha et element som ligger rundt alt vi skal plassere sammen.
 
 ![alt text](./flexboks.png)
@@ -31,10 +31,9 @@ Siden vi lager navigasjonsbaren i header elementet, kan vi legge til et nav elem
     </header>
 </body>
 ```
-
+Uten CSS ser det ut som på bildet:
 ![alt text](./navbar1.png)
-
-I css kan vi nå skru på flex på flex-boksen, da vil alle elementene (barna) til flexboksen etterpå kunne plasseres slik vi ønsker:
+I css kan vi nå "skru på" flex
 
 ```CSS
 .flex-container{
@@ -42,7 +41,7 @@ I css kan vi nå skru på flex på flex-boksen, da vil alle elementene (barna) t
 }
 ```
 
-Legg merke til at ingentin endrer seg enda, vi har bare "skrudd på" flex-egenskapene.
+Legg merke til at ingenting endrer seg enda, vi må sette på egenskapene vi ønsker.
 
 ## Flex - Egenskaper.
 
@@ -77,7 +76,6 @@ La oss jobbe videre med navigasjonsbaren vår, vi setter på litt padding og en 
 Da ser navigasjonsbaren ut som følger:
 
 ![alt text](./navbar2.png)
-
 Posisjoneringen ser grei ut, vi kan nå legge CSS på selve a elementene og bruke pseudoselektoren hover for å gjøre navigasjonsbaren enda mer stilig.
 
 ## Navigasjonsbar - Alternativ 2
