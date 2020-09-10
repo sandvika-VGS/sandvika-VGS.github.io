@@ -31,10 +31,9 @@ La oss bruke flex til å lage en navigasjonsbar. Denne bør ligge i header eleme
     </header>
 </body>
 ```
-Uten CSS ser det ut som på bildet:
+Uten CSS ser det slik ut:
 
 ![alt text](./navbar1.png)
-
 I css kan vi nå "skru på" flex
 
 ```CSS
