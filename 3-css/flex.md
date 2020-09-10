@@ -120,7 +120,7 @@ Ofte er det vanlig å ha lenker til nettstedet til venstre, og logg inn eller mi
 </body>
 ```
 
-Legg merke til at "barna" til flexboksen nå kun er de to div-elementene. Vi kan sette space-between på disse. Vi kan definere div-elementene som **egne** flexbokser og justere a elemente de inneholder!
+Legg merke til at "barna" til flexboksen nå kun er de to div-elementene. Vi kan sette space-between på disse. Dersom vi ønsker kan vi definere div-elementene som **egne** flexbokser og justere a elemente de inneholder!
 
 ```CSS
         .flex-container{
