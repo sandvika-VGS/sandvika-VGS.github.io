@@ -3,12 +3,9 @@
 For å plassere innhold på nettsiden i to dimensjoner, bruker vi grid.
 En grid fungerer som et slags rutenett, hvor vi kan bestemme hvordan elementer skal legge seg.
 
-
 Eksemplet under viser hvordan vi kan lage en enkel grid.
 
-## Eksempel
-
-### HTML
+## HTML
 
 På samme måte som med flex må vi alltid ha et element som ligger rundt alt vi skal plassere sammen i en grid.
 I koden under har vi et section-element med klassen mini-grid, rundt elementene som skal plasseres ut på nettsiden.
@@ -26,7 +23,7 @@ I koden under har vi et section-element med klassen mini-grid, rundt elementene 
 </section>
 ```
 
-### CSS
+## CSS
 
 Vi henter ut klassen .mini-grid, og setter `display: grid;` på den for å gjøre den om til en grid.
 
@@ -49,7 +46,10 @@ Hadde vi skrevet fire 1fr etter hverandre, hadde vi fått fire like store elemen
 }
 ```
 
-### Nettside
+> Skal man ha mange elementer i bredden, kan man bruke repeat.
+> Eks: `repeat(4,1fr)`, som tilsvarer `1fr 1fr 1fr 1fr`
+
+## Nettside
 
 Resultatet av koden over blir slik:
 
