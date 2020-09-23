@@ -94,6 +94,7 @@ Når vi skriver html, viser vi vanligvis hvilke elementer som er nøstet i hvera
 <body>
     <h1>Min Sommerferie</h1>
 </body>
+```
 _Siden h1 har "hoppet" et hakk inn, er det lett å se at det ligger nøstet inn i body elementet_
 
 ## Attributter
