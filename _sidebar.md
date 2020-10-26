@@ -17,3 +17,6 @@
   * [3.3 Ulike Selektorer](./3-css/selektor.md)
   * [3.4 Flex](./3-css/flex.md)
   * [3.5 Grid](./3-css/grid.md)
+
+* Vår Digitale Samtid
+  * [4.1 Introduksjon](./4-samtid/intro.md)
