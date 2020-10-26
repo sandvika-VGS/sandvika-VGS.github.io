@@ -21,3 +21,4 @@
 * Vår Digitale Samtid
   * [4.1 Introduksjon](./4-samtid/intro.md)
   * [4.2 The Social Dilemma](./4-samtid/socialdilemma.md)
+  * [4.3 Sikkerhet](./4-samtid/sikkerhet.md)

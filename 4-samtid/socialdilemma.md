@@ -15,3 +15,9 @@ Velg **en** av følgende:
 4. Selvalgt tema som tar for seg informasjonsteknologiens utfordringer med tanke på etikk. Skal fokusere på vårt samfunn (sikkerhet kommer senere)
 
 En eller flere gode besvarelser vil etterhvert legges ut her.
+
+Andre relevante lenker for temaet er:
+
+[Sosiale medier og feilinformasjon](https://nrkbeta.no/2015/11/17/paris-fleip-eller-fakta/)
+
+[Teknologiselskaper og makt](https://www.theguardian.com/commentisfree/2019/feb/18/the-guardian-view-on-facebook-the-arrogance-of-power)
