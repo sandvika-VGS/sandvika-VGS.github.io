@@ -14,7 +14,9 @@ Velg **en** av følgende:
 
 4. Selvalgt tema som tar for seg informasjonsteknologiens utfordringer med tanke på etikk. Skal fokusere på vårt samfunn (sikkerhet kommer senere)
 
-En eller flere gode besvarelser vil etterhvert legges ut her.
+(En eller flere gode besvarelser vil etterhvert legges ut her)
+
+
 
 Andre relevante lenker for temaet er:
 
