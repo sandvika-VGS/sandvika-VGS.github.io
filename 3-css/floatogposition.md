@@ -1,10 +1,9 @@
 # Float og Position
 
-Før grid og flex var en del av hverdagen for CSS var det langt mer kronglete å få plassert elementer slik vi ville ha de på nettsiden vår. I starten fantes ikke CSS i det hele tatt og da brukte man stort sett bare usynlige tabeller som man fylte med innhold. Så dukket CSS opp, men fortsatt med relativt begrensede muligheter for plassering. I starten brukte man derfor veldig ofte etterhvert de to egenskapene **float** og **position**.
+Før grid og flex var en del av hverdagen for CSS var det langt mer kronglete å få plassert elementer slik vi ville ha de på nettsiden vår. I starten fantes ikke CSS i det hele tatt og da brukte man stort sett bare usynlige tabeller som man fylte med innhold. Så dukket CSS opp, men fortsatt med relativt begrensede muligheter for plassering. Da brukte man veldig ofte egenskapene **float** og **position**.
 
-Etterhvert som flex og til slutt grid ble introdusert, er float og position mindre viktige, men de har fortsatt noen fine bruksområdet som vi kan se nærmere på. Spesielt **position** kan brukes til endel ting vi ikke får til på annen måte enda, for eksempel å lage en drop-down meny.
+Etterhvert som flex og til slutt grid ble introdusert, er float og position mindre viktige, men de har fortsatt noen fine bruksområdet som vi kan se nærmere på. 
 
-Vi skal derfor se litt nærmere på disse teknikkene i dette delkapittelet.
 
 ## Float
 
@@ -12,7 +11,7 @@ kommer
 
 ## Position
 
-Position er en css-egenskap man kan sette på elementene og denne kan igjen ha en av mange verdier. Vi skal gå igjennom de viktigste her og samtidig se på noen eksempler der de er brukt. Egenskapene vi skal gjennom er **position: static;**  **position: relative;** **positive: absolute;**  og **position: fixed;**.
+Position er en css-egenskap der man presist bestemmer hvor et element skal ligge. Egenskapen kan ha en av flere verdier, og vi skal gå igjennom de viktigste her. Disse er **position: static;**  **position: relative;** **positive: absolute;**  og **position: fixed;**.
 
 ### position: static
 
@@ -75,6 +74,50 @@ Vi "dytter" altså elementet 25 piksler nedover (fra toppen), og 25 piksler mot 
 
 Legg merke til at den relative posisjonen av boksen etterlater et tomrom der den opprinnelig var. Med absolutt posisjonering blir det motsatt. Da fjernes boksen fra sin opprinnelige posisjon og legger seg der hvor forelderen starter. Vi kan så dytte den på samme måte og får følgende effekt:
 
+```CSS
+    #tre{
+        bacground: pink;
+        position: relative;
+        left: 25px;
+        top: 25px;
+    }
+```
+
 ![Absolutt](position3.png)
 
 > NB! Følgende er et veldig nyttig triks! Problemet med absolutt posisjonering er at elementet ikke flytter seg når vi endrer på størrelsen av skjermen (noe vi ofte ønsker). Det løser vi ved å sette forelderen til relativ og så barna til absolutte. Da vil barnas posisjon være absolutt men endre seg sammen med det realtive forelder elementet. Dette virker kanskje forvirrende men er ganske enkelt å få til i praksis.
+
+### Eksempel: Drop-down meny
+
+La oss bruke det vi har sett på av relativ og absolutt posisjonering for å lage en drop down meny. Vi husker at vi må ha et **relativt forelder element** og **absolutte barn**. Drop down menyen vår skal bestå av en synlig lenke og tre skjulte lenker som skal dukke opp når vi holder musepekeren over den synlige lenken:
+
+```HTML
+    <div class="dropdown">
+        <a href="#">Klær</a>
+        <div class="usynlig">
+            <a href="#">Jakker</a>
+            <a href="#">Kjoler</a>
+            <a href="#">Topper</a>
+        </div>
+    </div>
+```
+
+La oss nå legge på CSS. Dropdown-klassen skal være relativ og usynlig-klassen skal være absolutt. Da vil barna automatisk legge seg under "Klær". Siden a elementene skal legge seg under hverandre setter vi disse til block-elementer. Vi gjør lenkene usynlige ved å sette **display: none;** på disse. Legg merke til den siste selektoren, når vi holder musepekeren over det relative elementet så skal de usynlige elementene dukke opp ved at vi endrer disse til **display: block;**
+
+```CSS
+        .dropdown{
+            position: relative;
+        }
+        .usynlig{
+            position: absolute;
+            display: none;
+        }
+        .usynlig a{
+            display: block;
+        }
+        .dropdown:hover .usynlig{
+            display: block;
+        }
+```
+
+Prøv selv med å skrive koden du ser over. Prøv så å lage en ordentlig navigasjonsbar med drop-down meny (Farger, bakgrunn, padding etc). Legg merke til at det finnes mange alternative måter å lage langt mer spenstige drop-down menyer på, men det venter vi med for nå.
