@@ -88,7 +88,7 @@ Legg merke til at den relative posisjonen av boksen etterlater et tomrom der den
 
 ![Absolutt](position3.png)
 
-> NB! Følgende er et veldig nyttig triks! Et problem med absolutt posisjonering er at elementet ikke endrer seg "riktig" når vi endrer på størrelsen av skjermen (noe vi ofte ønsker). Det løser vi ved å sette forelderen til relativ og så barna til absolutte. Da vil barnas posisjon være absolutt men endre seg sammen med det realtive forelder elementet. Dette virker kanskje forvirrende men er ganske enkelt å få til i praksis, se neste eksempel.
+> NB! Følgende er et veldig nyttig triks! Et problem med absolutt posisjonering er at disse elementene ofte ikke endrer seg "riktig" når vi endrer på størrelsen av skjermen. Det løser vi ved å sette forelderen til å være relativ og så barna til være absolutte. Da vil barnas posisjon være absolutte, men flytte seg sammen med forelderen. Dette virker kanskje forvirrende men er ganske enkelt å få til i praksis, se neste eksempel.
 
 ### Eksempel: Drop-down meny
 
