@@ -85,11 +85,11 @@ Legg merke til at den relative posisjonen av boksen etterlater et tomrom der den
 
 ![Absolutt](position3.png)
 
-> NB! Følgende er et veldig nyttig triks! Problemet med absolutt posisjonering er at elementet ikke flytter seg når vi endrer på størrelsen av skjermen (noe vi ofte ønsker). Det løser vi ved å sette forelderen til relativ og så barna til absolutte. Da vil barnas posisjon være absolutt men endre seg sammen med det realtive forelder elementet. Dette virker kanskje forvirrende men er ganske enkelt å få til i praksis.
+> NB! Følgende er et veldig nyttig triks! Problemet med absolutt posisjonering er at elementet ikke flytter seg når vi endrer på størrelsen av skjermen (noe vi ofte ønsker). Det løser vi ved å sette forelderen til relativ og så barna til absolutte. Da vil barnas posisjon være absolutt men endre seg sammen med det realtive forelder elementet. Dette virker kanskje forvirrende men er ganske enkelt å få til i praksis, se neste eksempel.
 
 ### Eksempel: Drop-down meny
 
-La oss bruke det vi har sett på av relativ og absolutt posisjonering for å lage en drop down meny. Vi husker at vi må ha et **relativt forelder element** og **absolutte barn**. Drop down menyen vår skal bestå av en synlig lenke og tre skjulte lenker som skal dukke opp når vi holder musepekeren over den synlige lenken:
+La oss bruke det vi har sett på av relativ og absolutt posisjonering for å lage en drop down meny. Vi ser av tipset ovenfor at vi må ha et **relativt forelder element** og **absolutte barn**. Drop down menyen vår skal bestå av en synlig lenke og tre skjulte lenker som skal dukke opp når vi holder musepekeren over den synlige lenken:
 
 ```HTML
     <div class="dropdown">
@@ -121,3 +121,14 @@ La oss nå legge på CSS. Dropdown-klassen skal være relativ og usynlig-klassen
 ```
 
 Prøv selv med å skrive koden du ser over. Prøv så å lage en ordentlig navigasjonsbar med drop-down meny (Farger, bakgrunn, padding etc). Legg merke til at det finnes mange alternative måter å lage langt mer spenstige drop-down menyer på, men det venter vi med for nå.
+
+### position fixed
+
+Med denne verdien låser vi et element på plass uansett hvordan vi scroller på siden. Tenk deg for eksempel en navbar som alltid er med på toppen av siden uansett hvor langt ned du har kommet. Da må du sette header elementet til fixed, men i tillegg må vi sørge for at headeren alltid kommer over resten av nettsiden. Det gjør vi ved å øke z-indeksen. Prøv selv med en navigasjonsbar du har laget, sett i tillegg til alt du har der fra før:
+
+```CSS
+header{
+    position: fixed;
+    z-index: 2;
+}
+```
