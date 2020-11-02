@@ -1,8 +1,6 @@
 # Float og Position
 
-Før grid og flex var en del av hverdagen for CSS var det langt mer kronglete å få plassert elementer slik vi ville ha de på nettsiden vår. I starten fantes ikke CSS i det hele tatt og da brukte man stort sett bare usynlige tabeller som man fylte med innhold. Så dukket CSS opp, men fortsatt med relativt begrensede muligheter for plassering. Da brukte man veldig ofte egenskapene **float** og **position**.
-
-Etterhvert som flex og til slutt grid ble introdusert, er float og position mindre viktige, men de har fortsatt noen fine bruksområdet som vi kan se nærmere på. 
+Før grid og flex var en del av hverdagen var det langt mer kronglete å få plassert elementer slik vi ville ha de på nettsiden vår. I starten fantes ikke CSS i det hele tatt og da brukte man stort sett bare usynlige tabeller som man fylte med innhold. Når CSS ble introdusert var det med relativt begrensede muligheter for plassering. Da brukte man veldig ofte egenskapene **float** og **position**. Etterhvert som flex (og til slutt grid) ble utviklet, brukes de andre egenskapene mindre enn før, men det er fortsatt en del nyttige ting vi kan gjøre med de!
 
 
 ## Float
@@ -11,11 +9,11 @@ kommer
 
 ## Position
 
-Position er en css-egenskap der man presist bestemmer hvor et element skal ligge. Egenskapen kan ha en av flere verdier, og vi skal gå igjennom de viktigste her. Disse er **position: static;**  **position: relative;** **positive: absolute;**  og **position: fixed;**.
+Position er en css-egenskap der man presist bestemmer hvor et element skal ligge ved å "dytte" det på plass. Egenskapen kan ha en av flere verdier, og vi skal gå igjennom de viktigste her. Disse er **position: static;**  **position: relative;** **positive: absolute;**  og **position: fixed;**.
 
 ### position: static
 
-Alle elementene er i utgangspunktet satt til å være statiske. Det betyr at de følger de vanlige plasserings-reglene slik vi er vant til. Block-elementer legger seg under hverandre og inline-elementer legger seg ved siden av hverandre. Det er derfor som regel ingen grunn til å sette noen elementer til static, men det er greit å vite at verdien finnes.
+Alle elementene er i utgangspunktet satt til å være statiske. Det betyr at de følger de vanlige plasserings-reglene slik vi er vant til. Block-elementer legger seg under hverandre og inline-elementer legger seg ved siden av hverandre. Det er derfor som regel ingen grunn til å sette noen elementer til static, men det er greit å vite at verdien finnes. Statiske elementer kan heller ikke "dyttes" slik de andre kan.
 
 ### Eksempel
 
@@ -85,7 +83,7 @@ Legg merke til at den relative posisjonen av boksen etterlater et tomrom der den
 
 ![Absolutt](position3.png)
 
-> NB! Følgende er et veldig nyttig triks! Problemet med absolutt posisjonering er at elementet ikke flytter seg når vi endrer på størrelsen av skjermen (noe vi ofte ønsker). Det løser vi ved å sette forelderen til relativ og så barna til absolutte. Da vil barnas posisjon være absolutt men endre seg sammen med det realtive forelder elementet. Dette virker kanskje forvirrende men er ganske enkelt å få til i praksis, se neste eksempel.
+> NB! Følgende er et veldig nyttig triks! Et problem med absolutt posisjonering er at elementet ikke endrer seg "riktig" når vi endrer på størrelsen av skjermen (noe vi ofte ønsker). Det løser vi ved å sette forelderen til relativ og så barna til absolutte. Da vil barnas posisjon være absolutt men endre seg sammen med det realtive forelder elementet. Dette virker kanskje forvirrende men er ganske enkelt å få til i praksis, se neste eksempel.
 
 ### Eksempel: Drop-down meny
 
@@ -102,7 +100,7 @@ La oss bruke det vi har sett på av relativ og absolutt posisjonering for å lag
     </div>
 ```
 
-La oss nå legge på CSS. Dropdown-klassen skal være relativ og usynlig-klassen skal være absolutt. Da vil barna automatisk legge seg under "Klær". Siden a elementene skal legge seg under hverandre endrer vi disse fra inline til block-elementer. Vi gjør lenkene usynlige ved å sette **display: none;** på disse. Legg merke til den siste selektoren, når vi holder musepekeren over det relative elementet så skal de usynlige elementene dukke opp ved at vi endrer disse til **display: block;**
+La oss nå legge på CSS. Dropdown-klassen skal altså være relativ og usynlig-klassen skal være absolutt. Da vil barna automatisk legge seg under "Klær". Siden a elementene skal legge seg under hverandre endrer vi disse fra inline til block-elementer. Vi gjør lenkene usynlige ved å sette **display: none;** på disse. Legg merke til den siste selektoren, når vi holder musepekeren over det relative elementet så skal de usynlige elementene dukke opp ved at vi endrer disse til **display: block;**
 
 ```CSS
         .dropdown{
