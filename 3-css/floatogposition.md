@@ -122,7 +122,7 @@ La oss nå legge på CSS. Dropdown-klassen skal være relativ og usynlig-klassen
 
 Prøv selv med å skrive koden du ser over. Prøv så å lage en ordentlig navigasjonsbar med drop-down meny (Farger, bakgrunn, padding etc). Legg merke til at det finnes mange alternative måter å lage langt mer spenstige drop-down menyer på, men det venter vi med for nå.
 
-### position fixed
+### position: fixed
 
 Med denne verdien låser vi et element på plass uansett hvordan vi scroller på siden. Tenk deg for eksempel en navbar som alltid er med på toppen av siden uansett hvor langt ned du har kommet. Da må du sette header elementet til fixed, men i tillegg må vi sørge for at headeren alltid kommer over resten av nettsiden. Det gjør vi ved å øke z-indeksen. Prøv selv med en navigasjonsbar du har laget, legg til følgende inn i CSS koden din:
 
