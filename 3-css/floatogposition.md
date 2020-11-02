@@ -102,7 +102,7 @@ La oss bruke det vi har sett på av relativ og absolutt posisjonering for å lag
     </div>
 ```
 
-La oss nå legge på CSS. Dropdown-klassen skal være relativ og usynlig-klassen skal være absolutt. Da vil barna automatisk legge seg under "Klær". Siden a elementene skal legge seg under hverandre setter vi disse til block-elementer. Vi gjør lenkene usynlige ved å sette **display: none;** på disse. Legg merke til den siste selektoren, når vi holder musepekeren over det relative elementet så skal de usynlige elementene dukke opp ved at vi endrer disse til **display: block;**
+La oss nå legge på CSS. Dropdown-klassen skal være relativ og usynlig-klassen skal være absolutt. Da vil barna automatisk legge seg under "Klær". Siden a elementene skal legge seg under hverandre endrer vi disse fra inline til block-elementer. Vi gjør lenkene usynlige ved å sette **display: none;** på disse. Legg merke til den siste selektoren, når vi holder musepekeren over det relative elementet så skal de usynlige elementene dukke opp ved at vi endrer disse til **display: block;**
 
 ```CSS
         .dropdown{
