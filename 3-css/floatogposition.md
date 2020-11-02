@@ -9,7 +9,12 @@ kommer
 
 ## Position
 
-Position er en css-egenskap der man presist bestemmer hvor et element skal ligge ved å "dytte" det på plass. Egenskapen kan ha en av flere verdier, og vi skal gå igjennom de viktigste her. Disse er **position: static;**  **position: relative;** **positive: absolute;**  og **position: fixed;**.
+Position er en css-egenskap der man presist bestemmer hvor et element skal ligge ved å "dytte" det på plass. Egenskapen kan ha en av flere verdier, og vi skal gå igjennom de viktigste her:
+
+* **position: static;**  
+* **position: relative;** 
+* **positive: absolute;** 
+* **position: fixed;**
 
 ### position: static
 
