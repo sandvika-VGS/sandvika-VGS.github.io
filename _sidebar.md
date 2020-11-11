@@ -18,6 +18,7 @@
   * [3.4 Flex](./3-css/flex.md)
   * [3.5 Grid](./3-css/grid.md)
   * [3.6 Float og Position](./3-css/floatogposition.md)
+  * [3.7 Responsive nettsider](./3-css/responsive-nettsider.md)
 
 * Vår Digitale Samtid
   * [4.1 Introduksjon](./4-samtid/intro.md)
