@@ -22,3 +22,9 @@ Dersom vi ikke følger reglene for hvordan instruksjonen nøyaktig skal skrives,
 BILDE: FEIL VS OK
 
 Hvorfor er det slik? Selv om en datamaskin er ekstremt rask, så er den ikke særlig smart. Det betyr at vi må gi veldig presise instruksjoner. For eksempel så må vi skille mellom tall og tekst. Tall kan man regne på, men ikke tekst. En maskin vet ikke forskjellen, så derfor legger vi all tekst i anførselstegn. Slike regler finnes det mange av, og det å sette seg inn i disse er en stor del av å lære seg programmering.
+
+La oss starte med noen flere instrukser vi kan teste ut:
+
+BILDE: tabell med kode
+
+Prøv selv disse i konsollen. Husk at beskjedene er tekst og må skrives med anførselstegn
