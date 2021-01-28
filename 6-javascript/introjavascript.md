@@ -31,4 +31,6 @@ BILDE: tabell med kode
 
 Prøv selv disse i konsollen. Husk at beskjedene er tekst og må skrives med anførselstegn
 
-Du har kanskje merket deg at det er litt klønete og slitsomt å skrive koden rett inn i konsollen? Vi kan for eksempel ikke endre på koden som allerede er kjørt. Vanligvis skriver vi kode i egne filer, som vi kan kjøre når vi selv ønsker. For javascript kan vi velge mellom å skrive i et script element i html-fila, eller å lage en egen js-fil som vi kan koble til html.
+Du har kanskje merket deg at det er litt klønete og slitsomt å skrive koden rett inn i konsollen? Vi kan for eksempel ikke endre på koden som allerede er kjørt. Vanligvis skriver vi kode i egne filer, som vi kan kjøre når vi selv ønsker. For javascript kan vi velge mellom å skrive i et script element i html-fila, eller å lage en egen js-fil som vi kan koble til html:
+
+BILDE MED KODEN I SCRIPT
