@@ -30,10 +30,17 @@ Vi kan lagre tekst, da må vi huske anførseltegnene:
 
 ```JAVASCRIPT
 let konge = "Harald";
-console.log("Hei" + konge)
+console.log("Hei" + konge);
 ```
 *Hva tror du skrives til konsollen nå? Prøv selv!*
 
+## Prøv selv. Anførselstegn
+
+Forklar forskjellen på koden rett over og følgende:
+```JAVASCRIPT
+let konge = "Harald";
+console.log("Hei" + "konge");
+```
 Vi kan også lagre langt mer avanserte ting (for eksempel html-elementer, input fra bruker, lister etc). Prøv følgende kode:
 
 ```JAVASCRIPT
