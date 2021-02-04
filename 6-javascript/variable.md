@@ -1,6 +1,3 @@
-# Variabler
-
-
 ## Lagre variabler
 En av de viktigste prinsippene når vi skal kode, er at vi kan lagre alt mulig i datamaskinens minne. Da bruker vi nøkkelordene *let* eller *const*. Dersom vi for eksempel ønsker å lagre et tall skriver vi 
 
@@ -8,7 +5,11 @@ En av de viktigste prinsippene når vi skal kode, er at vi kan lagre alt mulig i
 const a = 10
 ```
 
-Vi bruker const hvis det ikke skal være mulig å endre tallverdien, mens vi bruker let i det motsatte tilfellet. NB: Navnet på variabelen (i dette tilfellet **a**) bestemmer vi selv. Vi kunne like gjerne ha skrevet *let lise = 10*, som regel prøver vi å velge navn som gir mening.
+Vi bruker const hvis det ikke skal være mulig å endre tallverdien, mens vi bruker let i det motsatte tilfellet. I IT-1 er det stort sett ikke så nøye med hvilken av disse du bruker. 
+
+> Navnet på variabelen (i dette tilfellet **a**) bestemmer vi selv. 
+> Vi kunne like gjerne ha skrevet *let lise = 10* 
+> Som regel prøver vi å velge navn som gir mening.
 
 ## Prøv selv: Lagre og hente ett tall
 Lag et script-element i html-fila di, og legg til følgende:
