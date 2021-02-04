@@ -13,7 +13,7 @@ let alder = 2021 - fødselsår;
 document.write("Du blir " + alder + " i løpet av året.")
 ```
 
-Anta at vi ønsker å sjekke om brukeren er myndig eller ikke. Da blir jo betingelsen om brukeren er yngre enn 18 år eller ikke. Vi kan utvide koden ved å skrive følgende betingelse:
+Anta at vi ønsker å sjekke om brukeren er myndig eller ikke. Da blir betingelsen om brukeren er yngre enn 18 år eller ikke. Vi kan utvide koden ved å legge til følgende:
 
 ```JAVASCRIPT
 
@@ -35,14 +35,16 @@ Bruk window.prompt for å ta inn brukerens høyde i cm. Hvis høyden er over 100
 
 ## Flere Betingelser
 
-Vi kan teste flere betingelser samtidig. Anta at vi ønsker å sjekke om et tall ligger mellom 10 og 20. Da vil vi at tallet både skal være større enn 10, men samtidig være mindre enn 20. Vi kan skrive følgende:
+Vi kan teste flere betingelser samtidig. Anta at vi ønsker å sjekke om et tall ligger mellom 10 og 20. Da vil vi at tallet både skal være større enn 10, og **samtidig** være mindre enn 20. Vi kan skrive følgende:
 
 ```JAVASCRIPT
 if(tall >= 10 && tall <= 20){
     document.write("tallet er mellom 10 og 20)
 }
 ``` 
-Her må begge betingelsene være sanne samtidig for at koden skal kjøre. Anta videre at vi enten skal sjekke om tallet er under 10, mellom 10 og 20 eller over 20. Da holder det ikke lenger med en **if/else** betingelse, det er jo tre muligheter! Vi kan legge til flere betingelser:
+Her må begge betingelsene være sanne samtidig for at koden skal kjøre. 
+
+Anta videre at vi enten skal sjekke om tallet er under 10, mellom 10 og 20, eller over 20. Da holder det ikke lenger med en **if/else** løkke, det er jo tre muligheter! Vi kan legge til flere betingelser:
 
 ```JAVASCRIPT
 if(tall < 10){
@@ -56,7 +58,7 @@ else{
 }
 ``` 
 
-Vi må bruke **else if** for å koble betingelsene sammen, vi kan legge til så mange vi vil. Husk at else if, må ha betingelsene i parentes, mens else til slutt skal dekke alt annet.
+Vi må bruke **else if** for å koble alle betingelsene sammen, vi kan legge til så mange vi vil. 
 
 ## Prøv selv - Kroppstemperatur
 Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 grader. Lag et program som avgjør om en persons kroppstemperatur ligger henholdsvis under, innenfor eller over normal kroppstemperatur. Programmet skal lese kroppstemperaturen fra window.prompt().

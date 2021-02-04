@@ -27,7 +27,7 @@
 
 <!-- Ikke klart ennå: * Fysiske Signaler i en datamaskin
   *[5.1 Informasjon i et totallssystem](./5-signaler/informasjon.md) 
-
+-->
 * Javascript
   [* Hva er programmering og javascript?](./6-javascript/introjavascript.md)
-  [* Variabler](./6-javascript/variabler.md) -->
+  [* Variabler](./6-javascript/variabler.md) 
