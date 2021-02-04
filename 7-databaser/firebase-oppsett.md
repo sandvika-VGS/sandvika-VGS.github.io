@@ -1,5 +1,7 @@
 # Oppsett av Firebase Firestore
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s73sZN2Z1F4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1. Gå inn på [firebase.google.com](https://firebase.google.com)  
 2. Klikk på `Go to console`  
 ![1](firebase-oppsett/1.png ':size=400')
