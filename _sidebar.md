@@ -25,9 +25,14 @@
   * [4.2 The Social Dilemma](./4-samtid/socialdilemma.md)
   * [4.3 Sikkerhet](./4-samtid/sikkerhet.md)
 
-<!-- Ikke klart ennå: * Fysiske Signaler i en datamaskin
-  *[5.1 Informasjon i et totallssystem](./5-signaler/informasjon.md) 
--->
+* Fysiske Signaler i en datamaskin
+  *[5.1 Informasjon som strøm](./5-signaler/informasjon.md) 
+  *[5.2 Totallsystemet](./5-signaler/kommer.md)
+  *[5.3 Lagring av bilder](./5-signaler/kommer.md)
+  *[5.4 Lagring av bokstaver og symboler](./5-signaler/kommer.md)
+  *[5.5 Lagring av lyd](./5-signaler/kommer.md)
+  *[5.6 Internett](./5-signaler/kommer.md)
+
 * Javascript
   * [6.1 Hva er javascript?](./6-javascript/introjavascript.md)
   * [6.2 Variabler](./6-javascript/variable.md) 

@@ -34,7 +34,7 @@ console.log("Hei" + konge);
 ```
 *Hva tror du skrives til konsollen nå? Prøv selv!*
 
-## Prøv selv. Anførselstegn
+## Prøv selv: Anførselstegn
 
 Forklar forskjellen på koden rett over og følgende:
 ```JAVASCRIPT
