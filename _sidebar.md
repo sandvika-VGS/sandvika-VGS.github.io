@@ -29,5 +29,5 @@
   *[5.1 Informasjon i et totallssystem](./5-signaler/informasjon.md) 
 -->
 * Javascript
-  [* Hva er programmering og javascript?](./6-javascript/introjavascript.md)
-  [* Variabler](./6-javascript/variabler.md) 
+  * [6.1 Hva er javascript?](./6-javascript/introjavascript.md)
+  * [6.2 Variabler](./6-javascript/variabler.md) 
