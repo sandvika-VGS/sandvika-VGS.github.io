@@ -1,11 +1,12 @@
-## Lagre variabler
-En av de viktigste prinsippene når vi skal kode, er at vi kan lagre alt mulig i datamaskinens minne. Da bruker vi nøkkelordene *let* eller *const*. Dersom vi for eksempel ønsker å lagre et tall skriver vi 
+# Variabler
+En av de viktigste prinsippene når vi skal kode, er at vi kan lagre alt mulig i datamaskinens minne. Alt vi lagrer kan vi hente opp igjen og bruke når vi selv ønsker det i koden. Vi kaller det vi lagrer for **variabler**, og bruker nøkkelordene *let* eller *const* for å få det til. I IT-1 er det stort sett ikke så nøye med hvilken av disse du bruker. 
+
+## Lagre tall.
+Dersom vi for eksempel ønsker å lagre et tall skriver vi 
 
 ```JAVASCRIPT
 const a = 10
 ```
-
-Vi bruker const hvis det ikke skal være mulig å endre tallverdien, mens vi bruker let i det motsatte tilfellet. I IT-1 er det stort sett ikke så nøye med hvilken av disse du bruker. 
 
 > Navnet på variabelen (i dette tilfellet **a**) bestemmer vi selv. 
 > Vi kunne like gjerne ha skrevet *let lise = 10* 
@@ -21,10 +22,9 @@ Lag et script-element i html-fila di, og legg til følgende:
     console.log(mittTall + 10);
 </script>
 ```
-
 Hva tror du skrives til konsollen? Sjekk selv.
 
-## Ulike variabeltyper
+## Lagre tekst
 
 Vi kan lagre tekst, da må vi huske anførseltegnene:
 
@@ -41,6 +41,9 @@ Forklar forskjellen på koden rett over og følgende:
 let konge = "Harald";
 console.log("Hei" + "konge");
 ```
+
+## Lagre input
+
 Vi kan også lagre langt mer avanserte ting (for eksempel html-elementer, input fra bruker, lister etc). Prøv følgende kode:
 
 ```JAVASCRIPT
