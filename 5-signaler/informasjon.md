@@ -1,4 +1,4 @@
-* Informasjon som strøm
+# Informasjon som strøm
 
 Har du noen gang tenkt over hvordan en datamaskin egentlig fungerer? De fleste av oss ville nok vært svar skyldi dersom vi fikk et slikt spørsmål. Man kunne kanskje kunne resonnert seg til at elektronikk må være involvert, ettersom maskinene går på strøm. Noen har kanskje hørt at alt består av nullere og enere, uten å tenke så mye mer på hva det innebærer. La oss derfor starte der; i utviklingen av elektroniske datamaskiner fant man fort ut at den enkleste og billigste måten å lagre informasjon nettop var ved hjelp av to tilstander; "strøm av (0)" og "strøm på (1)".
 
