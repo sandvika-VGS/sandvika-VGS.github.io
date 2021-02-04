@@ -7,9 +7,13 @@ Så hvordan kan vi lagre informasjon ved hjelp av dette? For å lettere illustre
 Hva skjer da når vi øker antallet komponenter som kan ha strøm på eller av? Da øker også mengden av informasjon vi kan lagre. Med to komponenter har vi plutselig fire muligheter:
 
 > 00
+
 > 01
+
 > 10
+
 > 11
+
 
 Hva skjer når vi øker til tre? 
 
