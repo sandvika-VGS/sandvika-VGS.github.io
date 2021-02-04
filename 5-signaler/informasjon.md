@@ -22,9 +22,13 @@ Gå inn på https://bits-og-bytes.netlify.app/
 Sett antall lysbrytere til tre, og undersøk hvor mange mulige kombinasjoner du kan lage. Hva med fire? Nå begynner det kanskje å bli uoversiktlig, men det er et mønster her. For de som kan sin sannsynlighet, så vet vi at vi kan gange antaller muligheter per brytere med seg selv tilsvarende antall brytere vi har.
 
 > 1 bryter:   2^1 = 2 muligheter
+
 > 2 brytere:  2^2 = 4 muligheter
+
 > 3 brytere:  2^3 = 8 muligheter
+
 > ...
+
 > 8 brytere:  2^8 = 256 muligheter
 
 Slik kan vi fortsette. Vi ser fort at for hver nye "lysbryter" vi legger til så øker informasjonen vi kan lagre med det dobbelte. 
@@ -32,7 +36,6 @@ Slik kan vi fortsette. Vi ser fort at for hver nye "lysbryter" vi legger til så
 Dersom en av tilstandene vi kan lagre ser ut som følger:
 
 ![8bit](lagring.png)
-
 Vil vi kunne skrive det om til følgende rekke: 1101 0101
 
 Dette kaller vi for binære tall (binary digit), og vi kaller derfor hver "bryter" for en **bit**. For å kunne jobbe med binære tall må vi ha en viss forståelse av totallssystemet.
