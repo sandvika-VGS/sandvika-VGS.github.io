@@ -30,4 +30,4 @@
 -->
 * Javascript
   * [6.1 Hva er javascript?](./6-javascript/introjavascript.md)
-  * [6.2 Variabler](./6-javascript/variabler.md) 
+  * [6.2 Variabler](./6-javascript/variable.md) 

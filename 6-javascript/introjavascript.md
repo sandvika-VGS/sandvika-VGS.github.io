@@ -28,7 +28,7 @@ La oss starte med noen flere instrukser vi kan teste ut:
 
 ## Prøv Selv
 
-Prøv selv instruksene i konsollen. Husk at beskjedene er tekst og må skrives med anførselstegn. Hva gjør hver av disse?
+Prøv selv å skrive instruksene i bildet over i konsollen. Husk at beskjedene er tekst og må skrives med anførselstegn.
 
 ## Script-elementet. Javascript i html fila
 
