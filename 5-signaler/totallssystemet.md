@@ -65,11 +65,13 @@ I et totallssystem er logikken helt lik, vi har bare to unike symboler, nemlig 0
 |1111 1111         |256              |
 
 > Det kan virke vanskelig å regne om når tallene blir store, men husk at hvert siffer i et titallssystem er en potens av 10: 10-er plassen er 10^1, hundreplassen er 10^2 etc.
-> Tilsvarende er hver plass en toerpotens i et totallssystem. Vi kan altså regne om for eksempel 1101 1011 ved å skrive: 
+> Tilsvarende er hver plass en toerpotens i et totallssystem. Vi kan altså regne om for eksempel 1101 1011 ved å regne: 
 >
-> 1*2^7 + 1*2^6 + 0*2^5 + 1*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 219
+>  | 2^7 = 128 | 2^6 = 64 | 2^5 = 32 | 2^4 = 16 | 2^3 = 8 | 2^2 = 4 | 2^1 = 2 | 2^0 = 1 | Sum |
+>  |-----------|----------|----------|----------|---------|---------|---------|---------|-----|
+>  |1          |1         |0         |1         |1        |0        |1        |1        |219  |
 
-Vi skal ikke regne mye på slike tallssystem i dette faget, men det er fint å ha en viss forståelse av hvordan strømkomponentene i en datamaskin kan gjøres om til en rekke med 0 og 1, som igjen kan gjøres om til tall i vårt vanlige tallsystem.
+Vi skal ikke regne mye på slike tallssystem i dette faget, men det er fint å ha en viss forståelse av hvordan strømkomponentene i en datamaskin kan gjøres om til en rekke med 0 og 1, som igjen kan gjøres om til "vanlige" tall.
 
 
 ## Prøv selv: Regn på totallssystemet.
