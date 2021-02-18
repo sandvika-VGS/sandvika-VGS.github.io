@@ -1,6 +1,6 @@
 # Lyd 
 
-<img src="./lyd.jpg" style="width: 800px; display: block; margin: 5%;"> 
+<img src="./5signaler/./lyd.jpg" style="width: 800px; height: 600px; display: block; margin: 5%;"> 
 
 *https://www.freepik.com/vectors/background created by zaie - www.freepik.com*
 
