@@ -1,6 +1,7 @@
 # Lyd 
 
 ![lydbølge](./lyd.jpg ':size=800')
+
 *https://www.freepik.com/vectors/background created by zaie - www.freepik.com*
 
 Hvis du forsto prinsippet bak det å lage bilder, så er ikke lyd så veldig anderledes. Vi må på en eller annen måte få gjort lyd om til en rekke med tall, slik at disse igjen kan gjøres om til 0 og 1, ved å bruke totallsystemet. Da vil programmet som skal spille av lyden, kunne hente opp en lang rad med 0 og 1, for å så gjøre det om til den originale lyden igjen.
