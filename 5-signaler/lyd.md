@@ -4,7 +4,7 @@ Hvis du forsto prinsippet bak det å lage bilder, så er ikke lyd så veldig and
 
 La oss derfor se nærmere på hva lyd egentlig er.
 
-![lydbølge](./lyd.jpg ':size=500')
+![lydbølge](./lyd.jpg ':size=800')
 *https://www.freepik.com/vectors/background created by zaie - www.freepik.com*
 
 Du har kanskje sett en visuell representasjon som på bildet før? Lyd defineres som vibrasjoner i blant annet luft, ofte kalt lydbølger. En mikrofon registrerer lydbølgene og lager tilsvarende elektriske signaler i form av spenning. Lydbølgene er dermed ulike spenninger over tid, og disse spenningene kan både måles og tegnes i form av en graf. Ved å jevnlig måle spenningen, og lagre den i riktig rekkefølge, vil vi kunne gjenskape grafen av den opprinnelige lyden:
