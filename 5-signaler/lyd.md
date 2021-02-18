@@ -1,11 +1,11 @@
 # Lyd 
 
+![lydbølge](./lyd.jpg ':size=800')
+*https://www.freepik.com/vectors/background created by zaie - www.freepik.com*
+
 Hvis du forsto prinsippet bak det å lage bilder, så er ikke lyd så veldig anderledes. Vi må på en eller annen måte få gjort lyd om til en rekke med tall, slik at disse igjen kan gjøres om til 0 og 1, ved å bruke totallsystemet. Da vil programmet som skal spille av lyden, kunne hente opp en lang rad med 0 og 1, for å så gjøre det om til den originale lyden igjen.
 
 La oss derfor se nærmere på hva lyd egentlig er.
-
-![lydbølge](./lyd.jpg ':size=800')
-*https://www.freepik.com/vectors/background created by zaie - www.freepik.com*
 
 Du har kanskje sett en visuell representasjon som på bildet før? Lyd defineres som vibrasjoner i blant annet luft, ofte kalt lydbølger. En mikrofon registrerer lydbølgene og lager tilsvarende elektriske signaler i form av spenning. Lydbølgene er dermed ulike spenninger over tid, og disse spenningene kan både måles og tegnes i form av en graf. Ved å jevnlig måle spenningen, og lagre den i riktig rekkefølge, vil vi kunne gjenskape grafen av den opprinnelige lyden:
 
@@ -21,5 +21,4 @@ Tabellen med tid og spenning gjøres så om til totallsystemet. For CD-platen be
 > Når vi rekonstruerer bilder eller lydbølger kan det oppstå et problem som gjør at to helt forskjellige kilder blir helt like, de danner **aliaser** av hverandre. Det er fordi vi gjør for få målinger:
 
 ![aliasing](./alias.png)
-
 > Her er den rød linjen original lyd, mens den blå er gjenskapt lyd. For å unngå aliasing må vi gjøre flere målinger, i Fysikk 2 vil du lære at man bør gjøre dobbelt så mange målinger som den høyeste frekvensen til lydbølgen.
