@@ -1,6 +1,6 @@
 # Lyd 
 
-![lydbølge](./lyd.jpg ':size=800')
+<img src="lyd.jpg" style="width: 800px; display: block; margin: 5%;"> 
 
 *https://www.freepik.com/vectors/background created by zaie - www.freepik.com*
 
