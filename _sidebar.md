@@ -28,9 +28,9 @@
 * Fysiske Signaler i en datamaskin
   * [5.1 Informasjon som strøm](./5-signaler/informasjon.md) 
   * [5.2 Totallsystemet](./5-signaler/totallssystemet.md)
-  * [5.3 *Lagring av bilder*](./5-signaler/kommer.md)
-  * [5.4 *Lagring av bokstaver og symboler*](./5-signaler/kommer.md)
-  * [5.5 *Lagring av lyd*](./5-signaler/kommer.md)
+  * [5.3 Lagring av bilder](./5-signaler/bilder.md)
+  * [5.4 Lagring av lyd](./5-signaler/lyd.md)
+  * [5.5 *Lagring av bokstaver og symboler*](./5-signaler/kommer.md)
   * [5.6 *Internett*](./5-signaler/kommer.md)
 
 * Javascript
