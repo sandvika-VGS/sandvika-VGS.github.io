@@ -8,6 +8,6 @@ const svar = await boker.where("type","==","Roman").where("sjanger","==", "Krim"
 
 Denne spørringen fungerer, men den gir en feilmelding. Trykk på linken i feilmeldingen for å lage en indeksering av databasen din.
 
-![Feilmelding](avanserte-feilmelding.png)
+![Feilmelding](bilder/avanserte-feilmelding.png)
 
-![Firestore](avanserte-firestore.png)
+![Firestore](bilder/avanserte-firestore.png)

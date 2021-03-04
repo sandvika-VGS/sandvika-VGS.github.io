@@ -2,7 +2,7 @@
 
 ## Sorter på pris
 
-![Select-element](select-element.png)
+![Select-element](bilder/select-element.png)
 
 Lager et select-element med options som har values lik asc og desc. asc står for ascending, som betyr økende. Mens desc står for descending, som betyr synkende.
 
@@ -39,7 +39,7 @@ const hentAlleBoker = async () => {
 
 I firestore må hvert dokument ha både pris og popularitet.
 
-![Firestore](firebase.png)
+![Firestore](bilder/firebase.png)
 
 ### HTML
 

@@ -57,7 +57,7 @@ const lagHTML = (id, dyr) => {
 
 På undersiden alle-boker.html vises alle bøkene fra tabellen boker.
 
-![Undersiden alle-boker.html viser alle bøkene i tabellen boker](boksiden.png)
+![Undersiden alle-boker.html viser alle bøkene i tabellen boker](bilder/boksiden.png)
 
 Denne linjen med kode henter alle bøkene fra tabellen boker:
 

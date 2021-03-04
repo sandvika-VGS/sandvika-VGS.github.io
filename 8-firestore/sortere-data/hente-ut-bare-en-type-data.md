@@ -4,7 +4,7 @@
 
 På undersiden **romaner.html** vises bare bøker fra tabellen **boker** som har type lik **Roman**.
 
-![Hente ut romaner](type-roman.png)
+![Hente ut romaner](bilder/type-roman.png)
 
 Det er denne linjen med kode som henter bøker fra tabellen boker som har sjanger lik roman:
 

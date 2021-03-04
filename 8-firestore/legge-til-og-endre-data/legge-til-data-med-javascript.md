@@ -65,4 +65,4 @@ form.onsubmit = (event) => {
 
 Nå kan vi legge til noen dyr i databasen.
 
-![Legge til dyr](legge-til-med-js.png)
+![Legge til dyr](bilder/legge-til-med-js.png)
