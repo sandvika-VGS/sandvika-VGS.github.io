@@ -1,10 +1,10 @@
-# Hente data fra databasen
+# 8.3 Hente data fra databasen
 
-## Hovedsiden - vise dyr fra databasen
+### Hovedsiden - vise dyr fra databasen
 
 Hovedsiden, **index.html**, skal vise en oversikt over dyrene i databasen.
 
-### HTML
+#### HTML
 
 Vi lager en tom section som skal fylles med dyrene fra databasen.
 
@@ -13,7 +13,7 @@ Vi lager en tom section som skal fylles med dyrene fra databasen.
 </section>
 ```
 
-### Javascript
+#### Javascript
 
 Referanser til html-elementet og databasen.
 
@@ -53,7 +53,7 @@ const lagHTML = (id, dyr) => {
 }
 ```
 
-## Eksempel: hente alle bøker
+### Eksempel: hente alle bøker
 
 På undersiden alle-boker.html vises alle bøkene fra tabellen boker.
 
