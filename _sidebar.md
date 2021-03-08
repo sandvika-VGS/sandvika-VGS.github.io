@@ -36,3 +36,11 @@
 * Javascript
   * [6.1 Hva er javascript?](./6-javascript/introjavascript.md)
   * [6.2 Variabler](./6-javascript/variable.md) 
+
+* *Databaser*
+
+* Firestore
+  * [8.1 Oppsett](./8-firestore/firebase-oppsett.md)
+  * [8.2 Legge til og endre data](8-firestore/legge-til-og-endre-data.md)
+  * [8.3 Hente data](8-firestore/hente-data-fra-databasen.md)
+  * [8.4 Sortere data](8-firestore/sortere-data.md)
