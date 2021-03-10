@@ -38,10 +38,10 @@
   * [6.2 Variabler](./6-javascript/variable.md) 
 
 * Databaser
-  * [7.1 Lagring av data](./7-databaser/databaseteori.md)
+  * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
   * [7.2 *Databaser*](./7-databaser/kommer.md)
   * [7.3 *Relasjonsmodeller*](./7-databaser/kommer.md)
-  * [7.4 *Regler for Relasjonsmodeller. Normalisering](./7-databaser/kommer.md)
+  * [7.4 *Regler for Relasjonsmodeller. Normalisering*](./7-databaser/kommer.md)
 
 * Firestore
   * [8.1 Oppsett](./8-firestore/firebase-oppsett.md)
