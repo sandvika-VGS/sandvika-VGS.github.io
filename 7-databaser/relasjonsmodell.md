@@ -31,4 +31,6 @@ Neste eksempel er en veterinærklinikk som vil ha oversikt over kundene sine. De
 
 bilde
 
-## Mange 
+## Mange til mange
+
+La oss se på en tredje modell. Vi skal lage en app der vi kan registrere fjellturer og ønsker en tabell med informasjon om brukerene, samt en annen tabell med informasjon om de ulike fjelltoppene. I dette tilfellet kan en bruker gå på flere fjelltopper, og et fjell kan ha flere personer som har gjennomført turen. Da blir det en **mange til mange** relasjon, og det blir vanskelig å sette fremmednøkkelen. Setter vi en personId som fremmednøkkel på tabellen for fjell, vil denne raskt fylles opp med alle personene som går turen. I motsatt tilfelle vil en fjellID hos person fylles opp, for hver ulike fjelltopp vedkommende registrerer.
