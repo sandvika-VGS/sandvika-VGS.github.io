@@ -28,4 +28,4 @@ I senere tid har det også kommet andre alternative måter å håndtere database
 
 Nå til dags er det en jungel av ulike løsninger som kan hjelpe oss, både innen SQL og NoSQL. Det blir opp til hver enkelt utvikler/bedrift å avgjøre hvilket system man vil bruke (eller om man vil programmere sitt eget system).
 
-Resten av dette kapittelet så skal vi se nærmere på hvordan vi best bør systematisere informasjonen. I neste kapittel skal så vi gå gjennom et eksempel på hvordan vi kan gjennomføre det i praksis, og dermed lage dynamiske nettsider.
+Resten av dette kapittelet så skal vi se nærmere på hvordan vi best bør systematisere informasjonen. I neste kapittel skal vi gå gjennom et eksempel på hvordan vi kan gjennomføre det i praksis, og dermed lage dynamiske nettsider.
