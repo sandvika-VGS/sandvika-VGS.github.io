@@ -45,7 +45,7 @@ Hvilke av kandidatnøklene egner seg best som primærnøkkel?
 
 
 # Atomærkravet
-Når vi skal lagre data, kan det være lurt å dele opp informasjonen. Dersom man skal kunne søke både på fornavn og etternavn separat, bør disse stå i hver sin kolonne. **Atomærkravet** sier at 
+Når vi skal lagre data, kan det være lurt å dele opp informasjonen. Dersom man skal kunne søke både på fornavn og etternavn separat, bør disse stå i hver sin kolonne. `Atomærkravet` sier at 
 
 **alle verdier i en database må deles opp så langt det lar seg gjøre uten at de mister sin mening**.
 
