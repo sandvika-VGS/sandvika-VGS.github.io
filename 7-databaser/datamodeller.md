@@ -6,15 +6,14 @@ Anta at vi skal lage en nettside om pokemon, og ønsker å lagre disse i en data
 
 Når vi lagrer datene må vi være sikre på at vi kan finne tilbake til det vi ønsker. Da må det være en av egenskapene som vi er *100% sikre på at er unik* for hvert objekt i databasen! Denne egenskapen kalles for en `primærnøkkel` og må være med. I modellen med pokemon, er det bare navnet som muligens kan være unikt. Vi kunne ha brukt navn som primærnøkkel, men bare hvis vi er sikre på at det aldri vil komme en pokemon i fremtiden som vil ha samme navn. Dersom vi er usikre på om noen av innføringene våre kan brukes som primærnøkler, kan vi alltids legge til ett nytt felt i modellen:
 
-![Pokemon med id](./pokemon2.png)
-
+![Pokemon med id](./pokemon2.png)  
 *pokId er en teller som øker for hver nye pokemon, garantert unik* 
 
 > Alle objekter i en database må ha en primærnøkkel
 
 Når vi skal lage en modell, vil innføringene som muligens kan brukes som primærnøkler kalles for `kandidatnøkler`.
 
-## Prøv selv - Liste over mine favorittsanger
+### Prøv selv - Liste over mine favorittsanger
 Gitt følgende datamodell:
 
 ![Modell Sang](./modell1.png)
@@ -27,21 +26,17 @@ Dersom vi skal visualisere tabellen med pokemon, er det unødvendig å ha med ek
 
 Tabellen med pokemon, kan dermed forenkles til følgende modell:
 
-![Pokemon Datamodell](./pokemon3.png)
-
+![Pokemon Datamodell](./pokemon3.png)  
 *Primærnøkkelen er markert med [ID]*
 
 Denne modellen representerer tabellen med pokemon, den gir all informasjon vi trenger.
 
-## Prøv selv - Klasseliste
+### Prøv selv - Klasseliste
 
-Anta at du skal lagre informasjon om de som går i klassen din. 
-
-Hvordan vil datamodellen se ut? 
-
-Hvilke kandidatnøkler har du? 
-
-Hvilke av kandidatnøklene egner seg best som primærnøkkel?
+1. Anta at du skal lagre informasjon om de som går i klassen din. 
+2. Hvordan vil datamodellen se ut? 
+3. Hvilke kandidatnøkler har du? 
+4. Hvilke av kandidatnøklene egner seg best som primærnøkkel?
 
 
 # Atomærkravet
