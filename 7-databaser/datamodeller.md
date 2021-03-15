@@ -13,7 +13,7 @@ Når vi lagrer datene må vi være sikre på at vi kan finne tilbake til det vi 
 
 Når vi skal lage en modell, vil innføringene som muligens kan brukes som primærnøkler kalles for `kandidatnøkler`.
 
-### Prøv selv - Liste over mine favorittsanger
+##### Prøv selv - Liste over mine favorittsanger
 Gitt følgende datamodell:
 
 ![Modell Sang](./modell1.png)
@@ -31,7 +31,7 @@ Tabellen med pokemon, kan dermed forenkles til følgende modell:
 
 Denne modellen representerer tabellen med pokemon, den gir all informasjon vi trenger.
 
-### Prøv selv - Klasseliste
+##### Prøv selv - Klasseliste
 
 1. Anta at du skal lagre informasjon om de som går i klassen din. 
 2. Hvordan vil datamodellen se ut? 
@@ -42,7 +42,7 @@ Denne modellen representerer tabellen med pokemon, den gir all informasjon vi tr
 # Atomærkravet
 Når vi skal lagre data, kan det være lurt å dele opp informasjonen. Dersom man skal kunne søke både på fornavn og etternavn separat, bør disse stå i hver sin kolonne. `Atomærkravet` sier at 
 
-**alle verdier i en database må deles opp så langt det lar seg gjøre uten at de mister sin mening**.
+> alle verdier i en database må deles opp så langt det lar seg gjøre uten at de mister sin mening.
 
 ![Atomærkravet Eksempel](./atomær1.png)
 
