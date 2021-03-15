@@ -1,3 +1,4 @@
+
 # Primærnøkkel
 
 Anta at vi skal lage en nettside om pokemon, og ønsker å lagre disse i en database. Da bør vi først se for oss en tabell med informasjonen vi ønsker å lagre
