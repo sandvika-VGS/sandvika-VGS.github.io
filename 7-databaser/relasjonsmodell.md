@@ -48,7 +48,7 @@ Vi løser dette problemet med å fjerne relasjonen mellom tabellene, og legge en
 
 ![relasjonsmodell entitetisert](./fjell2.png)
 
-*Vi har ikke lenger mange til mange relasjoner. I vår nye entitetiserte tabell, kan vi legge til eventuell ny relevant informasjon*
+*Vi har ikke lenger en "mange til mange"-relasjon. I vår nye entitetiserte tabell, kan vi legge til eventuell ny relevant informasjon*
 
 Dersom det ikke er noe naturlig kobling mellom de to tabellene med en mange til mange relasjon, entitetiserer vi de likevel på samme måte. Da kaller vi gjerne den nye tabellen for en kombinasjon av de to gamle.
 
