@@ -2,7 +2,7 @@
 
 Anta at du får i oppdrag til å lage en datamodell for en burgerkjede med flere filialer. Arbeidsgiver vil gjerne ha informasjon om de ansatte og hvilken avdeling de jobber på. De må også ha kontaktinformasjon til de ulike avdelingene. Dersom du ikke er stødig med IT-1 pensum, kan det være naturlig å foreslå en tabell som på figuren under. Denne tabellen er ikke spesielt god, og vi skal se nærmere på hvorfor.
 
-!(En dårlig modell)[./burger.png]
+![En dårlig modell](./burger.png)
 
 Når modellen skal implementeres husker vi at vi skal kunne legge til nye data, endre eksisterende data og eventuelt slette data. La oss undersøke hvorfor denne tabellen vil kunne by på problemer for alle tre tilfellene:
 
@@ -21,7 +21,7 @@ Det som er problematisk med modellen ser altså ut til å være at vi har koblet
 
 Når vi skiller informasjonen i to (eller flere) tabeller vil ofte disse være relatert til hverandre. I eksempelet hos burgerkjeden legger vi all informasjon om de ansatte i en tabell og all informasjon om avdelingen i en annen. Så legger vi inn primærnøkkelen til avdelingen inn i tabellen om de ansatte. Da vet vi i hvilken avdeling hver ansatt jobber. Vi har all informasjon tilgjengelig, uten at problemene beskrevet tidligere oppstår.
 
-!(En bedre modell)[./burger2.png]
+![En bedre modell](./burger2.png)
 
 Modellen er fortsatt ikke optimal, det kan for eksempel hende at vi burde skille ut stillingskode og lønn i en egen tabell også, det ser vi på litt senere. I dette tilfellet er *avdelingNo* i tabellen for *Ansatt* viktig. Det er dette feltet som kobler tabellene sammen og det kalles for en `fremmednøkkel`. I vår modell indikerer vi at det er en fremmednøkkel ved å skrive navnet på tabellen det referes til som datatype. Kunne vi i stedet ha lagt *ansattNo* som fremmednøkkel i tabellen for avdeling? Det ville ikke ha fungert så bra, fordi en avdeling kan ha mange ansatte. I vår modell kan en avdeling ha mange ansatte, men en ansatt jobber kun i en avdeling. Vi har derfor en `en til mange` relasjon. Dersom vi legger til denne informasjonen i modellen vår har vi laget en `relasjonsmodell`. La oss se nærmere på de ulike typene relasjonene tabeller kan ha, og hvordan vi håndterer de i en relasjonsmodell.
 
@@ -31,6 +31,7 @@ Modellen er fortsatt ikke optimal, det kan for eksempel hende at vi burde skille
 En avdeling har mange ansatte, en ansatt jobber i en avdeling. Vi legger det til i modellen vår:
 
 ![relasjonsmodell](./burger3.png)
+
 *Det øverste bildet viser hvordan vi skriver relasjonene, det nederste viser hvordan vi leser de*
 
 Oppsummert så kan vi legge en fremmednøkkel i den tabellen som kun har en mulig innføring fra den andre.
@@ -46,6 +47,7 @@ Nå blir det blir vanskelig å sette fremmednøkkelen. Setter vi en personId som
 Vi løser dette problemet med å fjerne relasjonen mellom tabellene, og legge en ny tabell i mellom. Dette kalles for å `entitetisere` tabellene. I den nye tabellen legger vi inn fremmednøkkel fra hver av de to andre, samt en egen primærnøkkel. I vårt eksempel kan vi tenke oss at dersom *Person* og *Fjell* møtes, så har vi en fjelltur slik at det kan være vår nye tabell:
 
 ![relasjonsmodell entitetisert](./fjell2.png)
+
 *Vi har ikke lenger mange til mange relasjoner. I vår nye entitetiserte tabell, kan vi legge til eventuell ny relevant informasjon*
 
 Dersom det ikke er noe naturlig kobling mellom de to tabellene med en mange til mange relasjon, entitetiserer vi de likevel på samme måte. Da kaller vi gjerne den nye tabellen for en kombinasjon av de to gamle.
