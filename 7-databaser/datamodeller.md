@@ -21,6 +21,7 @@ Gitt følgende datamodell:
 
 Argumenter for at ingen av innføringene er gode kandidatnøkler. Gi et forslag til primærnøkkel
 
+
 # Datamodell
 
 Dersom vi skal visualisere tabellen med pokemon, er det unødvendig å ha med eksempler på de forskjellige pokemonene, det holder med en oversikt over hva vi skal lagre for hvert objekt. I tillegg må vi angi hva som skal være primærnøkkel. Det er også vanlig å legge ved informasjon om hva slags datatype det er vi skal lagre. For vår del handler det stort sett om det det er tekst `String` (Streng på norsk) eller tall `Number`. Dersom du ønsker å regne på noe eller sortere det som tall, så kan det lagres som tall, og ellers går det fint med strenger. For eksempel kan et telefonnummer godt lagres som en streng, selv det består av tall. 
@@ -38,6 +39,7 @@ Denne modellen representerer tabellen med pokemon, den gir all informasjon vi tr
 2. Hvordan vil datamodellen se ut? 
 3. Hvilke kandidatnøkler har du? 
 4. Hvilke av kandidatnøklene egner seg best som primærnøkkel?
+
 
 
 # Atomærkravet

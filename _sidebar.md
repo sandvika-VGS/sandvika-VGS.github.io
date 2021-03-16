@@ -40,7 +40,7 @@
 * Databaser
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
   * [7.2 Databaser](./7-databaser/datamodeller.md)
-  * [7.3 *Relasjonsmodeller*](./7-databaser/kommer.md)
+  * [7.3 Relasjonsmodeller](./7-databaser/relasjonsmodell.md)
   * [7.4 *Normalformene*](./7-databaser/kommer.md)
 
 * Firestore
