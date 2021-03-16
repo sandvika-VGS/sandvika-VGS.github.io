@@ -52,7 +52,7 @@ Vi løser dette problemet med å fjerne relasjonen mellom tabellene, og legge en
 
 Dersom det ikke er noe naturlig kobling mellom de to tabellene med en mange til mange relasjon, entitetiserer vi de likevel på samme måte. Da kaller vi gjerne den nye tabellen for en kombinasjon av de to gamle.
 
-> Hva med `en til en` relasjoner? Har vi to tabeller med en slik relasjon kunne vi teoretisk ha satt fremmednøkkelen i hvilken som helst av de. I de tilfellene er det egentlig ikke noe vits i å skille informasjonen i to tabeller i første omgang. Dermed er det ikke vanlig å bruke en til en relasjoner i en relasjonsmodell.
+> Hva med `en til en` relasjoner? Har vi to tabeller med en slik relasjon kunne vi teoretisk ha satt fremmednøkkelen i hvilken som helst av de. I de tilfellene er det egentlig ikke noe vits i å skille informasjonen i to tabeller i første omgang. Dermed er det ikke vanlig å bruke slike relasjoner i en relasjonsmodell.
 
 #### Prøv selv - Hva slags relasjoner?
 kommer
