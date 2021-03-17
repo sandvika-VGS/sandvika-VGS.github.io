@@ -32,7 +32,7 @@
   * [5.4 Lagring av lyd](./5-signaler/lyd.md)
   * [5.5 Lagring av bokstaver og symboler](./5-signaler/bokstaver.md)
   * [5.6 Datamaskiner](./5-signaler/datamaskiner.md)
-  * [5.7 *Internett*](./5-signaler/kommer.md)
+  * [5.7 *Internett*](./5-signaler/internett.md)
 
 * Javascript
   * [6.1 Hva er javascript?](./6-javascript/introjavascript.md)
