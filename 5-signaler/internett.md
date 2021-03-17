@@ -32,15 +32,15 @@ Derfor har man utviklet en rekke protokoller for hvordan datamaskiner skal bruke
 
 Alle datamaskiner som er koblet på internett har en adresse, dette kalles IP-adressen.
 Det er en unik adresse som gjør at vi kan sende beskjeder til riktig datamaskin.
-Datamaskinene trenger også IP-adresser slik at de vet hvor de skal sende pakker.
 
 ### DNS (Domain name service)
 
-Datamaskinen hvor HTML-filene til VGs nettsider ligger, har IP-adressen [195.88.55.16](http://195.88.55.16).
+Datamaskinen hvor HTML-filene til VGs nettsider ligger har IP-adressen [195.88.55.16](http://195.88.55.16).
 Hvis du skriver inn den IP-adressen i adressefeltet på nettleseren din, kommer du til vg.no.
-Google.com har adressen [142.250.74.110](http://142.250.74.110).
+Alle nettsider på internett kan nås fra en IP-adresse, Google.com for eksempel har adressen [142.250.74.110](http://142.250.74.110).
 
-I lengden blir det litt tungvint å huske IP-adressene til datamaskinene hvor nettsteder ligger, derfor lagde man på 80-tallet en protokoll for hvordan man kan bruke *domenenavn*, som `vg.no` i stedet for IP-adresser.
+I starten av internett var IP-adressen man brukte for å kommunisere mellom datamaskiner.
+Etterhvert fant de ut at det var litt tungvint å huske IP-adressene til datamaskinene de skulle kommunisere med, derfor lagde man på 80-tallet en protokoll for hvordan man kan bruke *domenenavn*, slik som `vg.no` i stedet for IP-adresser.
 Denne protokollen kalles DNS, og gjør det mulig å bruke oppslagsverk som oversetter *domenenavn* til IP-adresser.
 
 Når du skriver `vg.no` i nettleseren din og trykker enter, går datamaskinen din inn et DNS-oppslagsverk og finner IP-adressen til datamaskinen hvor VGs nettsider ligger.
