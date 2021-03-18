@@ -45,7 +45,7 @@ Et annet tallssystem som vi ofte bruker for farger er 16-tallssystemet. Da treng
 |F                 |15                   |
 |10                |16                   |
 |...               |...                  |
-|FF                |31                   |
+|FF                |255                  |
 
 
 I et totallssystem er logikken helt lik, vi har bare to unike symboler, nemlig 0 og 1. Når vi har "brukt opp" disse må vi introdusere en ny plass, altså toerplassen. Tabellen vil da se slik ut:
