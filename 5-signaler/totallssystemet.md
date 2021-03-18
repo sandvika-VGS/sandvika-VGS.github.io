@@ -62,7 +62,7 @@ I et totallssystem er logikken helt lik, vi har bare to unike symboler, nemlig 0
 |111               |7                |
 |1000              |8                |
 |...               |...              |
-|1111 1111         |256              |
+|1111 1111         |255              |
 
 > Det kan virke vanskelig å regne om når tallene blir store, men husk at hvert siffer i et titallssystem er en potens av 10: 10-er plassen er 10^1, hundreplassen er 10^2 etc.
 > Tilsvarende er hver plass en toerpotens i et totallssystem. Vi kan altså regne om for eksempel 1101 1011 ved å regne: 
