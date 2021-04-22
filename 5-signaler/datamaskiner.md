@@ -41,7 +41,8 @@ På engelsk kalles arbeidsminne for random access memory (RAM).
 ### Lagringsmedium
 
 Arbeidsminne er ganske dyrt, og alt som blir lagret der forsvinner når datamaskinen skrus av, derfor har datamaskiner et lagringsmedium for permanent lagring.
-Det kaller vi for harddisken, og det er her filene dine ligger lagret permanent.
+I moderne datamaskiner brukes som regel harddisker som lagringsmedium, og det er på harddisken filene dine ligger lagret permanent.
+Før i tiden kunne datamaskiner bruke andre typer lagringsmedium som for eksempel disketter.
 
 Hvis du f.eks lagrer et word-dokument på PC-en din, da lagres det på harddisken.
 Når du åpner dokumentet i word igjen, lastes det inn i arbeidsminne.
