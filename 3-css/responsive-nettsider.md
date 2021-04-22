@@ -122,3 +122,14 @@ nav {
   }
 }
 ````
+
+### Eksperttips: Responsiv nettside uten media-query
+
+Henter fra [CSS-tricks.com - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+
+<iframe src="https://codesandbox.io/embed/responsiv-nettside-med-grid-fiejm?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Responsiv nettside med grid"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
