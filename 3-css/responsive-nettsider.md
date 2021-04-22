@@ -125,11 +125,17 @@ nav {
 
 ### Eksperttips: Responsiv nettside uten media-query
 
-Henter fra [CSS-tricks.com - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+Hentet fra [CSS-tricks.com - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
 
-<iframe src="https://codesandbox.io/embed/responsiv-nettside-med-grid-fiejm?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="Responsiv nettside med grid"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+I eksempelet under gjør linjen `grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));` nettsiden responsiv.
+
+Den gjør at elementene i gridden er det som er minst av 200px og maks 100% av plassen de har fått i gridden.
+I dette tilfellet betyr det at hvis nettleservinduet er under 200px, tar boksene hele nettleservinduet.
+repeat og auto-fill gjør at gridden fylles med så mange elementer det er plass til.
+
+<p class="codepen" data-height="434" data-theme-id="light" data-default-tab="css,result" data-user="thorcc" data-slug-hash="KKarxGY" style="height: 434px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Responsiv nettside med grid">
+  <span>See the Pen <a href="https://codepen.io/thorcc/pen/KKarxGY">
+  Responsiv nettside med grid</a> by thorcc (<a href="https://codepen.io/thorcc">@thorcc</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
