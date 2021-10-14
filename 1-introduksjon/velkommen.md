@@ -4,4 +4,4 @@ Hei og velkommen til Informasjonsteknologi 1. I dette faget skal vi blant annet 
 
 Det blir mye praktisk arbeid der du skal lage egne nettsider for å vise din forståelse av de ulike emnene vi skal gjennom, men faget krever lite forhåndskunnskaper.
 
-Informasjonsteknologi er et veldig stort emne der lærebøker og verktøy er i stadig endring. Vi bruker derfor denne siden som vår "egen" lærebok, og du kan bruke menyen til venstre for å finne det du trenger om emnene vi skal gjennom i år.
+Informasjonsteknologi er et veldig stort emne der lærebøker og verktøy er i stadig endring. Vi bruker derfor denne siden som et kompendie, som er oppdatert med det vi gjør i løpet av et skoleår. Du kan bruke menyen til venstre for å slå opp det du har behov for å repetere.
