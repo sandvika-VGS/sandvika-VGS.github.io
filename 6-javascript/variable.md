@@ -1,6 +1,7 @@
 # Variabler
 ![Variable](variable_glass.jpg)
-*På samme måte som denne krydderhylla, kan vi lagre mye forskjellig i datamaskinens minne*
+
+*På samme måte som med krydderhylla, kan vi lagre mye forskjellig i datamaskinens minne*
 
 En av de viktigste prinsippene når vi skal kode, er at vi kan lagre alt mulig i datamaskinens minne. Det vi lagrer kan vi hente opp igjen i koden, og bruke når vi selv ønsker det. Når vi lagrer noe i datamaskinens minne på denne måten kaller vi det for en **variabel**. God bruk av variable er fundamentalt for å lære seg å programmere godt. Akkurat som med glassene i bildet over, kan vi lagre alt mulig rart; bokstaver, setninger, tall og lister er eksempler på variable som ofte brukes. Der det er lurt å merke glassene, må vi være påpasselige å si nøyaktig hva vi lagrer, slik at datamaskinen har riktig oversikt. Da vil det også være i stand til å bruke riktig variabel til riktig tid. 
 
