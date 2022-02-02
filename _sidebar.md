@@ -39,13 +39,13 @@
   * [6.1 Hva er programmering](./6-javascript/introprog.md)
   * [6.2 Variabler](./6-javascript/variable.md) 
 
-* Databaser (Utgått pensum fra It-1)
+* Databaser (Utgått pensum)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
   * [7.2 Databaser](./7-databaser/datamodeller.md)
   * [7.3 Relasjonsmodeller](./7-databaser/relasjonsmodell.md)
   * [7.4 *Normalformene*](./7-databaser/kommer.md)
 
-* Firestore (Utgått pensum fra It-1)
+* Firestore (Utgått pensum)
   * [8.1 Oppsett](./8-firestore/firebase-oppsett.md)
   * [8.2 Legge til og endre data](8-firestore/legge-til-og-endre-data.md)
   * [8.3 Hente data](8-firestore/hente-data-fra-databasen.md)
