@@ -21,7 +21,7 @@
   * [3.7 Responsive nettsider](./3-css/responsive-nettsider.md)
   * [3.8 Diverse komponenter](./3-css/ekstra/ekstra.md)
 
-* Vår Digitale Samtid
+* Vår Digitale Samtid (Utgått pensum fra It-1)
   * [4.1 Introduksjon](./4-samtid/intro.md)
   * [4.2 The Social Dilemma](./4-samtid/socialdilemma.md)
   * [4.3 Sikkerhet](./4-samtid/sikkerhet.md)
@@ -35,17 +35,17 @@
   * [5.6 Datamaskiner](./5-signaler/datamaskiner.md)
   * [5.7 *Internett*](./5-signaler/internett.md)
 
-* Javascript
-  * [6.1 Hva er javascript?](./6-javascript/introjavascript.md)
+* Programmering
+  * [6.1 Hva er programmering](./6-javascript/introprog.md)
   * [6.2 Variabler](./6-javascript/variable.md) 
 
-* Databaser
+* Databaser (Utgått pensum fra It-1)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
   * [7.2 Databaser](./7-databaser/datamodeller.md)
   * [7.3 Relasjonsmodeller](./7-databaser/relasjonsmodell.md)
   * [7.4 *Normalformene*](./7-databaser/kommer.md)
 
-* Firestore
+* Firestore (Utgått pensum fra It-1)
   * [8.1 Oppsett](./8-firestore/firebase-oppsett.md)
   * [8.2 Legge til og endre data](8-firestore/legge-til-og-endre-data.md)
   * [8.3 Hente data](8-firestore/hente-data-fra-databasen.md)
