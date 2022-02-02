@@ -21,7 +21,7 @@
   * [3.7 Responsive nettsider](./3-css/responsive-nettsider.md)
   * [3.8 Diverse komponenter](./3-css/ekstra/ekstra.md)
 
-* Vår Digitale Samtid (Utgått pensum fra It-1)
+* Vår Digitale Samtid (Utgått pensum)
   * [4.1 Introduksjon](./4-samtid/intro.md)
   * [4.2 The Social Dilemma](./4-samtid/socialdilemma.md)
   * [4.3 Sikkerhet](./4-samtid/sikkerhet.md)

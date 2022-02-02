@@ -1,32 +1,30 @@
 # Variabler
-En av de viktigste prinsippene når vi skal kode, er at vi kan lagre alt mulig i datamaskinens minne. Alt vi lagrer kan vi hente opp igjen og bruke når vi selv ønsker det i koden. Vi kaller det vi lagrer for **variabler**, og bruker nøkkelordene *let* eller *const* for å få det til. I IT-1 er det stort sett ikke så nøye med hvilken av disse du bruker. 
+![Variable](/images/variable_glass.jpg)
+*På samme måte som denne krydderhylla, kan vi lagre mye forskjellig i datamaskinens minne*
 
-## Lagre tall.
-Dersom vi for eksempel ønsker å lagre et tall skriver vi 
+En av de viktigste prinsippene når vi skal kode, er at vi kan lagre alt mulig i datamaskinens minne. Det vi lagrer kan vi hente opp igjen i koden, og bruke når vi selv ønsker det. Når vi lagrer noe i datamaskinens minne på denne måten kaller vi det for en **variabel**. God bruk av variable er fundamentalt for å lære seg å programmere godt. Akkurat som med glassene i bildet over, kan vi lagre alt mulig rart; bokstaver, setninger, tall og lister er eksempler på variable som ofte brukes. Der det er lurt å merke glassene, må vi være påpasselige å si nøyaktig hva vi lagrer, slik at datamaskinen har riktig oversikt. Da vil det også være i stand til å bruke riktig variabel til riktig tid. 
 
-```JAVASCRIPT
-const a = 10
+## Lagre en variabel.
+Dersom vi for eksempel ønsker å lagre tallet 10 skriver vi 
+
+```PYTHON
+tall = 10
 ```
 
-> Navnet på variabelen (i dette tilfellet **a**) bestemmer vi selv. 
-> Vi kunne like gjerne ha skrevet *let lise = 10* 
-> Som regel prøver vi å velge navn som gir mening.
+ Navnet på variabelen (i dette tilfellet **tall**) tilsvarer merkelappen til krydderhylla. Selv om vi bestemmer navnet selv, bør vi velge et navn som gir mening. Vi skal se nærmere for skikk og bruk for variabelnavn etterhvert.
 
-## Prøv selv: Lagre og hente ett tall
-Lag et script-element i html-fila di, og legg til følgende:
+## Hente en variabel
+Når vi har lagret en variabel kan vi hente den ved å bruke navnet (merkelappen) vi satte på den:
 
-```HTML
-<h1>Mitt første program</h1>
-<script>
-    const mittTall = 10;
-    console.log(mittTall + 10);
-</script>
+```PYTHON
+tall = 10
+print(tall)
 ```
 Hva tror du skrives til konsollen? Sjekk selv.
 
-## Lagre tekst
 
-Vi kan lagre tekst, da må vi huske anførseltegnene:
+
+ kan lagre tekst, da må vi huske anførseltegnene:
 
 ```JAVASCRIPT
 let konge = "Harald";
