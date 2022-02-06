@@ -94,30 +94,18 @@ Når vi kjører programmet vil du se at spørsmålet stilles i konsollen. Progra
 
 ![Input](input.png)
 
-#### Konvertere datatyper 
+
+## Konvertere datatyper 
 
 Se på følgende kode:
 
-```PYTHON
-navn = input("Hva heter du? ") # tar inn navn fra bruker
-f_aar = input("Når er du født? ") # tar inn fødselsår fra bruker
-
-alder = 2022 - f_aar # Regner ut hvor gammel bruker er i 2022
-
-print("Hei", navn, "i år blir du", alder, "år") # Skriver en melding til bruker
-```
+![Feil med input](feil.jpg)
 
 Her får vi en feilmelding som går på datatyper. Du husker kanskje at alle input-variable lagres som strenger? Når vi skal regne ut alderen så prøver vi å blande tallet 2022, med strengen som er lagret i f_aar. Det går ikke an å regne matematikk med strenger så vi må `konvertere` fødselsåret fra streng til tall. Siden vi skal regne på årstall, er det beste å konvertere til heltall. Vi konverter på følgende måte:
 
-```PYTHON
-navn = input("Hva heter du? ") # tar inn navn fra bruker
-f_aar = int(input("Når er du født? ")) # tar inn fødselsår fra bruker
+![Feil med input - konvertering](riktig.jpg)
 
-alder = 2022 - f_aar # Regner ut hvor gammel bruker er i 2022
-
-print("Hei", navn, "i år blir du", alder, "år") # Skriver en melding til bruker
-```
-På linje 2 i koden ser du at vi har lagt `int()` rundt input-feltet. Det er en instruksjon som konverterer om til tall dersom det gir mening.
+På linje 2 i koden ser du at vi har lagt `int()` rundt input-feltet. Det er en instruksjon som konverterer om til tall dersom det gir mening. Da er det kun tall som håndteres i linje 4, og koden fungerer.
 
 
 
