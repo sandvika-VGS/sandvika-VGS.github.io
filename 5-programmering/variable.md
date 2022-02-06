@@ -94,6 +94,17 @@ Når vi kjører programmet vil du se at spørsmålet stilles i konsollen. Progra
 
 ![Input](input.png)
 
+#### Printe flere variable
+
+Vi kan printe ut flere variable, sammen med tekst ved å kjede sammen alt med komma mellom hver gang:
+
+```PYTHON
+navn = input("Hva heter du? ")
+sted = input("Hvor gammel er du?" )
+
+print("Hei", navn, "hyggelig å hilse på deg, du er", alder, "år gammel")
+```
+
 
 ## Konvertere datatyper 
 
@@ -105,7 +116,7 @@ Her får vi en feilmelding som går på datatyper. Du husker kanskje at alle inp
 
 ![Feil med input - konvertering](riktig.png)
 
-På linje 2 i koden ser du at vi har lagt `int()` rundt input-feltet. Det er en instruksjon som konverterer om til tall dersom det gir mening. Da er det kun tall som håndteres i linje 4, og koden fungerer.
+På linje 2 i koden ser du at vi har lagt `int()` rundt input-feltet. Det er en instruksjon som konverterer om til tall dersom det gir mening. Nå er det kun tall som håndteres i linje 4, og koden vil fungere. I tabellen med oversikt over datatyper ser du kodeinstruksjonene for å konvertere mellom ulike datatyper (forutsatt at det gir mening).
 
 
 
