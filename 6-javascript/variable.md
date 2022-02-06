@@ -15,6 +15,18 @@ tall = 10
 
  Navnet på variabelen (i dette tilfellet `tall`) tilsvarer merkelappen til krydderhylla. Selv om vi bestemmer navnet selv, bør vi velge et navn som gir mening. Vi skal se nærmere for skikk og bruk for variabelnavn etterhvert. Som nevnt kan vi lagre langt mer enn bare tall, men vi må samtidig være spesifikke på hva vi lagrer. Vi deler variablene våre inn i forskjellige `datatyper`, som alle har forskjellige skrivemåter
 
+
+## Hente en variabel
+
+Når vi har lagret en variabel kan vi hente den ved å bruke navnet (merkelappen) vi satte på den:
+
+```PYTHON
+tall = 10
+print(tall)
+```
+Hva tror du skrives til konsollen? Sjekk selv.
+
+
 ## Datatyper
 
 | Navn | Skrivemåte | Datatype |
@@ -22,9 +34,9 @@ tall = 10
 | streng | x = "skriv tekst og tall"  | str |
 | heltall  | x = 10        | int |
 | desimaltall| x = 10.0    | float |
-| boolean | x = True / x = False | bool |
-| liste | [] | x = [1,2,"eple"] | list |
-| ordbok| {} | x = {eple: 2, banan: 3} | dict |
+| boolsk | x = True / x = False | bool |
+| liste | x = [1,2,"eple"] | list |
+| ordbok| x = {eple: 2, banan: 3} | dict |
 
 *Her ser du en tabell med de ulike datatypene vi skal gjennom. Det finnes flere, for eksempel objekter, som er så avanserte at vi venter med de til It-2.*
 
@@ -82,16 +94,32 @@ Når vi kjører programmet vil du se at spørsmålet stilles i konsollen. Progra
 
 ![Input](input.png)
 
+#### Konvertere datatyper 
 
-
-## Hente en variabel
-
-Når vi har lagret en variabel kan vi hente den ved å bruke navnet (merkelappen) vi satte på den:
+Se på følgende kode:
 
 ```PYTHON
-tall = 10
-print(tall)
+navn = input("Hva heter du? ") # tar inn navn fra bruker
+f_aar = input("Når er du født? ") # tar inn fødselsår fra bruker
+
+alder = 2022 - f_aar # Regner ut hvor gammel bruker er i 2022
+
+print("Hei", navn, "i år blir du", alder, "år") # Skriver en melding til bruker
 ```
-Hva tror du skrives til konsollen? Sjekk selv.
+
+Her får vi en feilmelding som går på datatyper. Du husker kanskje at alle input-variable lagres som strenger? Når vi skal regne ut alderen så prøver vi å blande tallet 2022, med strengen som er lagret i f_aar. Det går ikke an å regne matematikk med strenger så vi må `konvertere` fødselsåret fra streng til tall. Siden vi skal regne på årstall, er det beste å konvertere til heltall. Vi konverter på følgende måte:
+
+```PYTHON
+navn = input("Hva heter du? ") # tar inn navn fra bruker
+f_aar = int(input("Når er du født? ")) # tar inn fødselsår fra bruker
+
+alder = 2022 - f_aar # Regner ut hvor gammel bruker er i 2022
+
+print("Hei", navn, "i år blir du", alder, "år") # Skriver en melding til bruker
+```
+På linje 2 i koden ser du at vi har lagt `int()` rundt input-feltet. Det er en instruksjon som konverterer om til tall dersom det gir mening.
+
+
+
 
 
