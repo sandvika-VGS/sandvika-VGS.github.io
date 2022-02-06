@@ -84,13 +84,13 @@ b) Skriv adressen ut på følgende to måter ved å bruke variabler: "Adressen e
 
     b) 
     
-    ```PYTHON
+```PYTHON
     gate = "Kongens gate"
     husnr = "432"
     oppgang = "b"
 
     print("Adressen er", gate + husnummer + oppgang)
     print("Gaten er", gate, ", husnummeret er", husnr, "oppgang", oppgang)
-    ```
+```
 
 </details>
