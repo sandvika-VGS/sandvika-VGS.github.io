@@ -99,11 +99,11 @@ Når vi kjører programmet vil du se at spørsmålet stilles i konsollen. Progra
 
 Se på følgende kode:
 
-![Feil med input](feil.jpg)
+![Feil med input](feil.png)
 
 Her får vi en feilmelding som går på datatyper. Du husker kanskje at alle input-variable lagres som strenger? Når vi skal regne ut alderen så prøver vi å blande tallet 2022, med strengen som er lagret i f_aar. Det går ikke an å regne matematikk med strenger så vi må `konvertere` fødselsåret fra streng til tall. Siden vi skal regne på årstall, er det beste å konvertere til heltall. Vi konverter på følgende måte:
 
-![Feil med input - konvertering](riktig.jpg)
+![Feil med input - konvertering](riktig.png)
 
 På linje 2 i koden ser du at vi har lagt `int()` rundt input-feltet. Det er en instruksjon som konverterer om til tall dersom det gir mening. Da er det kun tall som håndteres i linje 4, og koden fungerer.
 
