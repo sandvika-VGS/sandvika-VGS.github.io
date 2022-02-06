@@ -1,31 +1,22 @@
 # Betingelser. If-Løkker
 
-Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avanserte, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. Dette gjøres ved hjelp av betingelser, og prinsippet bak kan minne litt om flytskjema: 
+Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. Dette gjøres ved hjelp av betingelser, og prinsippet bak kan minne litt om flytskjema: 
 
 BILDE FLYT. PROBLEMLØSNING VS IF ELSE LØKKE
 
-La oss ta utgangspunkt i koden for alder fra forrige side. Den kan for eksempel se slik ut:
+Frem til nå har koden vårt kjørt linje for linje nedover. En betingelse består ofte av flere segment, og som regel vil koden bare kjøre et av de. La oss endre på koden fra forrige delkapittel ved å sette in en betingelse Dersom La oss ta utgangspunkt i koden for alder fra forrige side. 
 
-```JAVASCRIPT
-let fødselsår = window.prompt("Hvilket år er du født?");
+```PYTHON
+navn = input("Hva heter du? )
+f_aar = int(input("Hvilket år er du født? "))
+
 let alder = 2021 - fødselsår;
 
-document.write("Du blir " + alder + " i løpet av året.")
-```
+if alder > 17:
+    print("Hei", navn, "du er myndig!")
+else:
+    print("Hei", navn, "du er ikke myndig")
 
-Anta at vi ønsker å sjekke om brukeren er myndig eller ikke. Da blir betingelsen om brukeren er yngre enn 18 år eller ikke. Vi kan utvide koden ved å legge til følgende:
-
-```JAVASCRIPT
-
-let fødselsår = window.prompt("Hvilket år er du født?");
-let alder = 2021 - fødselsår;
-
-if(alder > 17){
-    document.write("Du er myndig");
-}
-else{
-    document.write("Du er ikke myndig enda");
-}
 ```
 
 Vi ser her logikken bak en betingelse, skrevet som en **if-løkke**. Betingelsen må ligge i en parentes, så bruker vi {} for å spesifisere hva slags kode som skal kjøre dersom betingelsen er sann. Hvis betingelsen er usann, hopper koden over til *else* feltet i stedet. Legg merke til at else ikke har en betingelse.

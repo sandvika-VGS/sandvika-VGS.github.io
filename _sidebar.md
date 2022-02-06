@@ -37,7 +37,8 @@
   * [5.4 *Løkker*]()
   * [5.5 *Lister*]()
   * [5.6 *Funksjoner*]()
-  * [5.3 *Oppgaver*]()
+  * [5.7 *Oppgaver*]()
+  * [5.8 *Oppslagsliste*]()
 
 * Databaser (Utgått pensum)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
