@@ -130,6 +130,7 @@ e) Lag en variabel for antall personer, og skriv ut pris per person samt antall 
 </details>
 <details>
     <summary>Klikk for Løsning</summary>
+    # Her regner vi tips før rabatt, man kan argumentere for at det kan gjøres motsatt
 
     pris = 850
     rabatt_prosent = 25
@@ -139,7 +140,7 @@ e) Lag en variabel for antall personer, og skriv ut pris per person samt antall 
     rabatt_kr = pris*rabatt_prosent/100
     tips_kr = pris*tips_kr
 
-    totalt = pris - rabatt_kr + tips_kr
+    totalt = pris - rabatt_kr + tips_kr/100
     per_pers = totalt/ant_pers
 
     print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
