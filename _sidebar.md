@@ -37,7 +37,7 @@
   * [5.4 *Løkker*]()
   * [5.5 *Lister*]()
   * [5.6 *Funksjoner*]()
-  * [5.7 Oppgaver](./5-programmering/programmering-oppgaver.md)
+  * [5.7 Oppgaver](./5-programmering/oppgaver.md)
   * [5.8 *Oppslagsliste*]()
 
 * Databaser (Utgått pensum)
