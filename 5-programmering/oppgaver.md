@@ -128,12 +128,12 @@ e) Lag en variabel for antall personer, og skriv ut pris per person samt antall 
     - Lag egne variable for alle mellomregningen.
 
     - Bruk mellomregningene til å regne ut det som skal betales
-    
+
     - print ut alle variable du er usikre på underveis så er det lettere å finne ut om matematikken stemmer
 
 </details>
 <details>
-    <summary>**Klikk for Løsning**</summary>
+    <summary>Klikk for Løsning</summary>
 
     # Her regner vi tips før rabatt, man kan argumentere for at det kan gjøres motsatt
 
