@@ -4,11 +4,12 @@
 I forrige delkapittel så vi på et eksempel på et 8 bits system der vi hadde 8 strømbrytere vi kunne skru av og på. Vi regnet oss frem til at det da var 256 mulige kombinasjoner bryterene kunne ha. Det kan være lurt å gjøre en slik rekke med 0 og 1 om til et vanlig tall. For eksempel bør det jo være slik at hvis vi skrur på alle bryterene: 
 > 1111 1111 
 
-så tilsvarer det 256.
+så tilsvarer det 255 (vi starter jo å telle fra 0).
 
-Vi må altså kunne regne tall gitt på et totallssystem om til et titallssystem. La oss først se litt nærmere på hvordan titallssystemet vi er veldig vant med egentlig fungerer. Vi kaller det for titallssystemet fordi vi har 10 unike symboler for tall vi kan bruke (fra 0 til 9). Når vi har kommet til tallet 9 har vi "brukt opp" symbolene våre og setter dermed et 1 tall på "tierplassen" og 0 på enerplassen. Symbolkombinasjonen 1 og 0, altså 10, lærer vi allerede som barn at tilsvarer 10. Trolig er det fordi det er naturlig å telle på fingrene at menneskeheten utviklet et titallssystem (Mayaindianerene brukte et 20 tallsystem, kan du tenke deg hvorfor?).
+Vi må altså kunne regne tall gitt på et totallssystem om til et titallssystem. La oss først se litt nærmere på hvordan titallssystemet, som vi jo er veldig vant med, egentlig fungerer:
+Vi kaller det for et titallssystem fordi vi har 10 unike symboler vi kan bruke for tallene våre (fra 0 til 9). Når vi har vi teller og kommer til 9 har vi "brukt opp" symbolene våre. Da setter vi et 1-tall på "tierplassen" og 0 på enerplassen. Symbolkombinasjonen 1 og 0, altså 10, lærer vi allerede som barn at tilsvarer ti. Tilsvarende fungerer systemet for hver potens av ti, vi fortsetter med en hundreplass, tusenplass og så videre. For oss virker det så naturlig at det er vanskelig å tenke seg at det er noe vi har funnet opp! Trolig er det fordi det er naturlig å telle på fingrene at vi utviklet et titallssystem (Mayaindianerene brukte et 20 tallsystem, kan du tenke deg hvorfor?).
 
-I et femtallsystem har man bare 5 unike symboler altså 0 1 2 3 4. Når vi har kommet til 4 har vi altså "brukt opp" symbolene våre og må skrive 10. Det indikerer at vi har 1 på **femmer** plassen og 0 enere. Vi teller altså som følger i et femtallsystem:
+Hvis vi skulle brukt den samme logikken for å lage et femtallsystem har vi nå bare 5 unike symboler tilgjengelig, altså 0 1 2 3 4. Når vi har kommet til 4 har vi igjen "brukt opp" symbolene våre og må skrive 10. Nå kan ikke 1-tallet representere en tier, vi har jo bare kommet til 4. Dermed har vi nå et 1-tall på **femmer** plassen. Vi teller altså som følger i et femtallsystem:
 
 | Femtallssystemet | Titallssystemet |
 |------------------|-----------------|

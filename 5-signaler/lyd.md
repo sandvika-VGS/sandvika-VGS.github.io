@@ -13,6 +13,7 @@ La oss derfor se nærmere på hva lyd egentlig er.
 Du har kanskje sett en visuell representasjon før? Lyd defineres som vibrasjoner i blant annet luft, ofte kalt lydbølger. En mikrofon registrerer lydbølgene og lager tilsvarende elektriske signaler i form av spenning. Lydbølgene er dermed ulike spenninger over tid, og disse spenningene kan både måles og tegnes i form av en graf. Ved å jevnlig måle spenningen, og lagre den i riktig rekkefølge, vil vi kunne gjenskape grafen av den opprinnelige lyden:
 
 ![graf for spenning av lyd](./lydgraf.png)
+
 Legg merke til at målingene vi gjør (ca 1.5s mellom hver), gir en elendig kvalitet. Her vil ikke vår versjon være i nærheten av den originale kilden engang. Det betyr at vi må gjøre målingene langt oftere, og antall målinger vi gjør kalles for **samplingsfrekvensen**. Til sammenligning har gamle CD-plater en samplingsfrekvens på 44.1 kHz, som tilsvarer 44 100 målinger i sekundet! Selv det er ikke nok dersom vi trenger virkelig god kvalitet på lyden vi skal lagre.
 
 Du vet fra matematikken at dersom du har en graf, så har du også en verditabell (en tabell med alle x og y verdiene du har målt). I denne tabellen er altså lydbølgene gjort om til tall, og vi er i stand til å lagre lyden digitalt. Hvor stor plass denne tabellen tar, avhenger av hvordan vi komprimerer y-aksen, altså spenningsnivåene. Dersom vi kun har 4 bit tilgjengelig, må spenningene regnes om til en skala fra 0 til 15, og det går utover nøyaktigheten. CD-platen i eksempelet over brukte 16 bit, som ga 65 536 ulike y-verdier.

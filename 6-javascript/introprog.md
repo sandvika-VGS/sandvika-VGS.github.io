@@ -17,6 +17,12 @@ Nå kan vi begynne å se på hvilke instruksjoner vi kan skrive og hvordan disse
 print("Hei alle sammen!") 
 ```
 
+Dersom du prøver å endre på noe annet en selve teksten inne i anførselstegnene vil du få en feilmelding. Det gjelder både om du endrer fra små til store bokstaver eller om du prøver å fjerne anførselstegnene. En stor del av det vi skal jobbe videre med er å forstå logikken bak instruksjonene vi skriver, hvorfor må for eksempel anførselstegnene være med?
+
+Instruksjonen for å print skriver altså ut noe til brukeren av programmet. Mye av det andre vi skal gjennom er ting skjer "under motoren", altså noe som brukeren ikke ser. Print-funksjonen blir derfor veldig viktig for oss, ettersom vi skal fokusere på tekstbasert kode. Grafikk og annen brukerinteraksjon er vanskelig, og kommer senere.
+
+
+
 
 
 
