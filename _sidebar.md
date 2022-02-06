@@ -21,23 +21,23 @@
   * [3.7 Responsive nettsider](./3-css/responsive-nettsider.md)
   * [3.8 Diverse komponenter](./3-css/ekstra/ekstra.md)
 
-* Vår Digitale Samtid (Utgått pensum)
-  * [4.1 Introduksjon](./4-samtid/intro.md)
-  * [4.2 The Social Dilemma](./4-samtid/socialdilemma.md)
-  * [4.3 Sikkerhet](./4-samtid/sikkerhet.md)
-
 * Fysiske Signaler i en datamaskin
-  * [5.1 Informasjon som strøm](./5-signaler/informasjon.md) 
-  * [5.2 Totallsystemet](./5-signaler/totallssystemet.md)
-  * [5.3 Lagring av bilder](./5-signaler/bilder.md)
-  * [5.4 Lagring av lyd](./5-signaler/lyd.md)
-  * [5.5 Lagring av bokstaver og symboler](./5-signaler/bokstaver.md)
-  * [5.6 Datamaskiner](./5-signaler/datamaskiner.md)
-  * [5.7 *Internett*](./5-signaler/internett.md)
+  * [4.1 Informasjon som strøm](./4-signaler/informasjon.md) 
+  * [4.2 Totallsystemet](./4-signaler/totallssystemet.md)
+  * [4.3 Lagring av bilder](./4-signaler/bilder.md)
+  * [4.4 Lagring av lyd](./4-signaler/lyd.md)
+  * [4.5 Lagring av bokstaver og symboler](./4-signaler/bokstaver.md)
+  * [4.6 Datamaskiner](./4-signaler/datamaskiner.md)
+  * [4.7 *Internett*](./4-signaler/internett.md)
 
 * Programmering
-  * [6.1 Hva er programmering](./6-javascript/introprog.md)
-  * [6.2 Variabler](./6-javascript/variable.md) 
+  * [5.1 Hva er programmering](./5-programmering/introprog.md)
+  * [5.2 Variabler](./5-programmering/variable.md) 
+  * [5.3 *Betingelser*]()
+  * [5.4 *Løkker*]()
+  * [5.5 *Lister*]()
+  * [5.6 *Funksjoner*]()
+  * [5.3 *Oppgaver*]()
 
 * Databaser (Utgått pensum)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
@@ -50,3 +50,8 @@
   * [8.2 Legge til og endre data](8-firestore/legge-til-og-endre-data.md)
   * [8.3 Hente data](8-firestore/hente-data-fra-databasen.md)
   * [8.4 Sortere data](8-firestore/sortere-data.md)
+
+* Vår Digitale Samtid (Utgått pensum)
+  * [4.1 Introduksjon](./4-samtid/intro.md)
+  * [4.2 The Social Dilemma](./4-samtid/socialdilemma.md)
+  * [4.3 Sikkerhet](./4-samtid/sikkerhet.md)
