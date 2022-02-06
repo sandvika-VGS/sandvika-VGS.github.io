@@ -2,8 +2,12 @@
 
 ## Variabler og Datatyper
 
+
+
 #### Oppgave 1.1
+
 Print ut noen selvvalgte beskjeder. Prøv å se hva som skjer dersom du glemmer anførselstegnene.
+
 
 
 #### Oppgave 1.2 
@@ -23,6 +27,7 @@ b) Hvorfor er det ingen anførselstegn i print-instruksjonen denne gangen?
     Koden printer ut 4. Vi kan ikke bruke anførselstegn fordi det ikke er en streng vi skal printe ut
 
 </details>
+
 
 
 #### Oppgave 1.3
@@ -47,6 +52,7 @@ Hvorfor bruker vi variable for lengde og bredde? Kunne vi ikke bare ha skrevet a
 </details>
 
 
+
 #### Oppgave 1.4
 
 Spør den du sitter nærmest om alder. Lagre både navn og alder i to forskjellige variabler. Print en tekst som skriver ut følgende tekst rikig: Hei *navn*, du er *alder* år.
@@ -66,6 +72,7 @@ Spør den du sitter nærmest om alder. Lagre både navn og alder i to forskjelli
     print("Hei", navn, "du er", alder, "år")
 
 </details>
+
 
 
 #### Oppgave 1.5
@@ -91,6 +98,8 @@ b) Skriv adressen ut på følgende to måter ved å bruke variabler: "Adressen e
     print("Gaten er", gate, ", husnummeret er", husnr, "oppgang", oppgang)
 
 </details>
+
+
 
 #### Oppgave 1.6
 
@@ -121,7 +130,7 @@ e) Lag en variabel for antall personer, og skriv ut pris per person samt antall 
 </details>
 <details>
     <summary>Klikk for Løsning</summary>
-    
+
     pris = 850
     rabatt_prosent = 25
     tips = 10
