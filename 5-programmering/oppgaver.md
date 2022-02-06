@@ -60,12 +60,11 @@ Spør den du sitter nærmest om alder. Lagre både navn og alder i to forskjelli
 <details>
     <summary>Klikk for Løsning</summary>
 
-    ```PYTHON
     navn = input("Hva heter du? ")
     alder = input("Hvor gammel er du? ")
 
     print("Hei", navn, "du er", alder, "år")
-    ```
+
 </details>
 
 
@@ -84,13 +83,56 @@ b) Skriv adressen ut på følgende to måter ved å bruke variabler: "Adressen e
 
     b) 
     
-```PYTHON
     gate = "Kongens gate"
     husnr = "432"
     oppgang = "b"
 
     print("Adressen er", gate + husnummer + oppgang)
     print("Gaten er", gate, ", husnummeret er", husnr, "oppgang", oppgang)
-```
+
+</details>
+
+#### Oppgave 1.6
+
+Du er på restaurant med venner, og på regningen er følgende informasjon:
+
+Total pris for mat og drikke: 850 kr
+Ungdomsrabatt: 25 % 
+Tips: 10 %
+
+a) Legg informasjonen inn i variabler som tall (ikke bruk %, det gir ikke mening når vi programmerer)
+
+b) Bruk variablene for total pris og ungdomsrabatt til å regne ut rabatten.
+
+c) Trekk fra rabatt og bruk så variabelen for tips til å regne ut tips. 
+
+d) Legg på tips, og skriv ut summen for måltidet etter både rabatt og tips 
+
+e) Lag en variabel for antall personer, og skriv ut pris per person samt antall personer.
+
+<details>
+    <summary>Klikk for Hint</summary>
+    - Lag de tre variablene
+    - Husk prosentformlene: pris*rabatt/100 gir selve rabatten
+    - Lag egne variable for alle mellomregningen.
+    - Bruk mellomregningene til å regne ut det som skal betales
+    - print ut alle variable du er usikre på underveis så er det lettere å finne ut om matematikken stemmer
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    pris = 850
+    rabatt_prosent = 25
+    tips = 10
+    ant_pers = 3
+
+    rabatt_kr = pris*rabatt_prosent/100
+    tips_kr = pris*tips_kr
+
+    totalt = pris - rabatt_kr + tips_kr
+    per_pers = totalt/ant_pers
+
+    print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
 
 </details>
