@@ -91,5 +91,6 @@ b) Skriv adressen ut på følgende to måter ved å bruke variabler: "Adressen e
 
     print("Adressen er", gate + husnummer + oppgang)
     print("Gaten er", gate, ", husnummeret er", husnr, "oppgang", oppgang)
+    ```
 
 </details>
