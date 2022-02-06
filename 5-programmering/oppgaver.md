@@ -129,7 +129,8 @@ e) Lag en variabel for antall personer, og skriv ut pris per person samt antall 
 
 </details>
 <details>
-    <summary>Klikk for Løsning</summary>
+    <summary>**Klikk for Løsning**</summary>
+
     # Her regner vi tips før rabatt, man kan argumentere for at det kan gjøres motsatt
 
     pris = 850
