@@ -151,3 +151,100 @@ e) Lag en variabel for antall personer, og skriv ut pris per person samt antall 
     print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
 
 </details>
+
+
+
+#### Oppgave 1.7
+
+Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et program som spør brukeren om temperaturen i fahrenheit. Regn om til Celsius og skriv en beskjed som sier hvor mange grader Celsius det tilsvarer. 
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    kommer
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+#### Oppgave 1.8
+
+Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det vil si at vi selv kan velge totalpris, rabatt, tips og antall personer 
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    kommer
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+## Løkker
+
+
+#### Oppgave 2.1 
+
+Lag en variabel med et tall mellom 1 og 10. Spør så brukeren om å gjette et tallet. Dersom det er riktig gjettet, skriver du ut "Gratulerer! Du gjettet riktig". Ved feil skriver du "Beklager, du gjettet feil". Ta vare på koden, du skal bruke den senere. 
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    kommer
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+
+#### Oppgave 2.2 
+
+Lag et program som spør bruker etter alder. Skriv ut en beskjed dersom brukeren er myndig, og en annen beskjed dersom brukeren ikke er myndig. Teksten på beskjeden bestemmer du selv. Fokuser kun på år, dato blir for komplisert for dette kurset. 
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    kommer
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+#### Oppgave 2.3 
+
+a) Lag et program der man kan skrive inn poengsummen for en matematikkeksamen. Programmet skal skrive ut karakteren på eksamen når vi bruker følgende skala (maks 60 poeng): 
+
+| Karakter | 1 | 2 | 3 | 4 | 5 | 6 |
+|-|-|-|-|-|-|-|
+| Poeng | | 12 | 24 | 35 | 45 | 56 |
+
+b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn et tall mellom 0 og 60
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    kommer
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
