@@ -301,29 +301,29 @@ from random import *
 <details>
     <summary>Klikk for Løsning</summary>
     
-from random import *
+    from random import *
 
-spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
+    spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
 
-data_valg = randint(1,3)
+    data_valg = randint(1,3)
 
-if spiller_valg == data_valg:
-    print("Uavgjort!")
-elif spiller_valg == 1 and data_valg == 2:
-    print("Du vant, mostanderen valgte saks!")
-elif spiller_valg == 1 and data_valg == 3:
-    print("Du tapte, mostanderen valgte papir!")
-elif spiller_valg == 2 and data_valg == 1:
-    print("Du tapte, mostanderen valgte stein!")
-elif spiller_valg == 2 and data_valg == 3:
-    print("Du vant, mostanderen valgte papir!")  
-elif spiller_valg == 3 and data_valg == 1:
-    print("Du vant, mostanderen valgte stein!")
-elif spiller_valg == 3 and data_valg == 2:
-    print("Du tapte, mostanderen valgte saks!") 
-else:
-    print("Du har valgt feil!")
-    
+    if spiller_valg == data_valg:
+        print("Uavgjort!")
+    elif spiller_valg == 1 and data_valg == 2:
+        print("Du vant, mostanderen valgte saks!")
+    elif spiller_valg == 1 and data_valg == 3:
+        print("Du tapte, mostanderen valgte papir!")
+    elif spiller_valg == 2 and data_valg == 1:
+        print("Du tapte, mostanderen valgte stein!")
+    elif spiller_valg == 2 and data_valg == 3:
+        print("Du vant, mostanderen valgte papir!")  
+    elif spiller_valg == 3 and data_valg == 1:
+        print("Du vant, mostanderen valgte stein!")
+    elif spiller_valg == 3 and data_valg == 2:
+        print("Du tapte, mostanderen valgte saks!") 
+    else:
+        print("Du har valgt feil!")
+        
 </details>
 
 
