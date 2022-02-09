@@ -118,35 +118,41 @@ d) Legg på tips, og skriv ut summen for måltidet etter både rabatt og tips
 e) Lag en variabel for antall personer, og skriv ut pris per person samt antall personer.
 
 <details>
-    <summary>Klikk for Hint</summary>
-    - Lag de tre variablene
+<summary>Klikk for Hint</summary>
+<br>
 
-    - Husk prosentformlene: pris*rabatt/100 gir selve rabatten
+````
+- Lag de tre variablene
 
-    - Lag egne variable for alle mellomregningen.
+- Husk prosentformlene: pris*rabatt/100 gir selve rabatten
 
-    - Bruk mellomregningene til å regne ut det som skal betales
+- Lag egne variable for alle mellomregningen.
 
-    - print ut alle variable du er usikre på underveis så er det lettere å finne ut om matematikken stemmer
+- Bruk mellomregningene til å regne ut det som skal betales
 
+- print ut alle variable du er usikre på underveis så er det lettere å finne ut om matematikken stemmer
+````
 </details>
 <details>
-    <summary>Klikk for Løsning</summary>
+<summary>Klikk for Løsning</summary>
+<br>
 
-    # Her regner vi tips før rabatt, man kan argumentere for at det kan gjøres motsatt
+````python
+# Her regner vi tips før rabatt, man kan argumentere for at det kan gjøres motsatt
 
-    pris = 850
-    rabatt_prosent = 25
-    tips = 10
-    ant_pers = 3
+pris = 850
+rabatt_prosent = 25
+tips = 10
+ant_pers = 3
 
-    rabatt_kr = pris*rabatt_prosent/100
-    tips_kr = pris*tips_kr
+rabatt_kr = pris*rabatt_prosent/100
+tips_kr = pris*tips_kr
 
-    totalt = pris - rabatt_kr + tips_kr/100
-    per_pers = totalt/ant_pers
+totalt = pris - rabatt_kr + tips_kr/100
+per_pers = totalt/ant_pers
 
-    print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
+print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
+````
 
 </details>
 
@@ -157,22 +163,27 @@ e) Lag en variabel for antall personer, og skriv ut pris per person samt antall 
 Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et program som spør brukeren om temperaturen i fahrenheit. Regn om til Celsius og skriv en beskjed som sier hvor mange grader Celsius det tilsvarer. 
 
 <details>
-    <summary>Klikk for Hint</summary>
-   
-    Lag en input som tar inn temperatur, husk å gjøre om til desimaltall
+<summary>Klikk for Hint</summary>
+<br>
 
-    Regn ut Celsius med formelen, lagre i en ny variabel
+````
+Lag en input som tar inn temperatur, husk å gjøre om til desimaltall
 
-    Skriv ut variabelen sammen med input variabelen i en passende tekst
+Regn ut Celsius med formelen, lagre i en ny variabel
 
+Skriv ut variabelen sammen med input variabelen i en passende tekst
+````
 </details>
 <details>
-    <summary>Klikk for Løsning</summary>
-    
-    f_heit = float(input("Hvor mange Fahrenheit? "))
-    celsius = (f_heit-32)*5/9
+<summary>Klikk for Løsning</summary>
+<br>
 
-    print(f_heit, "Fahrenheit tilsvarer, celsius, "grader Celsius")
+````python
+f_heit = float(input("Hvor mange Fahrenheit? "))
+celsius = (f_heit-32)*5/9
+
+print(f_heit, "Fahrenheit tilsvarer, celsius, "grader Celsius")
+````
 
 </details>
 
@@ -183,21 +194,23 @@ Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et progra
 Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det vil si at vi selv kan velge totalpris, rabatt, tips og antall personer 
 
 <details>
-    <summary>Klikk for Løsning</summary>
-    
-    pris = float(input("Hva kostet måltidet? "))
-    rabatt_prosent = float(input("Har du eventuell rabatt? "))
-    tips = float(input("Vil du gi tips (oppgi i prosent) "))
-    ant_pers = float(input("Hvor mange er dere? "))
+<summary>Klikk for Løsning</summary>
+<br>
 
-    rabatt_kr = pris*rabatt_prosent/100
-    tips_kr = pris*tips_kr
+````python
+pris = float(input("Hva kostet måltidet? "))
+rabatt_prosent = float(input("Har du eventuell rabatt? "))
+tips = float(input("Vil du gi tips (oppgi i prosent) "))
+ant_pers = float(input("Hvor mange er dere? "))
 
-    totalt = pris - rabatt_kr + tips_kr/100
-    per_pers = totalt/ant_pers
+rabatt_kr = pris*rabatt_prosent/100
+tips_kr = pris*tips_kr
 
-    print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
+totalt = pris - rabatt_kr + tips_kr/100
+per_pers = totalt/ant_pers
 
+print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
+````
 </details>
 
 ## Betingelser
@@ -244,24 +257,22 @@ else:
 ````
 
 <details>
-    <summary>Klikk for Hint</summary>
-    Hint:  
-    
-    a == b betyr at a er lik b
+<summary>Klikk for Hint</summary>
+
+> `a == "Gro Harlem"` sjekker om a er lik teksten "Gro Harlem"
 
 </details>
 <details>
-    <summary>Klikk for Løsning</summary>
-    
-    Løsning
+<summary>Klikk for Løsning</summary>
 
-    statsminister = "Jonas Gahr Støre"
+````python
+statsminister = "Jonas Gahr Støre"
 
-    if statsminister == "Jonas Gahr Støre":
-        print("Morna Erna")
-    else:
-        print("Morna Jonas")
-
+if statsminister == "Jonas Gahr Støre":
+    print("Morna Erna")
+else:
+    print("Morna Jonas")
+````
 
 </details>
 
@@ -314,21 +325,25 @@ I fornøyelsesparken Titusenfryd må man være minst 100 cm høy for å kjøre b
 Lag en variabel `hemmelig` med et tall mellom 1 og 10. Be brukeren gjette tallet. Dersom brukeren gjetter riktig er riktig, skriver du ut "Gratulerer! Du gjettet riktig". Ved feil skriver du "Beklager, du gjettet feil". Ta vare på koden, du skal bruke den senere. 
 
 <details>
-    <summary>Klikk for Hint</summary>
-   
-    Bruk en betingelse. Husk == for å sjekke likhet når du lager en betingelse
+<summary>Klikk for Hint</summary>
+
+
+> Bruk en betingelse. Husk `==` for å sjekke likhet når du lager en betingelse.
 
 </details>
 <details>
-    <summary>Klikk for Løsning</summary>
-    
-    riktig = 4
-    gjett = int(input("Gjett et tall mellom 1 og 10"))
+<summary>Klikk for Løsning</summary>
 
-    if gjett == riktig:
-        print("Du klarte det")
-    else:
-        print("Beklager, prøv igjen")
+
+````python
+riktig = 4
+gjett = int(input("Gjett et tall mellom 1 og 10"))
+
+if gjett == riktig:
+    print("Du klarte det")
+else:
+    print("Beklager, prøv igjen")
+````
 
 </details>
 
@@ -362,33 +377,33 @@ a) Lag et program der bruker kan skrive inn poengsummen sin for en matematikkeks
 b) Endre koden slik at programmet skriver ut "Ugyldig poengsum" dersom man ikke skriver inn et tall mellom 0 og 60
 
 <details>
-    <summary>Klikk for Hint</summary>
-   
-    Her må du ha flere betingelser i samme setning, husk at du kan legge til elif-betingelser etter if- setningen for at de er koblet sammen.
+<summary>Klikk for Hint</summary>
 
-    Du må også sjekke både øvre og nedre grense for et tall, da fungerer nøkkelordet "and" bra.
+
+> Her må du ha flere betingelser i samme if-setning, husk at du kan legge til elif-betingelser etter if- setningen for at de er koblet sammen.
 
 </details>
 <details>
-    <summary>Klikk for Løsning</summary>
-    Løsning
-    
-    poeng = int(input("Hvor mange poeng fikk du? "))
+<summary>Klikk for Løsning</summary>
 
-    if poeng > 60 or poeng < 0:
-        print("Du har skrevet inn en ugyldig poengsum")
-    elif poeng >= 56:
-        print("Du fikk karakter 6")
-    elif poeng >= 45:
-        print("Du fikk karakter 5")
-    elif poeng >= 35:
-        print("Du fikk karakter 4")
-    elif poeng >= 24:
-        print("Du fikk karakter 3")
-    elif poeng >= 12:
-        print("Du fikk karakter 2")
-    else:
-        print("Beklager du fikk 1 - Ikke bestått")
+````python
+poeng = int(input("Hvor mange poeng fikk du? "))
+
+if poeng > 60 or poeng < 0:
+    print("Du har skrevet inn en ugyldig poengsum")
+elif poeng >= 56:
+    print("Du fikk karakter 6")
+elif poeng >= 45:
+    print("Du fikk karakter 5")
+elif poeng >= 35:
+    print("Du fikk karakter 4")
+elif poeng >= 24:
+    print("Du fikk karakter 3")
+elif poeng >= 12:
+    print("Du fikk karakter 2")
+else:
+    print("Beklager du fikk 1 - Ikke bestått")
+````
 </details>
 
 
@@ -417,48 +432,49 @@ from random import *
 ```
 
 <details>
-    <summary>Klikk for Hint</summary>
-    Hint
-   
-    Ta imot et tall mellom 1 og 3 fra bruker
-    Trekk et tall mellom 1 og 3 for datamaskinen
+<summary>Klikk for Hint</summary>
 
-    Sammenlign tallene med en betingelse der du sjekker valgene opp mot hverandre og skriv ut resultatet. 
-    
-    For eksempel hvis bruker skriver 1 (Stein) og datamaskinen velger 2 (Saks) så skriver du ut "Du vant, motstanderen valgte saks!"
+```
+Ta imot et tall mellom 1 og 3 fra bruker
+Trekk et tall mellom 1 og 3 for datamaskinen
 
+Sammenlign tallene med en betingelse der du sjekker valgene opp mot hverandre og skriv ut resultatet. 
+
+For eksempel hvis bruker skriver 1 (Stein) og datamaskinen velger 2 (Saks) så skriver du ut "Du vant, motstanderen valgte saks!"
+```
 </details>
+
 <details>
-    <summary>Klikk for Løsning</summary>
-    
-    from random import *
-    print("Hva velger du?")
-    print("1: Stein")
-    print("2: Saks")
-    print("3: Papir")
-    spiller_valg = int(input("Ditt valg (1,2,3): "))
+<summary>Klikk for løsning</summary>
 
-    data_valg = randint(1,3)
+````python
+from random import *
+print("Hva velger du?")
+print("1: Stein")
+print("2: Saks")
+print("3: Papir")
+spiller_valg = int(input("Ditt valg (1,2,3): "))
 
-    if spiller_valg == data_valg:
-        print("Uavgjort!")
-    elif spiller_valg == 1 and data_valg == 2:
-        print("Du vant, mostanderen valgte saks!")
-    elif spiller_valg == 1 and data_valg == 3:
-        print("Du tapte, mostanderen valgte papir!")
-    elif spiller_valg == 2 and data_valg == 1:
-        print("Du tapte, mostanderen valgte stein!")
-    elif spiller_valg == 2 and data_valg == 3:
-        print("Du vant, mostanderen valgte papir!")  
-    elif spiller_valg == 3 and data_valg == 1:
-        print("Du vant, mostanderen valgte stein!")
-    elif spiller_valg == 3 and data_valg == 2:
-        print("Du tapte, mostanderen valgte saks!") 
-    else:
-        print("Du har valgt feil!")
-        
+data_valg = randint(1,3)
+
+if spiller_valg == data_valg:
+    print("Uavgjort!")
+elif spiller_valg == 1 and data_valg == 2:
+    print("Du vant, mostanderen valgte saks!")
+elif spiller_valg == 1 and data_valg == 3:
+    print("Du tapte, mostanderen valgte papir!")
+elif spiller_valg == 2 and data_valg == 1:
+    print("Du tapte, mostanderen valgte stein!")
+elif spiller_valg == 2 and data_valg == 3:
+    print("Du vant, mostanderen valgte papir!")  
+elif spiller_valg == 3 and data_valg == 1:
+    print("Du vant, mostanderen valgte stein!")
+elif spiller_valg == 3 and data_valg == 2:
+    print("Du tapte, mostanderen valgte saks!") 
+else:
+    print("Du har valgt feil!")
+````
 </details>
-
 
 #### Oppgave 2.9
 
@@ -547,25 +563,27 @@ b) Bruk en for-løkke til å printe ut alle tallene fra 0 til og med 100
 c) Bruk en for-løkke til å printe ut alle partallene fra og med 400 til og med 600
 
 <details>
-    <summary>Klikk for Løsning</summary>
+<summary>Klikk for Løsning</summary>
 
-a) 
+
+````python
+# a) 
 
 tall = 0
 while tall < 101:
     print(tall)
     tall = tall + 1 # Kan alternativt skrive tall += 1
 
-b)
+# b)
 
 for tall in range(101):
     print(tall)
 
-c) 
+# c) 
 
 for tall in range(400, 601,2):
     print(tall)
-
+````
 
 </details>
 
