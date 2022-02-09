@@ -183,8 +183,6 @@ Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et progra
 Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det vil si at vi selv kan velge totalpris, rabatt, tips og antall personer 
 
 <details>
-
-<details>
     <summary>Klikk for Løsning</summary>
     
     pris = float(input("Hva kostet måltidet? "))
