@@ -202,31 +202,6 @@ Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det v
 
 ## Betingelser
 
-#### Oppgave 2.1 
-
-Lag en variabel med et tall mellom 1 og 10. Spør så brukeren om å gjette et tallet. Dersom det er riktig gjettet, skriver du ut "Gratulerer! Du gjettet riktig". Ved feil skriver du "Beklager, du gjettet feil". Ta vare på koden, du skal bruke den senere. 
-
-<details>
-    <summary>Klikk for Hint</summary>
-   
-    Bruk en betingelse. Husk == for å sjekke likhet når du lager en betingelse
-
-</details>
-<details>
-    <summary>Klikk for Løsning</summary>
-    
-    riktig = 4
-    gjett = int(input("Gjett et tall mellom 1 og 10"))
-
-    if gjett == riktig:
-        print("Du klarte det")
-    else:
-        print("Beklager, prøv igjen")
-
-</details>
-
-## Betingelser
-
 #### Oppgave 2.1
 
 Med variablene a = 3, b = 7 og c = "7", d = 3.  
@@ -318,13 +293,70 @@ Slottet har installert et nytt alarmsystem, som kun slipper folk som heter `Kong
 
 </details>
 
-#### Oppgave 2.4 
+#### Oppgave 2.4
+
+Lag en variabel med et tall mellom 1 og 10. Spør så brukeren om å gjette et tallet. Dersom det er riktig gjettet, skriver du ut "Gratulerer! Du gjettet riktig". Ved feil skriver du "Beklager, du gjettet feil". Ta vare på koden, du skal bruke den senere. 
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    Bruk en betingelse. Husk == for å sjekke likhet når du lager en betingelse
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    riktig = 4
+    gjett = int(input("Gjett et tall mellom 1 og 10"))
+
+    if gjett == riktig:
+        print("Du klarte det")
+    else:
+        print("Beklager, prøv igjen")
+
+</details>
+
+#### Oppgave 2.5
+
+I fornøyelsesparken Titusenfryd må man være minst 100 cm høy for å kjøre berg-og-dal-banen Thundercoaster. Skriv et program med en if-setning som tester om en person er høy nok.
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    Løsning
+
+    høyde = int(input("Hvor høy er du? (cm): "))
+
+    if høyde >= 100:
+        print("Gratulerer, du kan kjøre Thundercoaster")
+
+</details>
+
+#### Oppgave 2.6
+
+Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 grader. Lag et program som avgjør om en persons kroppstemperatur ligger henholdsvis under, innenfor eller over normal kroppstemperatur. Programmet skal skrive ut passende beskjed.
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    Løsning
+
+    temp = int(input("Temperatur (celsius): "))
+
+    if temp > 37.5:
+        print("Du har høyere kroppstemperatur enn vanlig")
+    elif temp < 36.5:
+        print("Du har lavere kroppstemperatur enn vanlig")
+    else:
+        print("Du har helt normal kroppstemperatur")
+</details>
+
+
+#### Oppgave 2.7
 
 a) Lag et program der man kan skrive inn poengsummen for en matematikkeksamen. Programmet skal skrive ut karakteren på eksamen når vi bruker følgende skala (maks 60 poeng): 
 
-| Karakter | 1 | 2 | 3 | 4 | 5 | 6 |
-|-|-|-|-|-|-|-|
-| Poeng | | 12 | 24 | 35 | 45 | 56 |
+| Karakter | 1   | 2   | 3   | 4   | 5   | 6   |
+| -------- | --- | --- | --- | --- | --- | --- |
+| Poeng    |     | 12  | 24  | 35  | 45  | 56  |
 
 b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn et tall mellom 0 og 60
 
@@ -341,27 +373,24 @@ b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn
     
     poeng = int(input("Hvor mye poeng fikk du? "))
 
-    if poeng >= 0 and poeng < 11:
-        print("Beklager du fikk 1 - Ikke bestått")
-    elif poeng >= 12 and poeng < 24:
-        print("Du fikk karakter 2")
-    elif poeng >= 35 and poeng < 45:
-        print("Du fikk karakter 3")
-    elif poeng >= 35 and poeng < 45:
-        print("Du fikk karakter 4")
-    elif poeng >= 45 and poeng < 56:
-        print("Du fikk karakter 5")
-    elif poeng >= 56 and poeng < 60:
+    if poeng > 60 or poeng < 0:
+        print("Du har skrevet inn en ugyldig poengsum")
+    elif poeng >= 56:
         print("Du fikk karakter 6")
+    elif poeng >= 45:
+        print("Du fikk karakter 5")
+    elif poeng >= 35:
+        print("Du fikk karakter 4")
+    elif poeng >= 24:
+        print("Du fikk karakter 3")
+    elif poeng >= 12:
+        print("Du fikk karakter 2")
     else:
-        print("Du har skrevet inn en ugyldig poengsum"
-        )
+        print("Beklager du fikk 1 - Ikke bestått")
 </details>
 
 
-#### Oppgave 2.5 
-
-#### Oppgave 2.3
+#### Oppgave 2.8
 
 Lag en tekstbasert versjon der du kan spille "Stein - Saks -  Papir" mot datamaskinen.
 
@@ -416,134 +445,6 @@ from random import *
     else:
         print("Du har valgt feil!")
         
-</details>
-
-
-
-## Løkker
-
-#### Oppgave 3.1
-
-a) Bruk en while-løkke til å printe ut alle tallene fra 0 til og med 100
-
-b) Bruk en for-løkke til å printe ut alle tallene fra 0 til og med 100
-
-c) Bruk en for-løkke til å printe ut alle partallene fra og med 400 til og med 600
-
-<details>
-    <summary>Klikk for Løsning</summary>
-
-a) 
-
-tall = 0
-while tall < 101:
-    print(tall)
-    tall = tall + 1 # Kan alternativt skrive tall += 1
-
-b)
-
-for tall in range(101):
-    print(tall)
-
-c) 
-
-for tall in range(400, 601,2):
-    print(tall)
-
-
-</details>
-
-#### Oppgave 2.6
-
-I fornøyelsesparken Titusenfryd må man være minst 100 cm høy for å kjøre berg-og-dal-banen Thundercoaster. Skriv et program med en if-setning som tester om en person er høy nok.
-
-<details>
-    <summary>Klikk for Løsning</summary>
-    Løsning
-
-    høyde = int(input("Hvor høy er du? (cm): "))
-
-    if høyde >= 100:
-        print("Gratulerer, du kan kjøre Thundercoaster")
-
-</details>
-
-#### Oppgave 2.7
-
-Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 grader. Lag et program som avgjør om en persons kroppstemperatur ligger henholdsvis under, innenfor eller over normal kroppstemperatur. Programmet skal skrive ut passende beskjed.
-
-<details>
-    <summary>Klikk for Løsning</summary>
-    Løsning
-
-    temp = int(input("Temperatur (celsius): "))
-
-    if temp > 37.5:
-        print("Du har høyere kroppstemperatur enn vanlig")
-    elif temp < 36.5:
-        print("Du har lavere kroppstemperatur enn vanlig")
-    else:
-        print("Du har helt normal kroppstemperatur")
-</details>
-
-#### Oppgave 2.8
-
-
-| Karakter | 1   | 2   | 3   | 4   | 5   | 6   |
-| -------- | --- | --- | --- | --- | --- | --- |
-| Poeng    |     | 12  | 24  | 35  | 45  | 56  |
-
-a) Forklar hva følgende kode gjør:
-
-```PYTHON
-sum = 0 
-n = 200
-
-for tall in range(1,n+1):
-    sum = sum + tall
-
-print(sum)
-```
-b) Lag et program som regner ut summen av de n første oddetallene. La bruker bestemme n.
-
-<details>
-    <summary>Klikk for Løsning</summary>
-
-    a) tall er løkkas variabel, og vil starte på 1 og slutte når den er n (som her er 200). 
-    
-    Den øker med 1 hver gang løkka kjøres. 
-
-    sum øker med tall for hver gang, altså regner vi summen av de 200 første tallene
-
-    b)
-
-
-</details>
-
-
-
-#### Oppgave 3.3
-
-Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at programmet spør om man vil spille en gang til etter et spill. Hvis "ja" så spiller man om igjen, ellers stopper programmet.
-
-<details>
-    <summary>Klikk for Hint</summary>
-   
-    Hint:
-
-    Lag en variabel som du setter til "ja"
-    
-    Legg en while-løkke rundt programmet som sjekker om variabelen er "ja".
-
-    På slutten av spillet (i løkka), oppdaterer du variabelen med en input der du spør om det skal spilles om igjen
-
-
-</details>
-<details>
-    <summary>Klikk for Løsning</summary>
-    
-    kommer
-
 </details>
 
 
@@ -622,3 +523,97 @@ Lag et program som avgjør om et årstall er skuddår eller ikke.
      -  8 f.kr – 7 e.kr: Ingen skuddår (pause)
      -  8 e.kr – 1581: Skuddår hvis delelig på 4
      -  fra 1582: delelig på 4, men ikke på 100, unntatt delelig på 400
+
+
+
+## Løkker
+
+#### Oppgave 3.1
+
+a) Bruk en while-løkke til å printe ut alle tallene fra 0 til og med 100
+
+b) Bruk en for-løkke til å printe ut alle tallene fra 0 til og med 100
+
+c) Bruk en for-løkke til å printe ut alle partallene fra og med 400 til og med 600
+
+<details>
+    <summary>Klikk for Løsning</summary>
+
+a) 
+
+tall = 0
+while tall < 101:
+    print(tall)
+    tall = tall + 1 # Kan alternativt skrive tall += 1
+
+b)
+
+for tall in range(101):
+    print(tall)
+
+c) 
+
+for tall in range(400, 601,2):
+    print(tall)
+
+
+</details>
+
+
+
+#### Oppgave 3.2
+
+
+a) Forklar hva følgende kode gjør:
+
+```PYTHON
+sum = 0 
+n = 200
+
+for tall in range(1,n+1):
+    sum = sum + tall
+
+print(sum)
+```
+b) Lag et program som regner ut summen av de n første oddetallene. La bruker bestemme n.
+
+<details>
+    <summary>Klikk for Løsning</summary>
+
+    a) tall er løkkas variabel, og vil starte på 1 og slutte når den er n (som her er 200). 
+    
+    Den øker med 1 hver gang løkka kjøres. 
+
+    sum øker med tall for hver gang, altså regner vi summen av de 200 første tallene
+
+    b)
+
+
+</details>
+
+
+
+#### Oppgave 3.3
+
+Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at programmet spør om man vil spille en gang til etter et spill. Hvis "ja" så spiller man om igjen, ellers stopper programmet.
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    Hint:
+
+    Lag en variabel som du setter til "ja"
+    
+    Legg en while-løkke rundt programmet som sjekker om variabelen er "ja".
+
+    På slutten av spillet (i løkka), oppdaterer du variabelen med en input der du spør om det skal spilles om igjen
+
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
