@@ -161,13 +161,20 @@ Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et progra
 <details>
     <summary>Klikk for Hint</summary>
    
-    kommer
+    Lag en input som tar inn temperatur, husk å gjøre om til desimaltall
+
+    Regn ut Celsius med formelen, lagre i en ny variabel
+
+    Skriv ut variabelen sammen med input variabelen i en passende tekst
 
 </details>
 <details>
     <summary>Klikk for Løsning</summary>
     
-    kommer
+    f_heit = float(input("Hvor mange Fahrenheit? "))
+    celsius = (f_heit-32)*5/9
+
+    print(f_heit, "Fahrenheit tilsvarer, celsius, "grader Celsius")
 
 </details>
 
@@ -176,19 +183,26 @@ Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et progra
 Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det vil si at vi selv kan velge totalpris, rabatt, tips og antall personer 
 
 <details>
-    <summary>Klikk for Hint</summary>
-   
-    kommer
 
-</details>
 <details>
     <summary>Klikk for Løsning</summary>
     
-    kommer
+    pris = float(input("Hva kostet måltidet? "))
+    rabatt_prosent = float(input("Har du eventuell rabatt? "))
+    tips = float(input("Vil du gi tips (oppgi i prosent) "))
+    ant_pers = float(input("Hvor mange er dere? "))
+
+    rabatt_kr = pris*rabatt_prosent/100
+    tips_kr = pris*tips_kr
+
+    totalt = pris - rabatt_kr + tips_kr/100
+    per_pers = totalt/ant_pers
+
+    print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
 
 </details>
 
-## Løkker
+## Betingelser
 
 
 #### Oppgave 2.1 
@@ -198,35 +212,25 @@ Lag en variabel med et tall mellom 1 og 10. Spør så brukeren om å gjette et t
 <details>
     <summary>Klikk for Hint</summary>
    
-    kommer
+    Bruk en betingelse. Husk == for å sjekke likhet når du lager en betingelse
 
 </details>
 <details>
     <summary>Klikk for Løsning</summary>
     
-    kommer
+    riktig = 4
+    gjett = int(input("Gjett et tall mellom 1 og 10"))
+
+    if gjett == riktig:
+        print("Du klarte det")
+    else:
+        print("Beklager, prøv igjen")
 
 </details>
+
 
 
 #### Oppgave 2.2 
-
-Lag et program som spør bruker etter alder. Skriv ut en beskjed dersom brukeren er myndig, og en annen beskjed dersom brukeren ikke er myndig. Teksten på beskjeden bestemmer du selv. Fokuser kun på år, dato blir for komplisert for dette kurset. 
-
-<details>
-    <summary>Klikk for Hint</summary>
-   
-    kommer
-
-</details>
-<details>
-    <summary>Klikk for Løsning</summary>
-    
-    kommer
-
-</details>
-
-#### Oppgave 2.3 
 
 a) Lag et program der man kan skrive inn poengsummen for en matematikkeksamen. Programmet skal skrive ut karakteren på eksamen når vi bruker følgende skala (maks 60 poeng): 
 
@@ -239,12 +243,82 @@ b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn
 <details>
     <summary>Klikk for Hint</summary>
    
-    kommer
+    Her må du ha flere betingelser i samme setning, husk at du kan legge til elif-betingelser etter if- setningen for at de er koblet sammen.
+
+    Du må også sjekke både øvre og nedre grense for et tall, da fungerer nøkkelordet "and" bra.
 
 </details>
 <details>
     <summary>Klikk for Løsning</summary>
     
-    kommer
+    poeng = int(input("Hvor mye poeng fikk du? "))
 
+    if poeng >= 0 and poeng < 11:
+        print("Beklager du fikk 1 - Ikke bestått")
+    elif poeng >= 12 and poeng < 24:
+        print("Du fikk karakter 2")
+    elif poeng >= 35 and poeng < 45:
+        print("Du fikk karakter 3")
+    elif poeng >= 35 and poeng < 45:
+        print("Du fikk karakter 4")
+    elif poeng >= 45 and poeng < 56:
+        print("Du fikk karakter 5")
+    elif poeng >= 56 and poeng < 60:
+        print("Du fikk karakter 6")
+    else:
+        print("Du har skrevet inn en ugyldig poengsum"
+        )
+</details>
+
+
+#### Oppgave 2.3
+
+Lag en tekstbasert versjon der du kan spille "Stein - Saks -  Papir" mot datamaskinen.
+
+Programmet kan skrive ut følgende:
+
+"Velg 1 for Stein, 2 for Saks eller 3 for Papir", så sjekker du valget opp mot datamaskinens valg
+
+Her kan du ha behov for å trekke tilfeldige heltall, og da må vi importere en instruks utenifra.
+
+Start koden med 
+
+```PYTHON
+from random import *
+
+# Nå vil instruksen randint(start, slutt) trekke et tilfeldig heltall i området du spesifiserer
+```
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    Ta imot et tall mellom 1 og 3 fra bruker
+    Trekk et tall mellom 1 og 3 for datamaskinen
+
+    Sammenlign tallene med en betingelse der du sjekker valgene opp mot hverandre og skriv ut resultatet. For eksempel hvis bruker skriver 1 (Stein) og datamaskinen velger 2 (Saks) så skriver du ut "Du vant, motstanderen valgte saks!"
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    from random import *
+
+    spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
+
+    data_valg = randint(1,3)
+
+    if spiller_valg == data_valg:
+        print("Uavgjort!")
+    elif spiller_valg == 1 and data_valg == 2:
+        print("Du vant, mostanderen valgte saks!")
+    elif spiller_valg == 1 and data_valg == 3:
+        print("Du tapte, mostanderen valgte papir!")
+    elif spiller_valg == 2 and data_valg == 1:
+        print("Du tapte, mostanderen valgte stein!")
+    elif spiller_valg == 2 and data_valg == 3:
+        print("Du vant, mostanderen valgte papir!")  
+    elif spiller_valg == 3 and data_valg == 1:
+        print("Du vant, mostanderen valgte stein!")
+    elif spiller_valg == 3 and data_valg == 2:
+        print("Du tapte, mostanderen valgte saks!") 
 </details>

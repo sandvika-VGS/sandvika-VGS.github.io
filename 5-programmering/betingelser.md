@@ -1,10 +1,8 @@
 # Betingelser. If-Løkker
 
-Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. Dette gjøres ved hjelp av betingelser, og prinsippet bak kan minne litt om flytskjema: 
+Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. Dette gjøres ved hjelp av betingelser.
 
-BILDE FLYT. PROBLEMLØSNING VS IF ELSE LØKKE
-
-Frem til nå har koden vårt kjørt linje for linje nedover. En betingelse består ofte av flere segment, og som regel vil koden bare kjøre et av de. La oss endre på koden fra forrige delkapittel ved å sette in en betingelse Dersom La oss ta utgangspunkt i koden for alder fra forrige side. 
+Frem til nå har koden vårt kjørt linje for linje nedover. En betingelse består ofte av flere segment, og som regel vil koden bare kjøre et av de. La oss se nærmere på koden der vi brukte fødselsår for å regne ut alder i forrige kapittel. Vi utvider koden ved å sette in en betingelse. 
 
 ```PYTHON
 navn = input("Hva heter du? )
@@ -14,12 +12,25 @@ let alder = 2021 - fødselsår;
 
 if alder > 17:
     print("Hei", navn, "du er myndig!")
-else:
-    print("Hei", navn, "du er ikke myndig")
+
 
 ```
 
-Vi ser her logikken bak en betingelse, skrevet som en **if-løkke**. Betingelsen må ligge i en parentes, så bruker vi {} for å spesifisere hva slags kode som skal kjøre dersom betingelsen er sann. Hvis betingelsen er usann, hopper koden over til *else* feltet i stedet. Legg merke til at else ikke har en betingelse.
+Vi ser her logikken bak en betingelse, skrevet som en **if-setning**. Selve betingelsen er i dette eksempelet den matematiske ulikheten der vi undersøker om variabelen alder er større enn 17. Vi må ha med kolon etter selve betingelsen, og så må all kode som hører til ha et innhopp. Det er slik Python forstår hva som hører til betingelsen, og hva som skal kjøres uavhengig. I eksempelet vil altså programmet kun printe ut beskjeden dersom alderen er større en 17.
+
+Vi kan avslutte en betingelse med å legge til nøkkelordet **else**:
+
+```PYTHON
+navn = input("Hva heter du? )
+f_aar = int(input("Hvilket år er du født? "))
+
+let alder = 2021 - fødselsår;
+
+if alder > 17:
+    print("Hei", navn, "du er myndig!")
+
+
+```
 
 ## Prøv selv - Berg og Dalbane
 Bruk window.prompt for å ta inn brukerens høyde i cm. Hvis høyden er over 100cm så skrives det en melding om at brukeren for lov til å kjøre berg- og dalbanen. Hvis brukeren ikke er høy nok, skal det i stedet gis en beskjed om det.
