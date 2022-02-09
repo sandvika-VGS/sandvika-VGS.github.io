@@ -71,9 +71,37 @@ Spør den du sitter nærmest om alder. Lagre både navn og alder i to forskjelli
 
 </details>
 
-
-
 #### Oppgave 1.5
+
+Lag et program som ber om to tall. Programmet skal deretter regne ut differansen mellom de to tallene og skrive ut svaret. Her er et eksempel på hvordan en kjøring av programmet kan se ut:
+````
+Oppgi verdien til x: 25
+Oppgi verdien til y: 19
+Differansen mellom x og y er 6.
+````
+
+<details>
+<summary>Klikk for hint</summary>
+
+
+> Husk at det som bruker skriver inn alltid blir tekst, du må konvertere til flyttall (float) eller heltall (int). Eks: `float(input("Oppgi verdien til x: "))`
+
+</details>
+
+<details>
+<summary>Klikk for løsning</summary>
+
+
+````python
+x = float(input("Oppgi verdien til x: "))
+y = float(input("Oppgi verdien til y: "))
+diff = x - y
+print("Differansen mellom x og y er ", diff)
+````
+
+</details>
+
+#### Oppgave 1.6
 
 ![oppgave 5](./oppgave_5.png)
 
@@ -99,7 +127,7 @@ b) Skriv adressen ut på følgende to måter ved å bruke variabler: "Adressen e
 
 
 
-#### Oppgave 1.6
+#### Oppgave 1.7
 
 Du er på restaurant med venner, og på regningen er følgende informasjon:
 
@@ -158,7 +186,7 @@ print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per pers
 
 
 
-#### Oppgave 1.7
+#### Oppgave 1.8
 
 Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et program som spør brukeren om temperaturen i fahrenheit. Regn om til Celsius og skriv en beskjed som sier hvor mange grader Celsius det tilsvarer. 
 
@@ -189,7 +217,7 @@ print(f_heit, "Fahrenheit tilsvarer, celsius, "grader Celsius")
 
 
 
-#### Oppgave 1.8
+#### Oppgave 1.9
 
 Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det vil si at vi selv kan velge totalpris, rabatt, tips og antall personer 
 
@@ -211,6 +239,64 @@ per_pers = totalt/ant_pers
 
 print("Pris etter rabatt og tips er", totalt, "det blir", per_pers, "kr per person")
 ````
+</details>
+
+
+#### Oppgave 1.10
+
+**HANDLETUR**
+
+Lag et program som regner ut totalpris for en bruker etter å ha vært på handletur. De varene det er mulig å kjøpe er brød, melk, ost og yoghurt.
+
+Prisene er som følger:
+```
+Brød: 20 kr.
+Melk: 15 kr.
+Ost: 40 kr.
+Youghurt: 12 kr.
+```
+
+Eksempel på bruk av programmet:
+```
+Hei! Velkommen til IT-butikken.
+Hvor mange brød vil du ha?
+> 2
+Hvor mange melk vil du ha?
+> 1
+Hvor mange ost vil du ha?
+> 1
+Hvor mange yoghurt vil du ha?
+> 3
+Du skal betale: 131 kr.
+```
+
+<details>
+<summary>Løsning</summary>
+
+```python
+#priser
+brød = 20
+melk = 15
+ost = 40
+youghurt = 12
+
+# handling
+print("-- Velkommen til IT-butikken --")
+print("Hvor mange brød vil du ha?")
+ant_brød = int(input("> "))
+print("Hvor mange melk vil du ha?")
+ant_melk = int(input("> "))
+print("Hvor mange oster vil du ha?")
+ant_ost = int(input("> "))
+print("Hvor mange yoghurt vil du ha?")
+ant_yoghurt = int(input("> "))
+
+# utregning av pris
+pris = brød * ant_brød + melk * ant_melk + ost * ant_ost + youghurt * ant_yoghurt
+print("Du skal betale ", pris, " kr.")
+print("-- Takk for handelen --")
+````
+
 </details>
 
 ## Betingelser
