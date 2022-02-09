@@ -6,7 +6,7 @@
 
 Print ut noen selvvalgte beskjeder. Prøv å se hva som skjer dersom du glemmer anførselstegnene.
 
-
+ 
 
 #### Oppgave 1.2 
 
