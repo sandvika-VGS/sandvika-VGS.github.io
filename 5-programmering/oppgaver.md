@@ -360,7 +360,38 @@ for tall in range(400, 601,2):
 
 </details>
 
+
 #### Oppgave 3.2
+
+a) Forklar hva følgende kode gjør:
+
+```PYTHON
+sum = 0 
+n = 200
+
+for tall in range(1,n+1):
+    sum = sum + tall
+
+print(sum)
+```
+b) Lag et program som regner ut summen av de n første oddetallene. La bruker bestemme n.
+
+<details>
+    <summary>Klikk for Løsning</summary>
+
+    a) tall er løkkas variabel, og vil starte på 1 og slutte når den er n (som her er 200). 
+    
+    Den øker med 1 hver gang løkka kjøres. 
+
+    sum øker med tall for hver gang, altså regner vi summen av de 200 første tallene
+
+    b)
+    
+
+</details>
+
+
+#### Oppgave 3.3
 
 Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at programmet spør om man vil spille en gang til etter et spill. Hvis "ja" så spiller man om igjen, ellers stopper programmet.
 
@@ -377,27 +408,29 @@ Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at pr
 <details>
     <summary>Klikk for Løsning</summary>
     
-from random import *
+    from random import *
 
     spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
-
     data_valg = randint(1,3)
+    fortsett = "ja"
 
-    if spiller_valg == data_valg:
-        print("Uavgjort!")
-    elif spiller_valg == 1 and data_valg == 2:
-        print("Du vant, mostanderen valgte saks!")
-    elif spiller_valg == 1 and data_valg == 3:
-        print("Du tapte, mostanderen valgte papir!")
-    elif spiller_valg == 2 and data_valg == 1:
-        print("Du tapte, mostanderen valgte stein!")
-    elif spiller_valg == 2 and data_valg == 3:
-        print("Du vant, mostanderen valgte papir!")  
-    elif spiller_valg == 3 and data_valg == 1:
-        print("Du vant, mostanderen valgte stein!")
-    elif spiller_valg == 3 and data_valg == 2:
-        print("Du tapte, mostanderen valgte saks!") 
-    else:
-        print("Du har valgt feil!")
+    while fortsett == "ja":
+        if spiller_valg == data_valg:
+            print("Uavgjort!")
+        elif spiller_valg == 1 and data_valg == 2:
+            print("Du vant, mostanderen valgte saks!")
+        elif spiller_valg == 1 and data_valg == 3:
+            print("Du tapte, mostanderen valgte papir!")
+        elif spiller_valg == 2 and data_valg == 1:
+            print("Du tapte, mostanderen valgte stein!")
+        elif spiller_valg == 2 and data_valg == 3:
+            print("Du vant, mostanderen valgte papir!")  
+        elif spiller_valg == 3 and data_valg == 1:
+            print("Du vant, mostanderen valgte stein!")
+        elif spiller_valg == 3 and data_valg == 2:
+            print("Du tapte, mostanderen valgte saks!") 
+        else:
+            print("Du har valgt feil!")
 
+        fortsett = input("Vil du fortsette (ja/nei)? ")
 </details>
