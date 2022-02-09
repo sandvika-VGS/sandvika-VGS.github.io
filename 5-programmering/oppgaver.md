@@ -293,13 +293,91 @@ from random import *
     Ta imot et tall mellom 1 og 3 fra bruker
     Trekk et tall mellom 1 og 3 for datamaskinen
 
-    Sammenlign tallene med en betingelse der du sjekker valgene opp mot hverandre og skriv ut resultatet. For eksempel hvis bruker skriver 1 (Stein) og datamaskinen velger 2 (Saks) så skriver du ut "Du vant, motstanderen valgte saks!"
+    Sammenlign tallene med en betingelse der du sjekker valgene opp mot hverandre og skriv ut resultatet. 
+    
+    For eksempel hvis bruker skriver 1 (Stein) og datamaskinen velger 2 (Saks) så skriver du ut "Du vant, motstanderen valgte saks!"
 
 </details>
 <details>
     <summary>Klikk for Løsning</summary>
     
-    from random import *
+from random import *
+
+spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
+
+data_valg = randint(1,3)
+
+if spiller_valg == data_valg:
+    print("Uavgjort!")
+elif spiller_valg == 1 and data_valg == 2:
+    print("Du vant, mostanderen valgte saks!")
+elif spiller_valg == 1 and data_valg == 3:
+    print("Du tapte, mostanderen valgte papir!")
+elif spiller_valg == 2 and data_valg == 1:
+    print("Du tapte, mostanderen valgte stein!")
+elif spiller_valg == 2 and data_valg == 3:
+    print("Du vant, mostanderen valgte papir!")  
+elif spiller_valg == 3 and data_valg == 1:
+    print("Du vant, mostanderen valgte stein!")
+elif spiller_valg == 3 and data_valg == 2:
+    print("Du tapte, mostanderen valgte saks!") 
+else:
+    print("Du har valgt feil!")
+    
+</details>
+
+
+## Løkker
+
+#### Oppgave 3.1
+
+a) Bruk en while-løkke til å printe ut alle tallene fra 0 til og med 100
+
+b) Bruk en for-løkke til å printe ut alle tallene fra 0 til og med 100
+
+c) Bruk en for-løkke til å printe ut alle partallene fra og med 400 til og med 600
+
+<details>
+    <summary>Klikk for Løsning</summary>
+
+a) 
+
+tall = 0
+while tall < 101:
+    print(tall)
+    tall = tall + 1 # Kan alternativt skrive tall += 1
+
+b)
+
+for tall in range(101):
+    print(tall)
+
+c) 
+
+for tall in range(400, 601,2):
+    print(tall)
+
+
+</details>
+
+#### Oppgave 3.2
+
+Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at programmet spør om man vil spille en gang til etter et spill. Hvis "ja" så spiller man om igjen, ellers stopper programmet.
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    Lag en variabel som du setter til "ja"
+    
+    Legg en while-løkke rundt programmet som sjekker om variabelen er "ja".
+
+    På slutten av spillet (i løkka), oppdaterer du variabelen med en input der du spør om det skal spilles om igjen
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+from random import *
 
     spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
 
@@ -319,4 +397,7 @@ from random import *
         print("Du vant, mostanderen valgte stein!")
     elif spiller_valg == 3 and data_valg == 2:
         print("Du tapte, mostanderen valgte saks!") 
+    else:
+        print("Du har valgt feil!")
+
 </details>
