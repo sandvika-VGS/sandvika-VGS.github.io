@@ -2,8 +2,6 @@
 
 ## Variabler og Datatyper
 
-
-
 #### Oppgave 1.1
 
 Print ut noen selvvalgte beskjeder. Prøv å se hva som skjer dersom du glemmer anførselstegnene.
@@ -178,6 +176,8 @@ Formelen for å regne Fahrenheit om til Celsius er C = (F-32)*5/9. Lag et progra
 
 </details>
 
+
+
 #### Oppgave 1.8
 
 Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det vil si at vi selv kan velge totalpris, rabatt, tips og antall personer 
@@ -201,7 +201,6 @@ Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det v
 </details>
 
 ## Betingelser
-
 
 #### Oppgave 2.1 
 
@@ -269,6 +268,7 @@ b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn
 </details>
 
 
+
 #### Oppgave 2.3
 
 Lag en tekstbasert versjon der du kan spille "Stein - Saks -  Papir" mot datamaskinen.
@@ -327,6 +327,7 @@ from random import *
 </details>
 
 
+
 ## Løkker
 
 #### Oppgave 3.1
@@ -361,6 +362,7 @@ for tall in range(400, 601,2):
 </details>
 
 
+
 #### Oppgave 3.2
 
 a) Forklar hva følgende kode gjør:
@@ -389,6 +391,7 @@ b) Lag et program som regner ut summen av de n første oddetallene. La bruker be
 
 
 </details>
+
 
 
 #### Oppgave 3.3
