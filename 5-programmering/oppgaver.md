@@ -386,7 +386,7 @@ b) Lag et program som regner ut summen av de n første oddetallene. La bruker be
     sum øker med tall for hver gang, altså regner vi summen av de 200 første tallene
 
     b)
-    
+
 
 </details>
 
@@ -398,11 +398,13 @@ Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at pr
 <details>
     <summary>Klikk for Hint</summary>
    
+    
     Lag en variabel som du setter til "ja"
     
     Legg en while-løkke rundt programmet som sjekker om variabelen er "ja".
 
     På slutten av spillet (i løkka), oppdaterer du variabelen med en input der du spør om det skal spilles om igjen
+
 
 </details>
 <details>
