@@ -205,7 +205,7 @@ Endre på koden i oppgave 6 slik at alle variablene skrives inn som input, det v
 #### Oppgave 2.1
 
 Med variablene a = 3, b = 7 og c = "7", d = 3.  
-Hvilket utfall gir testene nedenfor? (True, False eller noe annet?)  
+Hvilke utfall gir testene nedenfor? (True, False eller noe annet?)  
 a)	`a < b`  
 b)	`a > b`    
 c)	`b >= c`  
@@ -245,7 +245,7 @@ else:
 
 <details>
     <summary>Klikk for Hint</summary>
-    Hint
+    Hint:  
     
     a == b betyr at a er lik b
 
@@ -267,11 +267,12 @@ else:
 
 #### Oppgave 2.3
 
-Slottet har installert et nytt alarmsystem, som kun slipper folk som heter `Kong Harald` inn dørene. Lag et program som sjekker om en bruker heter `Kong Harald`, og sier velkommen hvis det stemmer, ellers skal programmet si `Ha deg vekk!`.
+Slottet har installert et nytt alarmsystem, som kun slipper folk som heter `Kong Harald` inn dørene. Lag et program som sjekker om en brukeren heter `Kong Harald`, og sier velkommen hvis det stemmer, ellers skal programmet si `Ha deg vekk!`.
 
 <details>
     <summary>Klikk for Hint</summary>
-    
+    Hint
+
     Du kan starte med denne koden:
     
     print("Velkommen til slottet")
@@ -295,7 +296,22 @@ Slottet har installert et nytt alarmsystem, som kun slipper folk som heter `Kong
 
 #### Oppgave 2.4
 
-Lag en variabel med et tall mellom 1 og 10. Spør så brukeren om å gjette et tallet. Dersom det er riktig gjettet, skriver du ut "Gratulerer! Du gjettet riktig". Ved feil skriver du "Beklager, du gjettet feil". Ta vare på koden, du skal bruke den senere. 
+I fornøyelsesparken Titusenfryd må man være minst 100 cm høy for å kjøre berg-og-dal-banen Thundercoaster. Skriv et program med en if-setning som tester om en person er høy nok.
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    Løsning
+
+    høyde = int(input("Hvor høy er du? (cm): "))
+
+    if høyde >= 100:
+        print("Gratulerer, du kan kjøre Thundercoaster")
+
+</details>
+
+#### Oppgave 2.5
+
+Lag en variabel `hemmelig` med et tall mellom 1 og 10. Be brukeren gjette tallet. Dersom brukeren gjetter riktig er riktig, skriver du ut "Gratulerer! Du gjettet riktig". Ved feil skriver du "Beklager, du gjettet feil". Ta vare på koden, du skal bruke den senere. 
 
 <details>
     <summary>Klikk for Hint</summary>
@@ -316,24 +332,9 @@ Lag en variabel med et tall mellom 1 og 10. Spør så brukeren om å gjette et t
 
 </details>
 
-#### Oppgave 2.5
-
-I fornøyelsesparken Titusenfryd må man være minst 100 cm høy for å kjøre berg-og-dal-banen Thundercoaster. Skriv et program med en if-setning som tester om en person er høy nok.
-
-<details>
-    <summary>Klikk for Løsning</summary>
-    Løsning
-
-    høyde = int(input("Hvor høy er du? (cm): "))
-
-    if høyde >= 100:
-        print("Gratulerer, du kan kjøre Thundercoaster")
-
-</details>
-
 #### Oppgave 2.6
 
-Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 grader. Lag et program som avgjør om en persons kroppstemperatur ligger henholdsvis under, innenfor eller over normal kroppstemperatur. Programmet skal skrive ut passende beskjed.
+Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 grader. Lag et program som avgjør om en persons kroppstemperatur ligger under, innenfor eller over normal kroppstemperatur. Programmet skal skrive ut passende beskjed.
 
 <details>
     <summary>Klikk for Løsning</summary>
@@ -352,13 +353,13 @@ Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 g
 
 #### Oppgave 2.7
 
-a) Lag et program der man kan skrive inn poengsummen for en matematikkeksamen. Programmet skal skrive ut karakteren på eksamen når vi bruker følgende skala (maks 60 poeng): 
+a) Lag et program der bruker kan skrive inn poengsummen sin for en matematikkeksamen. Programmet skal skrive ut karakteren på eksamen når vi bruker følgende skala (maks 60 poeng): 
 
 | Karakter | 1   | 2   | 3   | 4   | 5   | 6   |
 | -------- | --- | --- | --- | --- | --- | --- |
 | Poeng    |     | 12  | 24  | 35  | 45  | 56  |
 
-b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn et tall mellom 0 og 60
+b) Endre koden slik at programmet skriver ut "Ugyldig poengsum" dersom man ikke skriver inn et tall mellom 0 og 60
 
 <details>
     <summary>Klikk for Hint</summary>
@@ -370,8 +371,9 @@ b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn
 </details>
 <details>
     <summary>Klikk for Løsning</summary>
+    Løsning
     
-    poeng = int(input("Hvor mye poeng fikk du? "))
+    poeng = int(input("Hvor mange poeng fikk du? "))
 
     if poeng > 60 or poeng < 0:
         print("Du har skrevet inn en ugyldig poengsum")
@@ -392,11 +394,17 @@ b) Endre koden slik at programmet "Ugyldig poengsum" dersom man ikke skriver inn
 
 #### Oppgave 2.8
 
-Lag en tekstbasert versjon der du kan spille "Stein - Saks -  Papir" mot datamaskinen.
+Lag en tekstbasert versjon av "Stein - Saks - Papir", der du kan spille mot datamaskinen.
 
 Programmet kan skrive ut følgende:
-
-"Velg 1 for Stein, 2 for Saks eller 3 for Papir", så sjekker du valget opp mot datamaskinens valg
+```
+Hva velger du?
+1: Stein
+2: Saks
+3: Papir
+Ditt valg (1,2,3): 
+```
+Programmet må sjekke brukerens valg mot datamaskinens valg.
 
 Her kan du ha behov for å trekke tilfeldige heltall, og da må vi importere en instruks utenifra.
 
@@ -410,6 +418,7 @@ from random import *
 
 <details>
     <summary>Klikk for Hint</summary>
+    Hint
    
     Ta imot et tall mellom 1 og 3 fra bruker
     Trekk et tall mellom 1 og 3 for datamaskinen
@@ -423,8 +432,11 @@ from random import *
     <summary>Klikk for Løsning</summary>
     
     from random import *
-
-    spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
+    print("Hva velger du?")
+    print("1: Stein")
+    print("2: Saks")
+    print("3: Papir")
+    spiller_valg = int(input("Ditt valg (1,2,3): "))
 
     data_valg = randint(1,3)
 
@@ -523,8 +535,6 @@ Lag et program som avgjør om et årstall er skuddår eller ikke.
      -  8 f.kr – 7 e.kr: Ingen skuddår (pause)
      -  8 e.kr – 1581: Skuddår hvis delelig på 4
      -  fra 1582: delelig på 4, men ikke på 100, unntatt delelig på 400
-
-
 
 ## Løkker
 
