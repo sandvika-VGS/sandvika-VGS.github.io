@@ -398,7 +398,8 @@ Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at pr
 <details>
     <summary>Klikk for Hint</summary>
    
-    
+    Hint:
+
     Lag en variabel som du setter til "ja"
     
     Legg en while-løkke rundt programmet som sjekker om variabelen er "ja".
@@ -410,6 +411,8 @@ Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at pr
 <details>
     <summary>Klikk for Løsning</summary>
     
+    Løsning:
+
     from random import *
 
     spiller_valg = int(input("Velg 1 for Stein, 2 for Saks eller 3 for Papir: "))
