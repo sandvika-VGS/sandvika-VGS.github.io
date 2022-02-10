@@ -820,3 +820,90 @@ f) Print lengden av lista
 
 
 </details>
+
+
+
+#### Oppgave 4.4
+
+Legg alle julekarakterene inn i ei liste (som tall!)
+
+Bruk sum(liste) og len(liste) til å regne gjennomsnittet. Rund av til to desimaler.
+
+Print en passende tekst
+
+Finn på et passende snitt til en utdanning du vil søke på. Sjekk om du kommer inn eller ikke. Print ut en passende tekst
+
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    Løsning:
+
+    karakterer = [4,4,5,5,3,6,5,4,3,2,4,3] # Tilfeldig både mhp karakter og antall fag
+
+    snitt = sum(karakterer)/len(karakterer)
+
+    print("Mitt karaktersnitt er:", snitt)
+
+    if snitt > 4.8:
+        print("Hurra, jeg kommer inn")
+    else:
+        print("Jeg må nok forbedre karakterene mine")
+
+</details>
+
+#### Oppgave 4.5
+
+Norske bilnummer har to (store) bokstaver og fem tall 
+
+Du skal lage et program der man enten kan legge til eller sjekke et bilnummer. 
+
+Legg en while-løkke rundt programmet så det gjentar seg. Enten ved å sette while True: eller ved å spørre om brukeren vil fortsette
+
+Lag en liste der du legger inn noen få fiktive bilnummer.
+
+Spør først brukeren om de vil legge til eller sjekke et nummer. 
+
+Hvis de vil legge til, ta inn det nye nummeret og legg det i lista.
+
+Hvis de vil sjekke, ta inn nummeret og sjekk om det ligger i lista. Skriv ut en passende tekst
+
+
+
+<details>
+    <summary>Klikk for Hint</summary>
+   
+    Hint:
+
+    Lag ei liste, enten tom eller med noen tilfeldige bilnummer du selv fyller inn
+
+    Lag en input der du spør etter en bokstav for å legge til eller sjekke nr
+
+    Lag en betingelse der du tester bokstaven fra input.
+
+    Skriv kode for å hendholdsvis legge til eller sjekke i riktig sted i betingelsen
+
+
+</details>
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    bilskilt = ["AB12345", "BT12345"]
+    fortsett = "ja"
+
+    while fortsett.lower() == "ja":
+        valg = input("Vil du (S)jekke eller (L)egge til et nummer? ")
+        if valg.upper() == "S":
+            nummer = input("Skriv inn nummeret du vil sjekke: ")
+            if nummer in bilskilt:
+                print("Nummeret finnes registrert")
+            else:
+                print("Nummeret finnes ikke i vårt register")
+        elif valg.upper() == "L":
+            nummer = input("Skriv inn nummeret du vil legge til: ")
+            bilskilt.append(nummer)
+        else:
+            print("Du må velge S eller L!")
+        fortsett = input("Vil du fortsette (ja/nei)?")
+
+</details>
