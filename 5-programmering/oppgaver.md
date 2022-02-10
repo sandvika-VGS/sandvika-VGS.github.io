@@ -731,3 +731,92 @@ Ta frem koden koden for Stein - Saks - Papir. Legg på funksjonalitet slik at pr
 
 </details>
 
+
+## Lister og ordbøker
+
+#### Oppgave 4.1
+
+a) Lag ei liste med navn på fagene du har i år. Alle elementene i lista skal være strenger.
+
+b) Print ut favorittfaget ditt med en tilhørende tekst
+
+c) Legg til noen fag du hadde forrige skoleår i lista
+
+d) Finn lengden av lista uten selv å måtte telle den
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    Løsning:
+
+    fag = ["norsk", "matematikk", "historie", "gym", "informasjonsteknologi", "fysikk", "engelsk"]
+
+    print("mitt favorittfag er ", fag[4])
+
+    fag.append("naturfag")
+    fag.append("geografi")
+    fag.append("samfunnsfag")
+
+    print("antall fag:", len(fag))
+
+</details>
+
+
+
+#### Oppgave 4.2
+
+Bruk lista med fag fra oppgave 4.1
+
+Lag en input der brukeren kan skrive inn et fag
+
+Sjekk om faget ligger i lista. Hvis ja skriv at du har faget, hvis nei skriver du ut beskjed om at du ikke har det.
+
+Eksperttips: Dersom variabelen tekst er en streng vil tekst.lower() gjøre om hele teksten til små bokstaver.
+
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    Løsning:
+
+    fag = ["norsk", "matematikk", "historie", "gym", "informasjonsteknologi", "fysikk", "engelsk"]
+
+    sjekk = input("Hvilket fag vil du sjekke? ")
+    
+    if sjekk in fag:
+        print("Jeg kan dette faget!")
+    else:
+        print("Beklager, jeg har ikke hatt", sjekk)
+
+</details>
+
+
+
+#### Oppgave 4.3
+
+a) Lag følgende liste med tall: [1,3,5,6]
+
+b) Legg til tallet 8 på slutten av lista
+
+c) Legg til tallet 4 mellom 3 og 5 i lista
+
+d) Endre tallet 4, slik at det står som “fire” istedet.
+
+e) Fjern “fire” fra lista
+
+f) Print lengden av lista
+
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    Løsning:
+
+    tall = [1,3,5,6]
+    tall.append(8)
+    tall.instert(2,4)
+    tall[2] = "fire"
+    tall.remove("fire")
+
+
+</details>
