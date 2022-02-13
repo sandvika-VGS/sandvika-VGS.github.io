@@ -915,25 +915,16 @@ Hvis de vil sjekke, ta inn nummeret og sjekk om det ligger i lista. Skriv ut en 
 
 Opprett en liste mineTall med tallene 9, 3, 1 og 2 
 
-Bruk liste-metoder for å endre listeen til å bare inneholde tallene 3 og 1. 
-
-Legg til tallet 2 mellom tallene 3 og 1. 
-
-Legg til stringen “Stilig” på indeks 3 og boolean-en true på indeks 5. 
-
-To-dimensjonal liste, gjør følgende: 
-
-Lag en liste 
-
-Lag tre nye lister inne i listen 
-
-Legg til tallene 1, 2, 3 i den første listen 
-
-Legg til tallene 4, 5, 6 i den andre listen 
-
-Legg til tallene 7, 8, 9 i den tredje listen 
-
-Skriv ut tallene 1, 3, 5 og 9 fra listen 
+* Bruk liste-metoder for å endre listeen til å bare inneholde tallene 3 og 1. 
+* Legg til tallet 2 mellom tallene 3 og 1. 
+* Legg til stringen “Stilig” på indeks 3 og boolean-en true på indeks 5. 
+* To-dimensjonal liste, gjør følgende: 
+* Lag en liste 
+* Lag tre nye lister inne i listen 
+* Legg til tallene 1, 2, 3 i den første listen 
+* Legg til tallene 4, 5, 6 i den andre listen 
+* Legg til tallene 7, 8, 9 i den tredje listen 
+* Skriv ut tallene 1, 3, 5 og 9 fra listen 
 
 <details>
     <summary>Klikk for Løsning</summary>
