@@ -979,15 +979,11 @@ Legg til kode slik at brukeren kan skrive inn et land, også printes fargene til
 
 Lag en liste bakeri, og fyll listen med følgende varer som ordbøker, hvor navn og pris er nøkler. 
 
-Croissant 25 
-
-Grovbrød 40 
-
-Kneipp 20 
-
-Rosinbolle 20 
-
-Baguette 10 
+* Croissant 25 
+* Grovbrød 40 
+* Kneipp 20 
+* Rosinbolle 20 
+* Baguette 10 
 
 Print innholdet i hele bakeri-et som en meny med en linje per vare, med navn og pris 
 
