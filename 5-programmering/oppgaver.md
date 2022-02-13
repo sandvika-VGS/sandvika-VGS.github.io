@@ -907,3 +907,108 @@ Hvis de vil sjekke, ta inn nummeret og sjekk om det ligger i lista. Skriv ut en 
         fortsett = input("Vil du fortsette (ja/nei)?")
 
 </details>
+
+
+#### Oppgave 4.6
+
+Opprett en liste mineTall med tallene 9, 3, 1 og 2 
+
+Bruk liste-metoder for å endre listeen til å bare inneholde tallene 3 og 1. 
+
+Legg til tallet 2 mellom tallene 3 og 1. 
+
+Legg til stringen “Stilig” på indeks 3 og boolean-en true på indeks 5. 
+
+To-dimensjonal liste, gjør følgende: 
+
+Lag en liste 
+
+Lag tre nye lister inne i listen 
+
+Legg til tallene 1, 2, 3 i den første listen 
+
+Legg til tallene 4, 5, 6 i den andre listen 
+
+Legg til tallene 7, 8, 9 i den tredje listen 
+
+Skriv ut tallene 1, 3, 5 og 9 fra listen 
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+#### Oppgave 4.7
+
+Lag en ordbok med info om den du sitter ved siden av. 
+
+Print navn og alder fra ordboken. 
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+
+#### Oppgave 4.8
+
+Ordboken under har navn på land som egenskaper og fargene på flagget til landene som verdier. 
+
+flagg = { 
+    norge : ["rødt", "hvitt", "blått"], 
+    sverige : ["blått", "gult"], 
+    danmark : ["rødt", "hvitt"], 
+    finland : ["hvitt", "blått"], 
+    japan : ["rødt", "hvitt"], 
+    gabon : ["grønt", "gult", "blått"], 
+    chile : ["blått", "hvitt", "rødt"] 
+} 
+
+OBS! Merk at vi kan skrive ordbøker og lister over flere linjer, så lenge vi passer på komma og avsluttende “]” eller “}”, som i flagg over. 
+
+Bruk flagg["egenskap"], og legg til et nytt land i ordboken 
+
+Legg til kode slik at brukeren kan skrive inn et land, også printes fargene til landets flagg. Hvis brukeren skriver inn et land som ikke eksisterer i ordboken, skal programmet gi en feilmelding som forteller at vi ikke har lagret info om dette landet. 
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+
+#### Oppgave 4.9
+
+Lag en liste bakeri, og fyll listen med følgende varer som ordbøker, hvor navn og pris er nøkler. 
+
+Croissant 25 
+
+Grovbrød 40 
+
+Kneipp 20 
+
+Rosinbolle 20 
+
+Baguette 10 
+
+Print innholdet i hele bakeri-et som en meny med en linje per vare, med navn og pris 
+
+Tips: for-løkke 
+
+Øk prisen på croissant med 10, uten å endre tidligere kode. 
+
+Skriv ut listen med innhold på nytt, og sjekk at croissantens pris er endret riktig. 
+
+Lag en funksjon meny(liste) som du kan kalle på for å utføre oppgave 1 og 4, og endre programmet ditt til å kjøre denne funksjonen i stedet. 
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
