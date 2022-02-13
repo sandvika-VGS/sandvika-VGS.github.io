@@ -1001,3 +1001,35 @@ Lag en funksjon meny(liste) som du kan kalle på for å utføre oppgave 1 og 4, 
     kommer
 
 </details>
+
+
+## Funksjoner
+
+#### Oppgave 5.1
+
+Lag en funksjon som returnerer en tilfeldig rgb-farge. Eks: “rgb(100,155,200)” - Tallene i rgb går fra 0 til 255
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    kommer
+
+</details>
+
+
+#### Oppgave 5.2
+
+Lag en minibank med Python. Når programmet starter skal brukeren bli presentert med en meny som ser slik ut: 
+
+--- Velkommen til minibanken --- 
+Hva ønsker du? Trykk på en tast for å velge. 
+ 
+S: Se saldo 
+U: Ta ut penger 
+I: Sette inn penger 
+
+1. Lag minibanken med bare en bruker og en konto 
+
+2. Utfordring: legg til funksjonalitet for flere brukere og/eller konti 
+
+3. Utfordring: legg til funksjonalitet for å overføre mellom brukere og/eller konti 
