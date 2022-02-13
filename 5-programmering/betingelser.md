@@ -21,14 +21,11 @@ else:
 
 Vi ser her logikken bak en betingelse, skrevet som en **if-løkke**. Betingelsen må ligge i en parentes, så bruker vi {} for å spesifisere hva slags kode som skal kjøre dersom betingelsen er sann. Hvis betingelsen er usann, hopper koden over til *else* feltet i stedet. Legg merke til at else ikke har en betingelse.
 
-## Prøv selv - Berg og Dalbane
-Bruk window.prompt for å ta inn brukerens høyde i cm. Hvis høyden er over 100cm så skrives det en melding om at brukeren for lov til å kjøre berg- og dalbanen. Hvis brukeren ikke er høy nok, skal det i stedet gis en beskjed om det.
-
 ## Flere Betingelser
 
 Vi kan teste flere betingelser samtidig. Anta at vi ønsker å sjekke om et tall ligger mellom 10 og 20. Da vil vi at tallet både skal være større enn 10, og **samtidig** være mindre enn 20. Vi kan skrive følgende:
 
-```JAVASCRIPT
+```PYTHON
 if(tall >= 10 && tall <= 20){
     document.write("tallet er mellom 10 og 20)
 }
