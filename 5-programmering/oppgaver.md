@@ -888,6 +888,8 @@ Hvis de vil sjekke, ta inn nummeret og sjekk om det ligger i lista. Skriv ut en 
 <details>
     <summary>Klikk for Løsning</summary>
     
+    Løsning:
+
     bilskilt = ["AB12345", "BT12345"]
     fortsett = "ja"
 
