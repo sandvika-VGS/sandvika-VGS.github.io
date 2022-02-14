@@ -33,7 +33,7 @@
 * Programmering
   * [5.1 Hva er programmering](./5-programmering/introprog.md)
   * [5.2 Variabler](./5-programmering/variable.md) 
-  * [5.3 *Betingelser*]()
+  * [5.3 Betingelser](./5-programmering/betingelser.md)
   * [5.4 *Løkker*]()
   * [5.5 *Lister*]()
   * [5.6 *Funksjoner*]()

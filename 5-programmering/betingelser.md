@@ -61,8 +61,7 @@ else:
 
 ``` 
 
-Det er viktig at vi har innhopp på all kode som tilhører hver del av betingelsen. Legg merke til at vi strengt tatt kunne ha laget nye if-setninger for hver sjekk i stedet, men det anses som dårlig kode. Da ville man kunne ha havnet i flere sjekker samtidig, og det ønsker vi å unngå. Ved å bruke elif og else, kobler vi alt sammen til samme betingelse:
+Det er viktig at vi har innhopp på all kode som tilhører hver del av betingelsen. Legg merke til at vi strengt tatt kunne ha laget nye if-setninger for hver sjekk i stedet, men det anses som dårlig kode. Da ville man kunne ha havnet i flere sjekker samtidig, og det ønsker vi å unngå. Ved å bruke elif og else, kobler vi alt sammen til samme betingelse.
 
-bilde av flytskjema
 
 
