@@ -41,3 +41,8 @@ Lag en nettside som spør hvilket år du er født. Bruk dette til å skrive en b
 
 
 
+## Prøv selv - Kroppstemperatur
+Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 grader. Lag et program som avgjør om en persons kroppstemperatur ligger henholdsvis under, innenfor eller over normal kroppstemperatur. Programmet skal lese kroppstemperaturen fra window.prompt().
+
+## Prøv selv - Inntekt og Skatt
+I det fiktive landet Ruritania er skattereglene slik at hvis en person har inntekt < 10000, så betaler man 10% skatt på hele inntekten, og hvis inntekten >= 10000, så betaler man 10% skatt på de første 10000 kronene og 30% skatt på resten av inntekten. Lag et program som regner ut og skriver ut hvor mange kroner som skal betales i skatt. Programmet skal lese inntekten fra window.prompt(). 

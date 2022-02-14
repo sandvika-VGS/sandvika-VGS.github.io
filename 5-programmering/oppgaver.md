@@ -1025,7 +1025,9 @@ Lag en minibank med Python. Når programmet starter skal brukeren bli presentert
 Hva ønsker du? Trykk på en tast for å velge. 
  
 S: Se saldo 
+
 U: Ta ut penger 
+
 I: Sette inn penger 
 
 1. Lag minibanken med bare en bruker og en konto 

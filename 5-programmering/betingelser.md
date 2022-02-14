@@ -1,10 +1,23 @@
 # Betingelser. If-Løkker
 
-Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. Dette gjøres ved hjelp av betingelser, og prinsippet bak kan minne litt om flytskjema: 
+Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. 
 
-BILDE FLYT. PROBLEMLØSNING VS IF ELSE LØKKE
+Frem til nå har koden vårt kjørt linje for linje nedover. En betingelse derimot består av et eller flere utsagn med tilhørende kode. Koden som hører vil bare kjøre dersom utsagnet stemmer (returner True). La oss se på koden der vi regner ut alderen til brukeren, og legge på en betingelse:
 
-Frem til nå har koden vårt kjørt linje for linje nedover. En betingelse består ofte av flere segment, og som regel vil koden bare kjøre et av de. La oss endre på koden fra forrige delkapittel ved å sette in en betingelse Dersom La oss ta utgangspunkt i koden for alder fra forrige side. 
+
+```PYTHON
+navn = input("Hva heter du? )
+f_aar = int(input("Hvilket år er du født? "))
+
+let alder = 2021 - fødselsår;
+
+if alder > 17:
+    print("Hei", navn, "du er myndig!")
+```
+
+Vi ser her logikken bak en betingelse, skrevet som en `if-setning`. Vi regner ut alder, og så sjekker vi den matematiske betingelsen `alder > 17`. Dersom alder er større en 17 returnerer sjekken **True**, hvilket betyr at print instruksjonen kjører. Dersom betingelsen returnerer **False**, så skjer det ingenting. Vi bruker innhopp for å gruppere hvilken kode som hører til betingelsen. 
+
+Når vi lager en betingelse kan vi avslutte med `else`, altså kode som skal kjøre dersom betingelsen returnerer **False**:
 
 ```PYTHON
 navn = input("Hva heter du? )
@@ -15,41 +28,41 @@ let alder = 2021 - fødselsår;
 if alder > 17:
     print("Hei", navn, "du er myndig!")
 else:
-    print("Hei", navn, "du er ikke myndig")
-
+    print("Hei", navn, "du er desverre ikke myndig enda")
 ```
-
-Vi ser her logikken bak en betingelse, skrevet som en **if-løkke**. Betingelsen må ligge i en parentes, så bruker vi {} for å spesifisere hva slags kode som skal kjøre dersom betingelsen er sann. Hvis betingelsen er usann, hopper koden over til *else* feltet i stedet. Legg merke til at else ikke har en betingelse.
 
 ## Flere Betingelser
 
 Vi kan teste flere betingelser samtidig. Anta at vi ønsker å sjekke om et tall ligger mellom 10 og 20. Da vil vi at tallet både skal være større enn 10, og **samtidig** være mindre enn 20. Vi kan skrive følgende:
 
 ```PYTHON
-if(tall >= 10 && tall <= 20){
-    document.write("tallet er mellom 10 og 20)
-}
+tall = input("Hvor mange poeng fikk du?")
+
+if tall > 10 and tall < 20:
+    print("Dette tilsvarer middels måloppnåelse")
+
 ``` 
+
 Her må begge betingelsene være sanne samtidig for at koden skal kjøre. 
 
-Anta videre at vi enten skal sjekke om tallet er under 10, mellom 10 og 20, eller over 20. Da holder det ikke lenger med en **if/else** løkke, det er jo tre muligheter! Vi kan legge til flere betingelser:
+Hvis vi skal lage ferdig koden (0 - 10 poeng er lav måloppnåelse mens 20 - 30 tilsvarer høy), så kan vi kjede sammen flere betingelser. Setningsoppbygningen foregår da som `if - elif - else`. Her starter "if" instruksjonen, elif står for "else if" der vi kan sjekke andre betingelser (vi kan ha flere av disse etter hverandre), mens "else" avslutter. Det er lettest å se i praksis:
 
-```JAVASCRIPT
-if(tall < 10){
-    document.write("Tallet er under 10");
-}
-else if(tall >= 10 && tall <= 20){
-    document.write("tallet er mellom 10 og 20");
-}
-else{
-    document.write("Tallet er over 20");
-}
+```PYTHON
+tall = input("Hvor mange poeng fikk du?")
+
+if tall >= 0 and and tall < 10:
+    print("Dette tilsvarer lav måloppnåelse")
+elif tall > 10 and tall <= 20
+    print("Dette tilsvarer middels måloppnåelse")
+elif tall > 20 and tall <= 30:
+    print("Dette tilsvarer høy måloppnåelse")
+else:
+    print("Du må skrive inn poeng mellom 0 og 30!")
+
 ``` 
 
-Vi må bruke **else if** for å koble alle betingelsene sammen, vi kan legge til så mange vi vil. 
+Det er viktig at vi har innhopp på all kode som tilhører hver del av betingelsen. Legg merke til at vi strengt tatt kunne ha laget nye if-setninger for hver sjekk i stedet, men det anses som dårlig kode. Da ville man kunne ha havnet i flere sjekker samtidig, og det ønsker vi å unngå. Ved å bruke elif og else, kobler vi alt sammen til samme betingelse:
 
-## Prøv selv - Kroppstemperatur
-Hos friske mennesker varierer kroppstemperaturen vanligvis mellom 36.5 og 37.5 grader. Lag et program som avgjør om en persons kroppstemperatur ligger henholdsvis under, innenfor eller over normal kroppstemperatur. Programmet skal lese kroppstemperaturen fra window.prompt().
+bilde av flytskjema
 
-## Prøv selv - Inntekt og Skatt
-I det fiktive landet Ruritania er skattereglene slik at hvis en person har inntekt < 10000, så betaler man 10% skatt på hele inntekten, og hvis inntekten >= 10000, så betaler man 10% skatt på de første 10000 kronene og 30% skatt på resten av inntekten. Lag et program som regner ut og skriver ut hvor mange kroner som skal betales i skatt. Programmet skal lese inntekten fra window.prompt(). 
+
