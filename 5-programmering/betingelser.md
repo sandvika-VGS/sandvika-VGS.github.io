@@ -1,8 +1,6 @@
 # Betingelser.
 
-Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. 
-
-Frem til nå har koden vårt kjørt linje for linje nedover. En betingelse derimot består av et eller flere utsagn med tilhørende kode. Koden som hører vil bare kjøre dersom utsagnet stemmer (returner True). La oss se på koden der vi regner ut alderen til brukeren, og legge på en betingelse:
+Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere?). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. Frem til nå har nemlig koden vår kjørt linje for linje. En betingelse derimot, består av et eller flere utsagn med tilhørende kode. Koden som hører vil bare kjøre dersom utsagnet stemmer (returner True). La oss legge til en betingelse på koden fra forrige side (der vi regner ut alderen til brukeren):
 
 
 ```PYTHON
@@ -15,15 +13,15 @@ if alder > 17:
     print("Hei", navn, "du er myndig!")
 ```
 
-Vi ser her logikken bak en betingelse, skrevet som en `if-setning`. Vi regner ut alder, og så sjekker vi den matematiske betingelsen `alder > 17`. Dersom alder er større en 17 returnerer sjekken **True**, hvilket betyr at print instruksjonen kjører. Dersom betingelsen returnerer **False**, så skjer det ingenting. Vi bruker innhopp for å gruppere hvilken kode som hører til betingelsen. 
+Vi ser her logikken bak en betingelse, skrevet som en `if-setning`. Vi regner ut alder, og så sjekker vi den matematiske ulikheten `alder > 17`. Dersom alder er større en 17 returnerer sjekken **True**, hvilket betyr at print instruksjonen kjører. Dersom betingelsen returnerer **False**, så skjer det ingenting. Vi bruker innhopp for å gruppere hvilken kode som hører til betingelsen. 
 
-Når vi lager en betingelse kan vi avslutte med `else`, altså kode som skal kjøre dersom betingelsen returnerer **False**:
+Når vi lager en betingelse kan vi avslutte med `else`, altså kode som skal kjøre dersom det vi sjekker returnerer **False**:
 
 ```PYTHON
-navn = input("Hva heter du? )
+navn = input("Hva heter du? ")
 f_aar = int(input("Hvilket år er du født? "))
 
-let alder = 2021 - fødselsår;
+let alder = 2021 - fødselsår
 
 if alder > 17:
     print("Hei", navn, "du er myndig!")
@@ -33,7 +31,7 @@ else:
 
 ## Flere Betingelser
 
-Vi kan teste flere betingelser samtidig. Anta at vi ønsker å sjekke om et tall ligger mellom 10 og 20. Da vil vi at tallet både skal være større enn 10, og **samtidig** være mindre enn 20. Vi kan skrive følgende:
+Vi kan teste flere utsagn samtidig. Anta at vi ønsker å sjekke om et tall ligger mellom 10 og 20. Da vil vi at tallet både skal være større enn 10, og *samtidig* være mindre enn 20. Vi kan skrive følgende:
 
 ```PYTHON
 tall = input("Hvor mange poeng fikk du?")
@@ -61,7 +59,35 @@ else:
 
 ``` 
 
-Det er viktig at vi har innhopp på all kode som tilhører hver del av betingelsen. Legg merke til at vi strengt tatt kunne ha laget nye if-setninger for hver sjekk i stedet, men det anses som dårlig kode. Da ville man kunne ha havnet i flere sjekker samtidig, og det ønsker vi å unngå. Ved å bruke elif og else, kobler vi alt sammen til samme betingelse.
+Det er viktig at vi har innhopp på all kode som tilhører hver del av if-elif setningen. Legg merke til at vi strengt tatt kunne ha laget nye if-setninger for hver sjekk i stedet, men det anses som dårlig kode. Da ville man kunne ha havnet i flere sjekker samtidig, og det ønsker vi å unngå. Ved å bruke elif og else, kobler vi alt sammen til samme betingelse.
+
+## Operatorer i en betingelse
+
+I eksempelene ovenfor sjekket vi en matematisk ulikhet, men vi har langt større spillerom en det. La oss først se nærmere på å undersøke likheter, det byr nemlig på et unikt problem når vi koder. I matematikken bruker vi jo et likhetstegn for å vise (eller regne på ukjentene) at utsagnene på begge sider av likhetstegnet er det samme, men når vi koder bruker vi likhetstegnet for å deklarere en variabel! Dermed kan vi ikke lage en betingelse som for eksempel sjekker `if alder = 17:`, fordi da overskriver vi den eksisterende verdien av alder til 17. Vi bruker derfor doble likhetstegn for å undersøke om noe er likt. Koden der vi sjekket alder kan dermed skrives om til for eksempel:
+
+```PYTHON
+navn = input("Hva heter du? ")
+f_aar = int(input("Hvilket år er du født? "))
+
+let alder = 2021 - fødselsår
+
+if alder == 18:
+    print("Gratulerer", navn, "du ble/blir myndig i år!")
+
+```
+
+Når vi lager en betingelse er vi heller ikke begrenset til matematiske utsagn, vi kan like gjerne sjekke strenger:
+
+```PYTHON
+svar = input("Har du forstått if-setninger nå? ")
+
+if svar == "ja":
+    print("Bra jobbet!")
+elif svar == "nei":
+    print("Ikke gi opp, du vil snart knekke koden!")
+else:
+    print("Du må svare ja eller nei!")
+
 
 
 
