@@ -34,11 +34,11 @@
   * [5.1 Hva er programmering](./5-programmering/introprog.md)
   * [5.2 Variabler](./5-programmering/variable.md) 
   * [5.3 Betingelser](./5-programmering/betingelser.md)
-  * [5.4 *Løkker*]()
+  * [5.4 Løkker](./5-programmering/lokker.md)
   * [5.5 *Lister*]()
   * [5.6 *Funksjoner*]()
   * [5.7 Oppgaver](./5-programmering/oppgaver.md)
-  * [5.8 *Oppslagsliste*]()
+  * [5.8 Oppslagsliste](./5-programmering/oppslagsliste.md)
 
 * Databaser (Utgått pensum)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
