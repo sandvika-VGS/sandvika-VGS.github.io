@@ -1,3 +1,15 @@
+# Docsify
+
+## Installering
+
+1. Installer node: https://nodejs.org/en/
+2. Åpne en terminal, og skriv: npm i docsify-cli -g
+
+## Kjøre lokalt
+
+1. Åpne en terminal i VS Code, og skriv docsify serve .
+2. Listening at http://localhost:3000
+
 # Headers
 
 # This is an <h1> tag
