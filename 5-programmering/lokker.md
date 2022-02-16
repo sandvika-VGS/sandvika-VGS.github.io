@@ -134,6 +134,8 @@ For-løkker brukes som oftest når vi vet hvor mange ganger vi skal gjenta en ko
 
 ## Lister og løkker
 
+En for-løkke kan brukes for å gå gjennom alle *tingene* i en liste.
+
 ```python
 liste = [1, 2, "Hei", True]
 for i in liste:
@@ -145,6 +147,31 @@ for i in liste:
     
 
 <iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=liste%20%3D%20%5B1,%202,%20%22Hei%22,%20True%5D%0Afor%20i%20in%20liste%3A%0A%20%20%20%20print%28i%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+
+
+</details>
+
+## Ordbøker og løkker
+
+For-løkker kan også brukes for å gå gjennom ordbøker.
+For å få ut både nøkler og verdier må man gå gjennom innholdet i ordboken, det gjøres med `.items()`, se eksempel under.
+
+```python
+fotballspiller = {
+    "fornavn": "Ada",
+    "etternavn": "Hegerberg",
+    "alder": 26,
+    "klubb": "Lyon"
+}
+for nøkkel, verdi in fotballspiller.items():
+    print(nøkkel, ":", verdi)
+```
+
+<details>
+<summary>Klikk for Pythontutor</summary>
+    
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=fotballspiller%20%3D%20%7B%0A%20%20%20%20%22fornavn%22%3A%20%22Ada%22,%0A%20%20%20%20%22etternavn%22%3A%20%22Hegerberg%22,%0A%20%20%20%20%22alder%22%3A%2026,%0A%20%20%20%20%22klubb%22%3A%20%22Lyon%22%0A%7D%0Afor%20n%C3%B8kkel,%20verdi%20in%20fotballspiller.items%28%29%3A%0A%20%20%20%20print%28n%C3%B8kkel,%20%22%3A%22,%20verdi%29%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 
 </details>
