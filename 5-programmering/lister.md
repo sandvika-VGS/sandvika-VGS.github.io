@@ -23,13 +23,17 @@ Som forventet er variabelen registrert av typen liste, og når vi printer den ut
 La oss se nærmere på listen over skoler: `["Sandvika", "Valler", "Nesbru"]`. En slik liste er **ordnet**, det vil si at rekkefølgen vi har lagret skolene er en del av listen. Dermed vet vi at Sandvika ligger først i listen, mens Nesbru ligger sist (uten at det har noe mer å si akkurat nå). I dette tilfellet sier vi at Sandvika ligger på plass nummer 0, Valler ligger på plass nummer 1 og Nesbru på plass nr 2. Det er tre element i lista, men vi teller alltid fra 0 når vi skal angi hvilken plass et element ligger på:
 
 
+
 | skole_liste | `"Sandvika"` | `"Valler"` | `"Nesbru"` |
 | ----------- | ------------ | ---------- | ---------- |
 | indeks      | 0            | 1          | 2          |
 
-Dette betyr at dersom vi skal hente ut Sandvika, så må vi huske at det ligger først altså på plass 0! Vi skriver følgende:
+
+Dette betyr at dersom vi skal hente ut Sandvika, så må vi huske at det ligger først, altså på plass null! Vi skriver følgende:
+
 
 ![Bilde: Hente ut element på plass 0](/bilder/liste_output.png)
+
 
 Tilsvarende kan vi hente ut de andre skolene dersom det trengs. Pass på at dersom du glemmer deg og prøver å hente ut element nr 3, så får du en feil. Datamaskinen prøver å finne det fjerde elementet i lista, men det finnes jo bare tre.
 
