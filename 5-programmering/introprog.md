@@ -11,7 +11,7 @@ Selv om det finnes mange ulike programmeringsspråk på ulike nivå der ute, er 
 
 Når vi nå har valgt oss Python, trenger vi et såkalt **IDE (Integrated Development Environment)**, altså en applikasjon som hjelper oss med å skrive, rette opp og utføre kode. Igjen finnes det mange valg! Her på skolen kan du enten bruke Anaconda eller VS-Code. Snakk med en lærer for å sette det opp. 
 
-Nå kan vi begynne å se på hvilke instruksjoner vi kan skrive og hvordan disse fungerer. Dersom læreren din vil at du skal skrive en "Hei alle sammen!" på tavla finnes det veldig mange forskjellige måter å fortelle deg det på. I Python finnes det bare en som fungerer:
+Nå kan vi begynne å se på hvilke instruksjoner vi kan skrive og hvordan disse fungerer. Dersom læreren din vil at du skal skrive en "Hei alle sammen!" på tavla finnes det mange forskjellige måter å fortelle deg det på. I Python finnes det bare en som fungerer:
 
 ```python
 print("Hei alle sammen!") 
@@ -19,8 +19,16 @@ print("Hei alle sammen!")
 
 Dersom du prøver å endre på noe annet en selve teksten inne i anførselstegnene vil du få en feilmelding. Det gjelder både om du endrer fra små til store bokstaver eller om du prøver å fjerne anførselstegnene. En stor del av det vi skal jobbe videre med er å forstå logikken bak instruksjonene vi skriver, hvorfor må for eksempel anførselstegnene være med?
 
-Instruksjonen for å print skriver altså ut noe til brukeren av programmet. Mye av det andre vi skal gjennom er ting skjer "under motoren", altså noe som brukeren ikke ser. Print-funksjonen blir derfor veldig viktig for oss, ettersom vi skal fokusere på tekstbasert kode. Grafikk og annen brukerinteraksjon er vanskelig, og kommer senere.
+Print-instruksen skriver altså ut noe til den som kjører programmet altså brukeren. Det blir veldig viktig for oss i begynnelsen fordi det først og fremst er slik vi skal "kommunisere" med brukerene. I virkeligheten gjøres slikt stort sett i form av en såkalt `UI (User Interface)` eller `GUI (Graphical user interface)`, tenk for eksempel på menyvalgene og knappene du kan bruke når du skriver i Word eller skal betale med VIPPS. Den slags interaksjon er alt for vanskelig når man skal lære seg grunnleggende programmering, dermed bruker vi i dette kapittelet print() for alle meldinger programmet vårt skal skrive ut.
 
+Prøv deg litt frem og print ut ulike beskjeder. Prøv for eksempel å printe ut følgende:
+
+```python
+print("2+2")
+print(2+2)
+```
+
+Her fungerte det plutselig å printe en beskjed uten å bruke anførselstegn. I tillegg ser det ut til at programmet da faktisk regnet ut summen for oss. Hvorfor det er slik, skal vi se nærmere på i neste delkapittel der vi skal jobbe med datatyper og variable. 
 
 
 

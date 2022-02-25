@@ -87,7 +87,20 @@ elif svar == "nei":
     print("Ikke gi opp, du vil snart knekke koden!")
 else:
     print("Du må svare ja eller nei!")
+```
 
+Følgende tabell er en fin oppsummering og oversikt over de ulike operatorene vi kan bruke når vi skal sette opp en betingelse:
 
+| Operator | Betydning            |
+| -------- | -------------------- |
+| `==`     | lik                  |
+| `!=`     | ikke lik             |
+| `<`      | mindre enn           |
+| `>`      | større enn           |
+| `<=`     | mindre enn eller lik |
+| `>=`     | større enn eller lik |
+| `and`    | og                   |
+| `or`     | eller                |
+| `not`    | ikke                 |
 
 
