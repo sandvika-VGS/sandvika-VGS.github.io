@@ -32,7 +32,7 @@ La oss se nærmere på listen over skoler: `["Sandvika", "Valler", "Nesbru"]`. E
 Dette betyr at dersom vi skal hente ut Sandvika, så må vi huske at det ligger først, altså på plass null! Vi skriver følgende:
 
 
-![Bilde: Hente ut element på plass 0](/bilder/liste_output.png)
+![Bilde: Hente ut element på plass 0](/bilder/indeks_output.png)
 
 
 Tilsvarende kan vi hente ut de andre skolene dersom det trengs. Pass på at dersom du glemmer deg og prøver å hente ut element nr 3, så får du en feil. Datamaskinen prøver å finne det fjerde elementet i lista, men det finnes jo bare tre.

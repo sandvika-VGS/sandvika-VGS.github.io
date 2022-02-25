@@ -13,7 +13,7 @@ Dersom vi for eksempel ønsker å lagre tallet 10 skriver vi
 tall = 10
 ```
 
- Navnet på variabelen (i dette tilfellet `tall`) tilsvarer merkelappen til krydderhylla. Selv om vi bestemmer navnet selv, bør vi velge et navn som gir mening. Vi skal se nærmere for skikk og bruk for variabelnavn etterhvert. Som nevnt kan vi lagre langt mer enn bare tall, men vi må samtidig være spesifikke på hva vi lagrer. Vi deler variablene våre inn i forskjellige `datatyper`, som alle har forskjellige skrivemåter
+ Navnet på variabelen (i dette tilfellet `tall`) tilsvarer merkelappen til krydderhylla. Selv om vi bestemmer navnet selv, bør vi velge et navn som gir mening.
 
 
 ## Hente en variabel
@@ -29,23 +29,22 @@ Hva tror du skrives til konsollen? Sjekk selv.
 
 ## Datatyper
 
-Som nevnt kan vi lagre veldig mye forskjellig som variabler, men datamaskinen vet i utgangspunktet ikke forskjell på noen av delene. Skal for eksempel *2* være ett tall som vi skal bruke til å regne med, eller skal det bare være en del av en vanlig tekst? For at programmet skal fungere er det viktig at vi vet hvilken `datatype` vi jobber med. Det betyr at når vi deklarer/lager en ny variabel, så må vi ikke bare lage et navn og innhold på den. Vi må samtidig fortelle hva slags type variabel det er. I mange andre programmeringsspråk gjøres dette spesifikt, men i Python holder det å skrive på en spesiell form for at programmet skal gjenkjenne datatypen. La oss se nærmere på nøyaktig hva vi skal skrive for at Python skal skjønne at det er en tekst, tall eller liknende vi skriver. 
-
+Som nevnt kan vi lagre veldig mye forskjellig som variabler, men datamaskinen vet i utgangspunktet ikke forskjell på noen av delene. Skal for eksempel *2* være ett tall som vi skal bruke til å regne med, eller skal det bare være en del av en vanlig tekst? For at programmet skal fungere er det viktig at vi vet hvilken `datatype` vi jobber med. Det betyr at når vi deklarer/lager en ny variabel, så må vi ikke bare lage et navn og innhold på den. Vi må samtidig fortelle hva slags type variabel det er. I mange andre programmeringsspråk gjøres dette spesifikt, men i Python holder det å skrive på en spesiell form for at programmet skal gjenkjenne datatypen. La oss se nærmere på nøyaktig hva vi skal skrive for å skille mellom ulike datatyper.
 
 #### Strenger (eng: String)
 
-Med strenger tenker vi som regel på all tekst men en streng er i bunn og grunn en kombinasjon av bokstaver, symboler og tall vi kan skrive med tastaturet. En streng må skrives med anførselstegn rundt, da vil det som står inne ikke kunne forveksles med andre datatyper eller variabelnavn. Dermed har vi litt bedre forståelse av instruksjonen fra forrige kapittel:
+Med strenger tenker vi som regel på all tekst, men en streng er i bunn og grunn en kombinasjon av bokstaver, symboler og tall vi kan skrive med tastaturet. En streng må skrives med anførselstegn rundt. Dermed har vi litt bedre forståelse av instruksjonen fra forrige kapittel:
 
 ```PYTHON
 print("Hei alle sammen!")
 ```
 
-Setningen vi ville skrive ut er en streng, og må dermed være i anførselstegn. Dersom vi ikke har de med vil datamaskinen lete etter en variabel som heter Hei. Siden den ikke finnes, får vi en feilmelding.
+Setningen vi ville skrive ut er en streng, og må dermed være i anførselstegn. Dersom vi ikke har de med vil datamaskinen lete etter en variabel ved navn **Hei** som ikke finnes og gi en feilmelding
 
 
 #### Tall
 
-Når vi jobber med tall holder det å skrive tallet (vi bruker ikke anførselstegn). Python har også de fire regneartene innebygd,  
+Når vi jobber med tall holder det å skrive tallet (uten anførselstegn). Python har også de fire regneartene innebygd,  
 
 ```PYTHON
 tall1 = 10
@@ -57,21 +56,6 @@ print(tall1 + tall2)
 
 Fra tidligere vet du at man relativt greit kan regne om heltall til totallsystemet og omvendt. For desimaltall blir konverteringen til bytes vanskeligere (og utenfor pensum). Vi har likevel fått det til, og dermed har vi to forskjellige datatyper for tall. Disse kalles `heltall` og `flyt-tall`. I praksis er det ikke så mye forskjell for vår del, men det kan dukke opp feil der man for eksempel prøver å behandle et heltall som om det var et desimaltall. I matematikken ville det vært uproblematisk, men når vi koder må vi være klar over forskjellen.
 
-#### Boolske variable
-
-```PYTHON
-test = True
-```
-
-En slik variabel kan kun ha verdiene True eller False. Tenk på den som en bryter som kun kan være av eller på. Vi bruker den ikke så ofte, men det er en del av betingelser som vi skal se på senere.
-
-#### Lister
-
-```PYTHON
-liste = ["eple", "banan", "appelsin"]
-```
-
-Dette er mer avanserte datatyper som vi skal se på i egne kapittel. Vi kan for eksempel samle data, tall og/eller egenskaper i lister, og har mange verktøy vi for å jobbe videre med de.
 
 #### Input
 
@@ -84,6 +68,24 @@ navn = input("Hva heter du? ")
 Når vi kjører programmet vil du se at spørsmålet stilles i konsollen. Programmet fortsetter ikke før vi har svart på spørsmålet. Svaret vårt lagres som en streng i variabelen navn:
 
 ![Input](input.png)
+
+
+#### Boolske variable
+
+```PYTHON
+test = True
+```
+
+En slik variabel kan kun ha verdiene True eller False. Tenk på den som en bryter som kun kan være av eller på. Vi bruker den ikke så ofte, men det er en del av betingelser som vi skal se på senere.
+
+
+#### Lister
+
+```PYTHON
+liste = ["eple", "banan", "appelsin"]
+```
+
+Dette er mer avanserte datatyper som vi skal se på i egne kapittel. Vi kan for eksempel samle data, tall og/eller egenskaper i lister, og har mange verktøy vi for å jobbe videre med de.
 
 
 #### Printe flere variable
