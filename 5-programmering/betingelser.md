@@ -1,6 +1,6 @@
 # Betingelser.
 
-![Hvilken vei](bilder/hvilken_vei.jpeg.png ':size=500')
+![Hvilken vei](bilder/hvilken_vei.jpeg ':size=500')
 
 Livet består av mange valg. Det kan være de små valgene (hva skal jeg ha på meg idag?), eller større valg (Hva skal jeg studere?). Hva som skjer videre avhenger nok mye av valgene du til stadig gjør. Dersom vi skal kunne programmere mer avansert, må vi også kunne gi datamaskingen muligheten til å kjøre forskjellige instrukser avhengig av ulike valg. Frem til nå har nemlig koden vår kjørt linje for linje. En betingelse derimot, består av et eller flere utsagn med tilhørende kode. Koden som hører vil bare kjøre dersom utsagnet stemmer (returner True). La oss legge til en betingelse på koden fra forrige side (der vi regner ut alderen til brukeren):
 
