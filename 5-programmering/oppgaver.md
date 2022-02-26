@@ -1035,3 +1035,42 @@ I: Sette inn penger
 2. Utfordring: legg til funksjonalitet for flere brukere og/eller konti 
 
 3. Utfordring: legg til funksjonalitet for å overføre mellom brukere og/eller konti 
+
+<details>
+    <summary>Klikk for Løsning</summary>
+    
+    Løsning:
+
+    a) Denne kan gjøres på mange forskjellige måter, dette er bare et forslag:
+
+    konto = 0
+    bank = True
+            
+    while bank == True:
+        oppdrag = input("Hva ønsker du? Trykk på en tast for å velge.\n S: Se Saldo.\n U: Ta ut penger. \n I: Sette inn penger. \n A: Avslutt\n")
+        
+        if oppdrag.upper() == "S":
+            print("Din saldo er:", konto, "kr\n")
+
+        elif oppdrag.upper() == "U":
+            beløp = float(input("Hvor mye vil du ta ut? "))
+            if konto >= beløp:
+                konto -= beløp
+                print( "\nDin saldo er nå", konto, "kr\n")
+            else:
+                print("\nDu kan ikke ta ut mer enn du har på konto.")
+        
+        elif oppdrag.upper() == "I":
+            beløp = float(input("Hvor mye vil du sette inn? "))
+            konto = konto + beløp
+            print("\n", beløp, " kr er satt in på din konto.")
+        
+        elif oppdrag.upper() == "A":
+            print("Takk for besøket, velkommen tilbake.")
+            bank = False
+        
+        else:
+            print("Ugyldig valg")
+    
+
+</details>
