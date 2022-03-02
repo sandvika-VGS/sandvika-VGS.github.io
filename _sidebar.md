@@ -40,6 +40,9 @@
   * [5.7 Oppgaver](./5-programmering/oppgaver.md)
   * [5.8 Oppslagsliste](./5-programmering/oppslagsliste.md)
 
+* Flask
+  * [6.1 Introduksjon](6-flask/1-introduksjon-til-flask.md)
+
 * Databaser (Utgått pensum)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
   * [7.2 Databaser](./7-databaser/datamodeller.md)
