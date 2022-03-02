@@ -1,18 +1,18 @@
 # Introduksjon til Flask
 
-## 0. Installer utvidelse
+## 6.0 Installer utvidelse
 
 Installer utvidelsen `Flask-VGS` i VS Code.
 
 > I VS Code ligger utvidelser under ikonet med fire firkanter på menyen til venstre.
 
-## 1. Hallo, Verden!
+## 6.1 Hallo, Verden!
 
 Lag en ny mappe i VS Code, høyreklikk på mappen og velg `Create Flask`.
 Når `Create Flask` er ferdig har det dukket to nye filer i prosjektmappen, det er filene `app.py` og `templates/index.html`.
 
 
-###  1.1 Back-end
+###  6.1.1 Back-end
 
 I `app.py` skrives Python-koden til applikasjonen.
 Koden som skrives her er koden til *serveren*, slik kode kalles ofte *back-end*, fordi 
@@ -32,7 +32,7 @@ def index(): # lager en funksjon med navn `index`, funksjonen kjøres når ruten
 - `@app.route("/")` lager en *rute* på nettadressen, som viser det som returneres av funksjonen under. Eks: ruten `"/"` tilsvarer nettadressen `http://127.0.0.1:5000/`, og `"/registrer"` tilsvarer nettadressen `http://127.0.0.1:5000/registrer`  
 - `return render_template("index.html", navn=navn)`, returnerer html-filen `index.html`, hvor `{{navn}}` byttes ut med verdien til variabelen navn.
 
-### 1.2 Front-end
+### 6.1.2 Front-end
 
 I mappen `templates` ligger filen `index.html`, som inneholder nesten vanlig HTML-kode.
 Forskjellen fra vanlig HTML er `{{navn}}`.
@@ -56,7 +56,7 @@ I dette eksempelet hentes verdien i variabelen `navn` fra serveren.
 ````
 
 
-### 1.3 Oppgave
+### 6.1.3 Oppgave
 
 1. Bytt ut verdien på variabelen `navn` i `app.py` til ditt eget navn, start serveren på nytt ved å velge `run Flask` og sjekk nettsiden `http://127.0.0.1:5000`.
 2. Kopier koden under inn i `app.py`, start serveren på nytt og sjekk nettsiden `http://127.0.0.1:5000/kongen`
