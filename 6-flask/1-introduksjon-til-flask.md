@@ -62,10 +62,10 @@ I dette eksempelet hentes verdien i variabelen `navn` fra serveren.
 2. Kopier koden under inn i `app.py`, start serveren på nytt og sjekk nettsiden `http://127.0.0.1:5000/kongen`
 
 ```python
-@app.route("/kongen") #lager en rute på nettadressen, som viser det som returneres av funksjonen under
-def index(): # lager en funksjon med navn `index`, funksjonen kjøres når ruten som er definert på linjen over blir besøkt
-    navn = "Konge Harald" # oppretter en lokal variabel `navn` med verdien `"Sandvika"`
-    return render_template("index.html", navn=navn) # returnerer html-filen `index.html`, hvor {{navn}} blir Sandvika
+@app.route("/kongen") 
+def kongen(): 
+    navn = "Kong Harald"
+    return render_template("index.html", navn=navn) 
 
 ```
 
