@@ -42,6 +42,7 @@
 
 * Flask
   * [6.1 Introduksjon](6-flask/1-introduksjon-til-flask.md)
+  * [6.2 *Flask og HTML*](6-flask/2-flask-og-html.md)
 
 * Databaser (Utgått pensum)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
