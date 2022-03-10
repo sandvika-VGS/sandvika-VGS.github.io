@@ -927,9 +927,26 @@ Opprett en liste mineTall med tallene 9, 3, 1 og 2
 * Skriv ut tallene 1, 3, 5 og 9 fra listen 
 
 <details>
-    <summary>Klikk for Løsning</summary>
+<summary>Klikk for Løsning</summary>
     
-    kommer
+
+````python
+mineTall = [9, 3, 1, 2]
+mineTall.remove(9)
+mineTall.remove(2)
+mineTall.insert(1, 2) # sett inn 2 på indeks 1
+mineTall.insert(3, "stilig")
+mineTall.insert(5, True)
+print(mineTall)
+
+liste2d = [
+    [1, 2, 3], 
+    [4, 5, 6], 
+    [7, 8, 9]
+]
+
+print(liste2d[0][0], liste2d[0][2], liste2d[1][1], liste2d[2][2])
+````
 
 </details>
 
