@@ -134,3 +134,27 @@ def filmer():
 ````
 
 Denne koden lager de to rutene `/` og `/filmer`.
+
+## CSS-filer
+
+- Lim koden under inn i `nav.css`
+
+```css
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+```
+
+- Lim koden under inn i `style.css`
+
+```css
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    width: 400px;
+    margin: auto;
+}
+```
