@@ -100,15 +100,15 @@ Når Flask generer koden for denne fila henter den HTML-koden fra `mal.html`, og
 {% extends "mal.html" %}
 
 {% block innhold %}
-<h1>Filmer</h1>
-<p>
-    Film, også kalt spillefilm eller levende bilder, er en rekke av 
-    fotografiske enkeltbilder, som når de vises i en rask rekkefølge, 
-    skaper en illusjon av bevegelse som kalles phi-fenomenet. 
-    Denne optiske illusjonen oppstår ettersom publikum oppfatter en 
-    kontinuerlig bevegelse mellom adskilte objekter som blir sett i 
-    rask rekkefølge. 
-</p>
+    <h1>Filmer</h1>
+    <p>
+        Film, også kalt spillefilm eller levende bilder, er en rekke av 
+        fotografiske enkeltbilder, som når de vises i en rask rekkefølge, 
+        skaper en illusjon av bevegelse som kalles phi-fenomenet. 
+        Denne optiske illusjonen oppstår ettersom publikum oppfatter en 
+        kontinuerlig bevegelse mellom adskilte objekter som blir sett i 
+        rask rekkefølge. 
+    </p>
 {% endblock %}
 ````
 
