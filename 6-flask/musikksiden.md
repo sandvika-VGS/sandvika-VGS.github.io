@@ -2,7 +2,7 @@
 
 ## Filstruktur
 
-- Spotify-bibliotek: [spotify.py]([./spotify.py](https://raw.githubusercontent.com/sandvika-VGS/sandvika-VGS.github.io/master/6-flask/spotify.py))
+- Spotify-bibliotek: [spotify.py](https://raw.githubusercontent.com/sandvika-VGS/sandvika-VGS.github.io/master/6-flask/spotify.py)
 
 ```
 |
