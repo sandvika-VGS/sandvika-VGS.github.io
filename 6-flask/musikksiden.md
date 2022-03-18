@@ -31,14 +31,17 @@
 
 ```python
 from flask import Flask, render_template # importerer flask-biblioteket
+from spotify import weekly_top_songs_global
+
 
 app = Flask(__name__) # oppretter en Flask-app
 
 artistliste = ["Slowthai", "Shame", "Karpe", "Honningbarna"]
-sangliste = [
-    {"navn": "Hello", "artist": "Adele"},
-    {"navn": "Looking for Knives", "artist": "DYAN"}
-]
+#sangliste = [
+#    {"navn": "Hello", "artist": "Adele"},
+#    {"navn": "Looking for Knives", "artist": "DYAN"}
+#]
+sangliste = weekly_top_songs_global()
 
 @app.route("/") # oppretter en rute til /
 def index(): # oppretter en funksjon index, denne funksjonen vil kjøre når vi besøker ruten definert på linjen over
