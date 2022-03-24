@@ -31,7 +31,7 @@ Nå har vi fått denne filstrukturen:
 |
 ```
 
-## Lage en mal - base.html
+## Lage en mal - mal.html
 
 - Lim koden under inn i `mal.html`
 
