@@ -46,6 +46,7 @@
   * [6.3 *Lage mal*](6-flask/flask-lage-mal.md)
   * [6.4 *Requests*](6-flask/flask-requests.md)
   * [6.5 Musikksiden](6-flask/musikksiden.md)
+  * [6.6 *Musikksiden*](6-flask/filmsiden.md)
 
 * Databaser (Utgått pensum)
   * [7.1 Dynamiske Nettsider](./7-databaser/databaseteori.md)
