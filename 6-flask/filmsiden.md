@@ -57,6 +57,33 @@ def film(id):
 
 ```
 
+## mal.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmsiden</title>
+    <link rel="stylesheet" href='{{url_for("static", filename="nav.css")}}'>
+    <link rel="stylesheet" href='{{url_for("static", filename="style.css")}}'>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Hjem</a>
+        </nav>
+    </header>
+    <main>
+        {% block innhold %}
+        {% endblock %}
+    </main>
+</body>
+</html>
+``
+
 ## index.html
 
 Denne siden inneholder en for-løkke som går gjennom listen filmer, og lager et listepunkt for hver film, listepunktet inneholder en lenke som peker på ruten `/film/{{loop.index}}`, der `loop.index` er antall ganger løkken har kjørt.
