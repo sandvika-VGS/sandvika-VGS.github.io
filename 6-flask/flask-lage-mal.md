@@ -6,7 +6,7 @@
 2. Høyreklikk på mappen `filmsiden` og velg `Create Flask`
 3. Opprett en ny mappe `static` i mappen `filmsiden`
 4. Opprett to filer, `nav.css` og `style.css` i mappen `static`
-5. Opprett to filer, `base.html` og `filmer.html` i mappen `templates`
+5. Opprett to filer, `mal.html` og `film.html` i mappen `templates`
 
 Nå har vi fått denne filstrukturen:
 
