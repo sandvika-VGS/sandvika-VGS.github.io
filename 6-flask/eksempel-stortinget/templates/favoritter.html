@@ -1,0 +1,8 @@
+{% extends "mal.html" %}
+
+{% block innhold %}
+    <h1>Favoritter</h1>
+    {% for favoritt in favoritter %}
+        <li>{{politikere[favoritt]["navn"]}}</li>
+    {% endfor %}
+{% endblock %}

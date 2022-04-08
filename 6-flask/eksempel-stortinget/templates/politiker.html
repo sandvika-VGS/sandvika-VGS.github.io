@@ -1,0 +1,9 @@
+{% extends "mal.html" %}
+
+{% block innhold %}
+    <h1>{{politiker["navn"]}}</h1>
+    <form action="/politiker/legg-til/{{id}}">
+        <button type="submit">Legg til i favoritter</button>
+    </form>
+{% endblock %}
+

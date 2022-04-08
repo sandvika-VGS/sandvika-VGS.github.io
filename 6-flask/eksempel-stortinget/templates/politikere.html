@@ -1,0 +1,16 @@
+{% extends "mal.html" %}
+
+{% block innhold %}
+    <h1>Politikere</h1>
+    {% for id, politiker in politikere.items() %}
+        <div>
+            <a href="/politiker/{{id}}">
+                <h3>{{politiker["navn"]}}</h3>
+            </a>
+            <ul>
+                <li>{{politiker["parti"]}}</li>
+                <li>{{politiker["fylke"]}}</li>
+            </ul>
+        </div>
+    {% endfor %}
+{% endblock %}

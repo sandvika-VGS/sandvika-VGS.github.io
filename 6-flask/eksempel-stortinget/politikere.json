@@ -1,0 +1,37 @@
+{
+    "erna": {
+        "navn": "Erna Solberg",
+        "parti": "Høyre",
+        "fylke": "Vestland"
+    },
+    "jonas": {
+        "navn": "Jonas Gahr Støre",
+        "parti": "Arbeiderpartiet",
+        "fylke": "Oslo"
+    },
+    "trygve": {
+        "navn": "Trygve Slagsvold Vedum",
+        "parti": "Senterpartiet",
+        "fylke": "Innlandet"
+    },
+    "une": {
+        "navn": "Une Bastholm",
+        "parti": "Miljøpartiet de Grønne",
+        "fylke": "Oslo"
+    },
+    "sylvi": {
+        "navn": "Sylvi Listhaug",
+        "parti": "Fremskrittspartiet",
+        "fylke": "Møre og Romsdal"
+    },
+    "audun": {
+        "navn": "Audun Lysbakken",
+        "parti": "Sosialistisk Venstreparti",
+        "fylke": "Vestland"
+    },
+    "bjornar": {
+        "navn": "Bjørnar Moxnes",
+        "parti": "Rødt",
+        "fylke": "Oslo"
+    }
+}
