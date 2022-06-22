@@ -49,9 +49,8 @@ La oss prøve:
     </html>
 ```
 
-- Høyreklikk hvor som helst på siden og velg "Open in default browser". 
-*(Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser)*
+- Høyreklikk hvor som helst på siden og velg "Open in default browser".\ *(Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser)*
 
-![Min første hjemmeside"](./minside.png)
+![Min første hjemmeside](./minside.png)
 
 Gratulerer du har nå laget din første hjemmeside. La oss se nærmere på hva som skjedde.
