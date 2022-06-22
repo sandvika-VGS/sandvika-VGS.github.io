@@ -51,7 +51,7 @@ Når vi har installert det vi trenger er det best å bare hoppe i det, prøv fø
 
 - Lagre siden igjen.
 
-- Høyreklikk hvor som helst på siden og velg "Open in default browser".\ *(Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser)*
+- Høyreklikk hvor som helst på siden og velg "Open in default browser". *(Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser)*
 
 ![Min første hjemmeside](./minside.png)
 
