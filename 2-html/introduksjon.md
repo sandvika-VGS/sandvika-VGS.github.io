@@ -1,4 +1,4 @@
-## Html lager nettsiden
+## Html lager Nettsider
 
 Du har trolig vært på utallige nettsider hele livet uten å tenke særlig nøye gjennom hvordan de er laget. La oss få ett innblikk ved å gjøre følgende:
 
