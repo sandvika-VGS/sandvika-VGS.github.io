@@ -108,7 +108,7 @@ _Siden h1 har "hoppet" et hakk inn, er det lett å se at det ligger nøstet inn 
 
 ## Attributter
 
-Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dersom vi for eksempel skal legge til et bilde på nettsiden så må vi fortelle nettleseren hva bildet heter (og hvor det finnes). Denne ekstra informasjonen skal ikke vises på selve nettsiden så vi legger den til som en `attributt`. Bilde-elementet heter `img` (image) og attributten heter `src` (source). Koden for bildet ser da ut som følger:
+Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dersom vi for eksempel skal legge til et bilde på nettsiden så må vi fortelle nettleseren hva bildet heter (og hvor det finnes). Denne ekstra informasjonen skal ikke vises på selve nettsiden så vi legger den til som en `attributt`. Bilde-elementet heter `img` (image) og attributten heter `src` (source). Teksten for bildet ser da ut som følger:
 
 ![HTML-element med attributt](attributt.png)  
 
