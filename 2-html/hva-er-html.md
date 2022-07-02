@@ -1,5 +1,3 @@
-# Hvordan skrive HTML
-
 ## HTML består av Elementer
 
 HTML kalles for et markeringsspråk og brukes til å strukturere innhold på nettsider. HTML består av `elementer`, disse må skrives på en spesifikk måte slik at nettleseren skal forstå språket. Se igjen på:
