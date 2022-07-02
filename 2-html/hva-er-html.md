@@ -1,10 +1,8 @@
-# Hva er HTML?
+# Hvordan skrive HTML
 
-HTML er ikke et programmeringsspråk.
-Det er et markeringsspråk, som brukes til å strukturere innhold på nettsider.
-HTML består av *elementer*, som brukes for å pakke inn innhold, slik at det vises på en spesiell måte i nettleseren.
-*Elementene* består av *Tagger* rundt innholdet, og forteller nettleseren om innholdet er tekst, en lenke, et bilde, og så videre.
-La oss se på eksempelet i forrige avsnitt:
+## HTML består av Elementer
+
+HTML kalles for et markeringsspråk og brukes til å strukturere innhold på nettsider. HTML består av `elementer`, disse må skrives på en spesifikk måte slik at nettleseren skal forstå språket. Se igjen på:
 ```HTML
     <!DOCTYPE html>
     <html>
@@ -12,43 +10,25 @@ La oss se på eksempelet i forrige avsnitt:
             <h1>Hallo verden!</h1>
         </body>
     </html>
-```
+``` 
+I hjemmesiden vi lagde i forrige avsnitt er det tre element: `html`, `body` og `h1`. Elementenes oppbygning kan man generelt beskrive som følgende:
 
-Første linje er alltid med for at nettleserene skal vite at det er en html-fil. Det som står med blå skrift er tagger som starter og slutter et element. *Html* og *body* er viktige element vi kommer tilbake til, mens *h1* står for "header 1" og er det som gjør at Hallo verden! står som en overskrift. 
+![Et HTML-element](Element.png)  
 
-Se for eksempel på følgende linje med innhold:
-
-```
-Katten min er veldig gretten
-```
-Hvis vi har lyst at denne teksten skal stå for seg selv på nettsiden, kan vi legge på *paragraph*-tagger (avsnitts-tagger).
-
-```HTML
-    <!DOCTYPE html>
-    <html>
-        <body>
-            <h1>Hallo verden!</h1>
-            <p>Katten min er veldig gretten</p>
-        </body>
-    </html>
-
-```
-
-## Oppbygningen av et HTML-element
-
-![Et HTML-element](tag.png)  
-Delene av dette *p-elementet* er følgende:
-
-1. **Åpningstaggen:** Denne består av navnet på elementet (i dette tilfellet p), pakket inn i *krokodillemunner*.
+1. **Åpningstaggen:** Denne består av navnet på elementet (i dette tilfellet p), pakket inn i *"krokodillemunner"*.
 2. **Lukketaggen:** Denne er lik som åpningstaggen, bare at vi legger til en skråstrek før navnet på elementet.
 3. **Innholdet:** I mellom taggene er innholdet i elementet, som i dette tilfellet bare er tekst.
-4. **Hele elementet:** Åpningstaggen, lukketaggen og innholdet utgjør hele elementet.
+4. **Hele elementet:** Åpningstaggen, lukketaggen og innholdet utgjør til sammen hele elementet.
 
-Når vi skal lære oss html så vil mye av jobben bestå av å vite hva slags funksjon de ulike elementene har. 
+Når vi skal lære oss html så vil mye av jobben bestå av å vite hvilke elementer som finnes, hvordan de skrives og hva slags funksjon de har. For eksempel er `h1` elementet et såkalt header element, altså en overskrift. Vi kan lage mindre overskrifter ved å bruke et `h2` element, helt ned til `h6`.
 
-**Lag en ny html-fil, slik som i forrige avsnitt. Skriv "html:5" og trykk tab (i stedet for enter).** 
+Hva med `html` og `body` elementene? De er begge en del av "skjelettet" til en html-fil. Dette skjelettet er det vanlig å starte hver gang vi skal lage en nettside. VS-Code hjelper oss med å sette det opp:
 
-Du vil se at VS - Code generer et skjelett for en html side slik at vi slipper å skrive det samme hver gang:
+**Lag en ny html fil feks "minside.html". Start ved å skrive html og du vil se at du får opp noen forslag:**
+
+![Vs-Code skriver skjelettet](html5.png)
+
+**Velg det midterste alternativet, html:5, og du vil få følgende tekst:**
 
 ```HTML
 <!DOCTYPE html>
@@ -62,15 +42,44 @@ Du vil se at VS - Code generer et skjelett for en html side slik at vi slipper �
     
     </body>
 </html>
+
 ```
 
-_Html_-elementet ligger alltid rundt hele nettsiden vår. Inne i html-elementet ligger _head_ og _body_. I head skriver vi såkalt metainformasjon, altså informasjon om nettsiden som ikke synes. I body skriver vi alt som skal synes på nettsiden vår. Disse tre elementene er med i alle nettsider, så det er lurt å huske snarveien vi nå brukte. Vi har i tillegg sett på _h1_ og _p_ elementer som er til henholdsvis overskrifter og paragrafer. 
+Dette er altså den grunnleggende oppbyggingen av en html fil.
 
+`Html`-elementet ligger rundt hele html-fila vår slik at nettleseren vet hva som skal tolkes. 
+
+`Head`-elementet består av såkalt meta-informasjon, altså informasjon nettleseren skal ha, men som ikke skal synes på selve siden. Vi ser nærmere på dette senere  
+
+`Body`-elementet ligger rundt alt innholdet som faktisk skal vises på nettsiden vår. Inne i body-elementet kan vi nå legge til overskrifter, tekst, bilder og annet innhold.
+
+La oss legge til en overskrift igjen. Legg merke til at siden vi bruker VS-Code så slipper vi å skrive krokodillemunnene og de andre symbolene selv. Dersom du bare skriver *h1* så vil du få opp et alternativ, og når du velger dette vil elementet skrives for deg. Nå trenger du bare å legge til innholdet, altså selve teksten i overskriften.
+
+Vi kan også legge til litt tekst, da er `p`-elementet kjekt å bruke. All tekst vi skriver som innhold i dette elementet vil lage et avsnitt (paragraph). Ved å legge flere p-element etter hverandre får vi flere avsnitt under hverandre
+
+
+```HTML
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Min Side</title>
+        </head>
+        <body>
+            <h1>Hallo verden!</h1>
+            <p>Katten min er veldig gretten</p>
+            <p>Den er også veldig lat</p>
+        </body>
+    </html>
+```
 **Eksperimenter ved å sette inn noen overskrifter og paragrafer i body-elementet. Skriv for eksempel noen linjer om ferien din**
+
+
 
 ## Nøstede elementer
 
-Du ser nå kanskje at du kan putte elementer inne i elementer, dette kalles *nøsting*.
+Du ser nå kanskje at vi ofte har lagt elementer inne i elementer, dette kalles *nøsting*.
 Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi sette "veldig" i et `<strong>` element, det vil gjøre at "veldig" blir skrevet med fet skrift på nettsiden.
 
 ```HTML
@@ -99,37 +108,29 @@ _Siden h1 har "hoppet" et hakk inn, er det lett å se at det ligger nøstet inn 
 
 ## Attributter
 
-Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dette er mulig ved å legge til _attributter_. 
-
-Elementer med attributter ser slik ut:  
+Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dersom vi for eksempel skal legge til et bilde på nettsiden så må vi fortelle nettleseren hva bildet heter (og hvor det finnes). Denne ekstra informasjonen skal ikke vises på selve nettsiden så vi legger den til som en `attributt`. Bilde-elementet heter `img` (image) og attributten heter `src` (source). Koden for bildet ser da ut som følger:
 
 ![HTML-element med attributt](attributt.png)  
-_Attributter innholder ekstra informasjon om elementet, som ikke vises på nettsiden. I dette tilfellet er `class` attributtnavnet, og `editor-note` attributtverdien.
-`class` bruker vi for å kunne hente ut dette elementet senere, slik at vi f.eks kan endre stil på det._
 
-Noen ganger må vi legge til en attributt for at html-elementet i det hele tatt skal fungere. Anta at vi skal lage en lenke til skolens hjemmeside, da bruker vi et såkalt anker-element
+`src` attributtet er altså kilden til bildet, for at dette skal vises **må du ha et bilde med samme navn i samme mappe som html fila**. `alt` attributtet er eventuell tekst som vil synes dersom bildet av en eller annen grunn ikke kan vises. Legg også merke til at `img`-elementet er litt spesielt. da det bare består av en åpnings-tagg. Det er fordi når vi har fylt ut src-attributtet så trenger vi ikke noe mer innhold til bildet, og vi trenger da heller ingen lukke-tagg.
 
-```HTML
-<a href="www.sandvika-vgs.no">Sandvika VGS</a>
-```
-href er en her en attributt der URL-en til siden vi skal besøke må stå.
-
-Hvilke attributter som hører til hvilke element er noe vi kan slå opp.
-
-Attributtene skrives alltid inne i åpningstaggen til et element og må skrives med følgende regler:
-
-1. Mellomrom mellom attributten og elementnavnet.
-2. Attributtnavnet etterfulgt av et likhetstegn.
-3. Attributtverdien inne i anførselstegn.
-
-> OBS!
->
-> Noen få attributter trenger ikke attributtverdi.
-
-Veldig ofte skriver vi flere attributter på et element, og da skriver vi de bare etter hverandre i åpningstaggen:
+Vi har nå laget en nettside med overskrift tekst og bilder, for eksempel:
 
 ```HTML
-<img src="etbilde.jpg" alt="alternativ tekst dersom bildet ikke vises">
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Min Side</title>
+        </head>
+        <body>
+            <h1>Hallo verden!</h1>
+            <p>Katten min er veldig gretten</p>
+            <p>Den er også veldig lat</p>
+            <p>Her er et bilde av katten min:</p>
+            <img src="minkatt.jpg" alt="katten min">
+        </body>
+    </html>
 ```
-*Et element for å legge inn bilde, src attributtet forteller oss hvor bildet finnes og hva det heter, og må være med for at bildet skal vises*
-
+Vi skal i neste avsnitt se litt nærmere på lenker (2.3). Videre ser vi på strukturering av nettsiden (2.4), og siste del av dette kapittelet er en oppsummering av de mest brukte elementene (2.5). Mange begynner nå å bli mer interessert i å gjøre utseende på nettsiden bedre. Da må vi se nærmere på CSS, som vi tar for oss i Kap 3. 

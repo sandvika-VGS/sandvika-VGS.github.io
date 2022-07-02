@@ -7,9 +7,9 @@ De gjør det mulig å lenke sammen egne og andres dokumenter, slik at vi kan bev
 
 `<a href="https://www.sandvika.vgs.no/">Klikk her for å gå til skolens hjemmeside</a>`
 
-I HTML lages hyperlenker med en `<a>` tag.**a** er en forkotelse for **anchor**.
+I HTML lages hyperlenker med en `<a>` elementet.**a** er en forkotelse for **anchor**.
 Attributtet `href` angir hvor lenken peker.
-Det som står mellom taggene er det som står ut på nettsiden.
+Det som står mellom taggene er det som synes på nettsiden.
 
 > Tips: For at lenken skal åpne i en ny fane kan vi legge til attributtet `target="_blank"`   
 > [Sjekk ut w3schools for å se hva mer du kan gjøre med lenker](https://www.w3schools.com/tags/tag_a.asp)
