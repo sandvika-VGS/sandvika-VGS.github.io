@@ -15,14 +15,14 @@ I hjemmesiden vi lagde i forrige avsnitt er det tre element: `html`, `body` og `
 
 ![Et HTML-element](Element.png)  
 
-1. **Åpningstaggen:** Denne består av navnet på elementet (i dette tilfellet p), pakket inn i *"krokodillemunner"*.
+1. **Åpningstaggen:** Denne består av navnet på elementet (i dette tilfellet h1), pakket inn i "krokodillemunner".
 2. **Lukketaggen:** Denne er lik som åpningstaggen, bare at vi legger til en skråstrek før navnet på elementet.
 3. **Innholdet:** I mellom taggene er innholdet i elementet, som i dette tilfellet bare er tekst.
 4. **Hele elementet:** Åpningstaggen, lukketaggen og innholdet utgjør til sammen hele elementet.
 
-Når vi skal lære oss html så vil mye av jobben bestå av å vite hvilke elementer som finnes, hvordan de skrives og hva slags funksjon de har. For eksempel er `h1` elementet et såkalt header element, altså en overskrift. Vi kan lage mindre overskrifter ved å bruke et `h2` element, helt ned til `h6`.
+Når vi skal lære oss html så vil mye av jobben bestå av å vite hvilke elementer som finnes, hvordan de skrives og hva slags funksjon de har. For eksempel er `h1` elementet et såkalt header-element, altså en overskrift. Vi kan lage mindre overskrifter ved å bruke `h2` element, helt ned til `h6`.
 
-Hva med `html` og `body` elementene? De er begge en del av "skjelettet" til en html-fil. Dette skjelettet er det vanlig å starte hver gang vi skal lage en nettside. VS-Code hjelper oss med å sette det opp:
+Hva med `html` og `body`? De er begge en del av "skjelettet" til en html-fil. Dette skjelettet er det vanlig å starte hver gang vi skal lage en nettside. VS-Code hjelper oss med å sette det opp:
 
 **Lag en ny html fil feks "minside.html". Start ved å skrive html og du vil se at du får opp noen forslag:**
 
@@ -112,7 +112,7 @@ Når vi legger til et element så vil vi ofte ha behov for å legge til litt eks
 
 ![HTML-element med attributt](attributt.png)  
 
-`src` attributtet er altså kilden til bildet, for at dette skal vises **må du ha et bilde med samme navn i samme mappe som html fila**. `alt` attributtet er eventuell tekst som vil synes dersom bildet av en eller annen grunn ikke kan vises. Legg også merke til at `img`-elementet er litt spesielt. da det bare består av en åpnings-tagg. Det er fordi når vi har fylt ut src-attributtet så trenger vi ikke noe mer innhold til bildet, og vi trenger da heller ingen lukke-tagg.
+`src` attributtet er altså kilden til bildet, for at dette skal vises **må du ha et bilde med samme navn i samme mappe som html fila**. `alt` attributtet er eventuell tekst som vil synes dersom bildet av en eller annen grunn ikke kan vises. Legg også merke til at img-elementet er litt spesielt da det bare består av en åpnings-tagg. Det er fordi når vi har fylt ut src-attributtet så trenger vi ikke noe mer innhold til bildet, og vi trenger da heller ingen lukke-tagg.
 
 Vi har nå laget en nettside med overskrift tekst og bilder, for eksempel:
 
