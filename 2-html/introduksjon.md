@@ -26,17 +26,17 @@ Ved hjelp av HTML kan vi derfor ganske enkelt angi en overskrift et bilde og lit
 
 ## Din første Nettside
 
-Den beste måten å lære både HTML (og det meste innen IT-fagene) er å prøve selv. Akkurat som når du skriver tekstfiler, skal vi nå skrive en _html-fil_. Teoretisk sett kan vi skrive en slik fil i skriveprogram du allerede er vant med å bruke, men i Word og liknende er det ikke mye hjelp å få. Derfor vil vi ha et eget program som er laget nettopp for å blant annet å skrive HTML. Det finnes mange gode slike såkalte `editorer` og den mest populære er for tiden VS Code.
+Den beste måten å lære både HTML (og det meste innen IT-fagene) er å prøve selv. Akkurat som når du skriver tekstfiler, skal vi nå skrive en _html-fil_. Teoretisk sett kan vi skrive en slik fil i skriveprogram du allerede er vant med å bruke, men med slike er det ikke mye hjelp å få. Derfor vil vi ha et eget program som er laget nettopp for å blant annet å skrive HTML. Det finnes mange gode alternativ, såkalte `editorer`, og den mest populære er for tiden VS Code.
 
 Prøv følgende:
 
-- Åpne VS Code
+- **Åpne VS Code**
 
-- Lag en ny fil: Velg File og så "New File" *(Snarvei: ctrl-n / command-n)*
+- **Lag en ny fil:** Velg File og så "New File" *(Snarvei: ctrl-n / command-n)*
 
-- Lagre den nye filen som en html-fil: Velg "Save as" *(Snarvei: ctrl-s / command-s)* Navnet på fila kan for eksempel være "hjemmeside.html", vi må ha med punktum etter navnet og det er viktig at det som står etter punktum er html.
+- **Lagre den nye filen som en html-fil:** Velg "Save as" *(Snarvei: ctrl-s / command-s)* Navnet på fila kan for eksempel være "hjemmeside.html", vi må ha med punktum etter navnet og det er viktig at det som står etter punktum er html.
 
-- Kopier inn følgende tekst
+- **Kopier inn følgende tekst**
 
 ```HTML
     <!DOCTYPE html>
@@ -47,9 +47,9 @@ Prøv følgende:
     </html>
 ```
 
-- Lagre siden på nytt.
+- **Lagre siden på nytt.**
 
-- Hvis du har utvidelsen "Open in default browser" kan du nå høyreklikke og velge "Open in default browser". Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser. Det siste alternativet er ganske slitsomt i lengden, så sørg for å få hjelp til å installere utvidelsen.
+Hvis du har utvidelsen "Open in default browser" kan du nå høyreklikke og velge "Open in default browser". Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser. Det siste alternativet er ganske slitsomt i lengden, så sørg for å få hjelp til å installere utvidelsen.
 
 ![Min første hjemmeside](./minside.png)
 

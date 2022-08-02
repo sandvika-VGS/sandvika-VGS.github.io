@@ -5,22 +5,28 @@ De gjør det mulig å lenke sammen egne og andres dokumenter, slik at vi kan bev
 
 ## Hyperlenker i HTML
 
-`<a href="https://www.sandvika.vgs.no/">Klikk her for å gå til skolens hjemmeside</a>`
+Se på følgende html snutt:
 
-I HTML lages hyperlenker med en `<a>` elementet.**a** er en forkotelse for **anchor**.
+`<a href="https://www.sandvika.vgs.no/">Skolens hjemmeside</a>`
+
+I HTML lages hyperlenker med å bruke `<a>` - elementet. Her står bokstaven a som en forkotelse for **anchor**.
 Attributtet `href` angir hvor lenken peker.
-Det som står mellom taggene er det som synes på nettsiden.
+Det som står mellom taggene er det som synes på nettsiden. Html-koden ovenfor vil da se slik ut på nettleseren:
+
+![Eksempel](/eksempellenke.png)
 
 > Tips: For at lenken skal åpne i en ny fane kan vi legge til attributtet `target="_blank"`   
 > [Sjekk ut w3schools for å se hva mer du kan gjøre med lenker](https://www.w3schools.com/tags/tag_a.asp)
 
-### Eksperttips: Bilde som lenke
+### Innholdet til a - elementet
 
-Alle elementer som ligger inne i et a-element blir en lenke.
+I eksempelet ovenfor skrev vi ren tekst i innholdsbiten av lenke elementet, det er ganske vanlig men vi kan være mer avanserte
+Alle elementer som ligger nøstet inn i et a-element blir en del av lenka. Slik kan for eksempel nettaviser gjøre både bilde og tekst klikkbare for å lese mer om saken:
 
 ```HTML
-<a href="https://www.vg.no">
-    <img src="vg.png">
+<a href="https://www.vg.no/sistenytt">
+    <img src="kjempekultbilde.png">
+    <p>Du vil aldri tro hva som skjedde!</p>
 </a>
 ```
 

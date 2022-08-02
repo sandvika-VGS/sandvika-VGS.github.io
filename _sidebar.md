@@ -3,6 +3,7 @@
 
   * [1.1 Velkommen](./1-introduksjon/velkommen.md)
   * [1.2 Oppsett](./1-introduksjon/oppsett.md)
+  * [1.3 Mapper og Filstruktur](./1-introduksjon/filer-og-mapper.md)
 
 * HTML
   * [2.1 Introduksjon](./2-html/introduksjon.md)
