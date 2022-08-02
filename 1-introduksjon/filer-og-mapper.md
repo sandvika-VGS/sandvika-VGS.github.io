@@ -12,7 +12,7 @@ Vi sorterer disse filene i mapper slik at vi får en enklere struktur. Programme
 
 Hver gang du lagrer en ny fil, for eksempel en tekst eller et bilde, bestemmer du samtidig hvor filen skal plasseres. Mange lagrer kanskje filene i en standardmappe uten å tenke over hvor, mens andre allerede har laget seg sitt eget system med mapper for fag på skolen og lignende.
 
-![Lagre på PC/MAC](/lagre.png)
+![Bilde: Lagre på PC/MAC](/lagre.png)
 
 Du har som regel valget om å lagre lokalt eller i en sky. Lokal lagring betyr at filene lagres fysisk på datamaskinen din, og tar plass på denne. Dersom maskinen blir ødelagt eller borte så forsvinner fila. 
 
@@ -36,11 +36,12 @@ For å manuelt lete blant filene og mappene vi har (både lokalt og i skyen) så
 > som prøver å skjule fil og mappestruktur så langt det lar seg gjøre. Her legges det opp til at
 > du lett kan søke deg frem til det du trenger.
 
-VS-Code har også en innebygd utforsker som vi bruker mye i dette faget, for å bruke denne så åpner vi først en mappe så vil VS-Code vise deg hva som som ligger inne i denne. Vi kan åpne og lukke mapper ved å trykke på pilene. Merk Dersom vi åpner en annen mappe så betyr ikke det at lagrede filene vi hadde i den forrige forsvinner, vi bare utforsker et annet sted. 
-![Navigasjon i VS-Code](/vscode.png)
+VS-Code har også en innebygd utforsker som vi bruker mye i dette faget, for å bruke denne så åpner vi først en mappe så vil VS-Code vise deg hva som som ligger inne i denne. Vi kan åpne og lukke mapper ved å trykke på pilene. Husk at dersom vi åpner en annen mappe så betyr ikke det at lagrede filene vi hadde oppe tidligere forsvinner, vi bare utforsker et annet sted.
+
+![Bilde: Navigasjon i VS-Code](/vscode.png)
 
 *Ser du hvilke hvordan fil- og mappestrukturen er bygd opp? Hva ligger inne hvor?*
 
 ## Filtyper og Filnavn
 
-Det finnes veldig mange ulike filtyper, du er trolig mest vant til er sikkert bildefiler, tekstfiler eller eventuelt videofiler. I tillegg er det alle de "usynlige" filene som alle programmene og appene dine består av. Anta at du lagrer en tekst og gir den navnet "Norsk Skriveøkt". Dersom den er skrevet i word blir den faktisk lagret som "Norsk Skriveøkt.docx" der docx står for filtypen. Dette ordner skriveprogrammene for oss så vi slipper å tenke over det, men når du nå skal begynne med VS-Code så er det et skriveprogram for veldig mange ulike filtyper, og vi må derfor alltid ha med punktum og riktig filtype når vi lagrer filene våre.
+Det finnes veldig mange ulike filtyper, du er trolig mest vant til er sikkert bildefiler, tekstfiler eller eventuelt videofiler. I tillegg er det alle de "usynlige" filene som alle programmene og appene dine består av. Anta at du lagrer en tekst og gir den navnet "Norsk Skriveøkt". Dersom den er skrevet i word blir den faktisk lagret som "Norsk Skriveøkt.docx" der docx står for filtypen. Dette ordner skriveprogrammene for oss så vi slipper å tenke over det, men når du nå skal begynne med VS-Code så brukes dette for veldig mange ulike filtyper, og vi må derfor alltid ha med punktum og riktig filtype når vi lagrer filene våre. I neste kapittel skal vi lage en html-fil. Da må den ha lagres på formen *navn*.html der du bestemmer navnet selv,

@@ -32,9 +32,9 @@ Prøv følgende:
 
 - **Åpne VS Code**
 
-- **Lag en ny fil:** Velg File og så "New File" *(Snarvei: ctrl-n / command-n)*
+- **Opprett en ny fil:** Velg File og så "New File" *(Snarvei: ctrl-n / command-n)*
 
-- **Lagre den nye filen som en html-fil:** Velg "Save as" *(Snarvei: ctrl-s / command-s)* Navnet på fila kan for eksempel være "hjemmeside.html", vi må ha med punktum etter navnet og det er viktig at det som står etter punktum er html.
+- **Lagre den nye filen som en html-fil:** Velg "Save as" *(Snarvei: ctrl-s / command-s)*. Navnet på fila kan for eksempel være "hjemmeside.html", vi må ha med punktum etter navnet og det er viktig at det som står etter punktum er html.
 
 - **Kopier inn følgende tekst**
 
