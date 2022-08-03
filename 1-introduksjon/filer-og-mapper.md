@@ -18,7 +18,7 @@ Du har som regel valget om å lagre lokalt eller i en sky. Lokal lagring betyr a
 
 Skylagring betyr at du laster opp fila til en server via internett. En server kan i dette tilfellet sees på som en annen datamaskin i et stort datasenter designet for slike formål. Du trenger da tilgang til internett for å kunne lagre og få tak i fila di. Siden filene nå er lagret "på internett", vil du lett kunne få tilgang til de selv om du må bytte maskin. 
 
-Det finnes fordeler og bakdeler med begge varianter, men med så stabil internett-tilgang vi har nå, så lagres det meste i skyen. Det er vanlig å `synkronisere` lagringen, som betyr at filene lagres både lokalt og i skyen samtidig. 
+Det finnes fordeler og bakdeler med begge varianter, men med så stabil internett-tilgang vi har nå, så lagres mye i skyen. Det er vanlig å `synkronisere` lagringen, som betyr at filene lagres både lokalt og i skyen samtidig. 
 
 > Mange av de nyere Mac maskinene er satt opp slik at alt automatisk lagres i den integrerte
 > skytjenesten iCloud. Hvis du har opplevd at du ikke får lagret en fil uten internett-tilgang,
@@ -36,7 +36,7 @@ For å manuelt lete blant filene og mappene vi har (både lokalt og i skyen) så
 > som prøver å skjule fil og mappestruktur så langt det lar seg gjøre. Her legges det opp til at
 > du lett kan søke deg frem til det du trenger.
 
-VS-Code har også en innebygd utforsker som vi bruker mye i dette faget, for å bruke denne så åpner vi først en mappe så vil VS-Code vise deg hva som som ligger inne i denne. Vi kan åpne og lukke mapper ved å trykke på pilene. Husk at dersom vi åpner en annen mappe så betyr ikke det at lagrede filene vi hadde oppe tidligere forsvinner, vi bare utforsker et annet sted.
+VS-Code har også en innebygd utforsker som vi bruker mye i dette faget, for å bruke denne så åpner vi først en mappe så vil VS-Code vise deg hva som som ligger inne i denne. Vi kan åpne og lukke mapper ved å trykke på pilene. Husk at dersom vi åpner en helt ny mappe så betyr ikke det at lagrede filene vi hadde oppe tidligere forsvinner, vi bare utforsker et annet sted.
 
 ![Bilde: Navigasjon i VS-Code](/vscode.png)
 
@@ -44,4 +44,4 @@ VS-Code har også en innebygd utforsker som vi bruker mye i dette faget, for å 
 
 ## Filtyper og Filnavn
 
-Det finnes veldig mange ulike filtyper, du er trolig mest vant til er sikkert bildefiler, tekstfiler eller eventuelt videofiler. I tillegg er det alle de "usynlige" filene som alle programmene og appene dine består av. Anta at du lagrer en tekst og gir den navnet "Norsk Skriveøkt". Dersom den er skrevet i word blir den faktisk lagret som "Norsk Skriveøkt.docx" der docx står for filtypen. Dette ordner skriveprogrammene for oss så vi slipper å tenke over det, men når du nå skal begynne med VS-Code så brukes dette for veldig mange ulike filtyper, og vi må derfor alltid ha med punktum og riktig filtype når vi lagrer filene våre. I neste kapittel skal vi lage en html-fil. Da må den ha lagres på formen *navn*.html der du bestemmer navnet selv,
+Det finnes veldig mange ulike filtyper, du er trolig mest vant til er sikkert bildefiler, tekstfiler eller eventuelt videofiler. I tillegg er det alle de "usynlige" filene som alle programmene og appene dine består av. Anta at du lagrer en tekst og gir den navnet "Norsk Skriveøkt". Dersom den er skrevet i word blir den faktisk lagret som "Norsk Skriveøkt.docx" der docx står for filtypen. Hittil har dette skjedd automatisk uten at du trenger å forholde deg til det, men med VS Code blir det anderledes. Dette programmet brukes for mange ulike filtyper, og vi må derfor manuelt spesifisere hva slags type fil vi skal lage. Det gjør vi ved å gi den et navn, så ha med et punktum og riktig "filkode" når vi lagrer filene våre. I neste kapittel skal vi for eksempel lage en html-fil. Den må da lagres på formen *navn*.html der du bestemmer navnet selv,

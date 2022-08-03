@@ -5,7 +5,7 @@ Før vi begynner er det endel forberedelser vi skal gjøre i første time. Du tr
 ## Programmer
 - [VS Code](https://code.visualstudio.com/)
 
-Dette er editoren der vi skal gjøre det meste av arbeidet i faget. Akkurat som du har Word installert for å jobbe med dokumenter trenger du en editor som kan håndtere filene vi skal jobbe med. VS-Code er for tiden en av de mest populære valgene, og du kan laste programmet ned [her](https://code.visualstudio.com/)
+Dette er editoren der vi skal gjøre det meste av arbeidet i faget. Akkurat som du har Word installert for å jobbe med dokumenter, trenger du en editor som kan håndtere filene vi skal jobbe med. VS-Code er for tiden en av de mest populære valgene, og du kan laste programmet ned [her](https://code.visualstudio.com/)
 
 - [Google Chrome](https://www.google.com/intl/no/chrome/) / [Firefox](https://www.mozilla.org/nb-NO/firefox/new/)
 

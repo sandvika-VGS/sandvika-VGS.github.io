@@ -89,13 +89,13 @@ Hvis vi har lyst til å understreke at katten vår er veldig gretten, kan vi set
 > Her må du passe på at du nøster riktig. Dette blir feil:
 >
 > ```HTML
-> <p>My cat is <strong>very grumpy.</p></strong>
+> <p>Katten min er <strong>veldig gretten.</p></strong>
 > ```
 >
 > Elementene må åpnes og lukkes korrekt, slik at de er innenfor eller utenfor hverandre.
 > Hvis de overlapper, slik som i koden over, vil nettleseren din prøve å tippe hva du mener, og det blir ofte feil.
 
-Når vi skriver html, viser vi vanligvis hvilke elementer som er nøstet i hverandre ved inhopp:
+Når vi skriver html, viser vi hvilke elementer som er nøstet i hverandre ved inhopp:
 
 ```HTML
 <body>
@@ -106,11 +106,14 @@ _Siden h1 har "hoppet" et hakk inn, er det lett å se at det ligger nøstet inn 
 
 ## Attributter
 
-Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dersom vi for eksempel skal legge til et bilde på nettsiden så må vi fortelle nettleseren hva bildet heter (og hvor det finnes). Denne ekstra informasjonen skal ikke vises på selve nettsiden så vi legger den til som en `attributt`. Bilde-elementet heter `img` (image) og attributten heter `src` (source). Teksten for bildet ser da ut som følger:
+Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dersom vi for eksempel skal legge til et bilde på nettsiden så må vi fortelle hvilket bilde og hvor det finnes. Slik informasjon vi legger til som en `attributter`. I dette tilfellet skal vi lage et bilde-element`img` (image), med en attributt `src` (source). I html ser det ut som følger:
 
 ![HTML-element med attributt](attributt.png)  
 
 `src` attributtet er altså kilden til bildet, for at dette skal vises **må du ha et bilde med samme navn i samme mappe som html fila**. `alt` attributtet er eventuell tekst som vil synes dersom bildet av en eller annen grunn ikke kan vises. Legg også merke til at img-elementet er litt spesielt da det bare består av en åpnings-tagg. Det er fordi når vi har fylt ut src-attributtet så trenger vi ikke noe mer innhold til bildet, og vi trenger da heller ingen lukke-tagg.
+
+> Du kan alternativt legge til nettadressen til et bildet på internett i src-attributten, men da 
+> bryter du som regel opphavsrett, og bildet vil forsinne dersom originalen blir borte.
 
 Vi har nå laget en nettside med overskrift tekst og bilder, for eksempel:
 
@@ -131,4 +134,4 @@ Vi har nå laget en nettside med overskrift tekst og bilder, for eksempel:
         </body>
     </html>
 ```
-Vi skal i neste avsnitt se litt nærmere på lenker (2.3). Videre ser vi på strukturering av nettsiden (2.4), og siste del av dette kapittelet er en oppsummering av de mest brukte elementene (2.5). Mange begynner nå å bli mer interessert i å gjøre utseende på nettsiden bedre. Da må vi se nærmere på CSS, som vi tar for oss i Kap 3. 
+Vi skal i neste avsnitt se litt nærmere på lenker (2.3), og så på strukturering av nettsiden (2.4). Siste del av dette kapittelet er en oppsummering av de mest brukte elementene (2.5). Mange begynner nå å bli mer interessert i å gjøre utseende på nettsiden bedre. Da må vi se nærmere på CSS, som vi tar for oss i Kap 3. 

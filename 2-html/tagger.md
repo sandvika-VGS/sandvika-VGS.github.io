@@ -1,6 +1,6 @@
 # Vanlige HTML-tagger
 
-La oss se nærmere på de vanligste elementene vi har med når vi skriver en nettside som består av tekst, bilder og lenker.
+Vi oppsummerer html-delen av kapittelet ved å se på de vanligste elementene man bør kunne, noen av de har du allerede sett før, mens andre introduseres som nye her.
 
 ## Overskrifter - headings
 
@@ -17,6 +17,11 @@ Overskriftene går fra h1 (aller størst) til h6 (minste overskrift). Dersom vi 
 ```HTML
 <p>Dette er et avsnitt</p>
 ```
+
+## Tekst - som inline element
+
+```HTML
+<span>Et element som kan brukes for ren tekst</span>
 
 ## Lenker
 
@@ -56,7 +61,33 @@ img-elementet er et eksempel på et element som kun trenger en åpnings-tagg. I 
 </ol>
 ```
 
+Listene består av li element som er nøstet inn i elementet som bestemmer hva slags type liste som skal være med. 
+
+
 ## Youtube eller kart
 
-Hent koden fra nettstedet du ønsker å lenke fra. Se etter "embed" og ikoner som likner på html-tagger.
+Vi henter koden fra nettstedet du ønsker å lenke fra. Se etter "Share" og så "embed". Herfra får du hele elementet for youtube/google maps, som du kan kopiere rett inn i html fila di.
 
+![Bilde: Embed fra google](/embed.png)
+
+## Hente innhold fra bruker
+
+![Bilde - Utseende til form](form.png)
+_Eksempel på form-element
+
+`form` elementet er en ramme for element som tar for seg det å hente informasjon fra bruker, såkalte `input` element. Det å forholde seg til slik informasjon og bruke den videre er ikke noe vi får til akkurat nå, men vi ser likevel på elementene her. Dette er fordi utseende kan bygges opp kun med html, selv om det altså ikke vil ha noen funksjonalitet.
+
+```HTML
+<form action="resultat.html">
+    <label for="fornavn">Fornavn</label>
+    <input id="fornavn" type="text">
+    <label for="etternavn">Etternavn</label>
+    <input id="etternavn" type="text">
+    <input type="submit" value="Registrer">
+</form>
+
+* label elementene er beskrivelse/tekst. De er koblet sammen til hvert sitt input element ved at for-attributten til label er lik id-attributten til input.
+
+* input elementet kan ha mange forskjellige typer (se mer på https://www.w3schools.com/html/html_forms.asp)
+
+* når vi trykker på knappen for å registrere sendes informasjonen til det som står i action-attributtet til form elementet.
