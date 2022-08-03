@@ -27,7 +27,7 @@ Overskriftene går fra h1 (aller størst) til h6 (minste overskrift). Dersom vi 
 ## Lenker
 
 ```HTML
-<a href="https://www.vg.no">Mozilla Manifesto</a>
+<a href="https://viken.no/sandvika-vgs/">Min VGS</a>
 ```
 
 a-elementet står for anker. Her må vi minimum ha med en href attributt for at det skal fungere.
@@ -42,7 +42,7 @@ img-elementet er et eksempel på et element som kun trenger en åpnings-tagg. I 
 
 ## Lister
 
-**Uordnet/punkter**
+**Uordnet/punktliste**
 
 ```HTML
 <ul>
@@ -52,7 +52,7 @@ img-elementet er et eksempel på et element som kun trenger en åpnings-tagg. I 
 </ul>
 ```
 
-**Ordnet/med tall**
+**Ordnet/tall-liste**
 
 ```HTML
 <ol>
@@ -74,9 +74,10 @@ Vi henter koden fra kilden. Se etter "Share" og så "embed". Herfra får du hele
 ## Hente innhold fra bruker
 
 ![Bilde - Utseende til form](form.png)
-_Eksempel på form-element
 
-`form` elementet er en ramme for element som tar for seg det å hente informasjon fra bruker, såkalte `input` element. Det å forholde seg til slik informasjon og bruke den videre er ikke noe vi får til akkurat nå, men vi ser likevel på elementene her. Dette er fordi utseende kan bygges opp kun med html, selv om det altså ikke vil ha noen funksjonalitet.
+Eksempel på form-element
+
+`form` elementet er en ramme for element som tar for seg det å hente informasjon fra bruker, såkalte `input` element. Det er for avansert å lage noe funksjonalitet med dette, men siden vi kan bygge opp utseende ved hjelp av bare html så tar vi de med her.
 
 ```HTML
 <form action="resultat.html">
