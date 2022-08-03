@@ -22,6 +22,7 @@ Overskriftene går fra h1 (aller størst) til h6 (minste overskrift). Dersom vi 
 
 ```HTML
 <span>Et element som kan brukes for ren tekst</span>
+```
 
 ## Lenker
 
@@ -64,9 +65,9 @@ img-elementet er et eksempel på et element som kun trenger en åpnings-tagg. I 
 Listene består av li element som er nøstet inn i elementet som bestemmer hva slags type liste som skal være med. 
 
 
-## Youtube eller kart
+## Youtube eller Google Maps
 
-Vi henter koden fra nettstedet du ønsker å lenke fra. Se etter "Share" og så "embed". Herfra får du hele elementet for youtube/google maps, som du kan kopiere rett inn i html fila di.
+Vi henter koden fra kilden. Se etter "Share" og så "embed". Herfra får du hele elementet for youtube/google maps, som du kan kopiere rett inn i html fila di.
 
 ![Bilde: Embed fra google](/embed.png)
 
@@ -85,6 +86,7 @@ _Eksempel på form-element
     <input id="etternavn" type="text">
     <input type="submit" value="Registrer">
 </form>
+```
 
 * label elementene er beskrivelse/tekst. De er koblet sammen til hvert sitt input element ved at for-attributten til label er lik id-attributten til input.
 
