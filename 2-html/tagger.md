@@ -77,7 +77,7 @@ Vi henter koden fra kilden. Se etter "Share" og så "embed". Herfra får du hele
 
 Eksempel på form-element
 
-`form` elementet er en ramme for element som tar for seg det å hente informasjon fra bruker, såkalte `input` element. Det er for avansert å lage noe funksjonalitet med dette, men siden vi kan bygge opp utseende ved hjelp av bare html så tar vi de med her.
+`form` elementet er en ramme for element som tar for seg det å hente informasjon fra bruker, såkalte `input` element. Det er for avansert å lage noe funksjonalitet med dette, men siden vi kan bygge opp utseende ved hjelp av bare html så tar vi de likevel med her.
 
 ```HTML
 <form action="resultat.html">
