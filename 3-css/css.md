@@ -1,40 +1,11 @@
 # Hva er CSS?
 
-CSS er, slik som HTML, ikke et programmeringsspråk, heller ikke et markeringsspråk.
-CSS er et stilspråk.
-Det brukes til å sette stiler på nettsider.
-For eksempel er det CSS som brukes til å sette bakgrunnsfarger på nettsiden, endre teksttype, størrelser på bilder, osv..
+CSS er stilspråk som står for *Cascading Style Sheet*. Det brukes til å sette stil på html-elementene våre, og gir oss langt flere muligheter for å posisjonere de slik vi ønsker.
+Det er CSS som brukes til å sette bakgrunnsfarger på nettsiden, endre teksttype, størrelser på bilder etc..
 
-Følgende linjer med kode gjør at alle p-elementer (avsnitt) på nettsiden har rød tekst:
+Siden CSS er et eget språk skrives det ikke med de samme reglene som html, så la oss starte med det grunnleggende.
 
-```CSS
-p {
-    color: red;
-}
-```
 
-CSS skrives i eget `<style>`-element i  `<head>`.
-Under er et eksempel på en nettside med CSS-kode. Legg merke til `style`-elementet.
-```HTML
-<!DOCTYPE html>
-<html lang="no">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min hjemmeside</title>
-    <style>
-      p{
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <p>Min katt er veldig gretten</p>
-  </body>
-</html>
-```
-
-> CSS kan også skrives i en egen `CSS`-fil, det skal vi se på senere.
 
 ## Oppbygningen av CSS-regler
 
@@ -47,6 +18,7 @@ Et regelsett består av flere mindre deler:
 3. **Verdi:** Forteller hvilken verdi egenskapen skal ha, eks: `red`.
 4. **Deklarasjon:** Utgjøres av både egenskapen og verdien. Hele linjen med kode kalles for en CSS-regel.
 
+
 Et regelsett består ofte av flere regler, og hele CSS-koden består ofte av flere regelsett, se eksemplet under.
 
 ```CSS
@@ -55,7 +27,43 @@ body{
 }
 p{
     font-size: 24px;
-    color: white;
-    background-color: black;
+    color: red;
 }
 ```
+
+Her har vi to selektorer nemlig `body` og `p`. Vi husker at body-elementet omsluttet alt som vises på nettsiden vår, så ved å sette en bakgrunnsfarge her endrer vi farge på hele siden. I tillegg endrer vi altså skriftstørrelse og farge på alle p-elementene våre. Igjen handler det mest om å lære seg alle mulighetene vi faktisk har for å sette stil, noe vi skal jobbe med gjennom hele kapittelet.
+
+Først må vi uansett vite hvor vi faktisk skal skrive CSS-koden vår, og her har vi flere valg. Vi kan lage en egen css-fil og koble den sammen med html fila vår. Det egner seg kanskje best når vi lager et nettsted bestående av flere sider, for da kan vi bruke samme css-fil for å sette felles utseende på nettsidene våre. Vi ser mer på dette senere.
+
+Alternativt kan vi lage et`<style>`-element i  `<head>` i html-fila vår. Da kan vi skrive all css vi trenger inne i dette elementet. Nettsiden vi har jobbet med i forrige kapittel vil dermed se ut som følger (legg merke til style elementet):
+
+```HTML
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Min Side</title>
+            <style>
+                body{
+                  background-color: lightgrey;
+                }
+                p{
+                  font-size: 24px;
+                  color: red;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Hallo verden!</h1>
+            <p>Katten min er veldig gretten</p>
+            <p>Den er også veldig lat</p>
+            <p>Her er et bilde av katten min:</p>
+            <img src="minkatt.jpg" alt="katten min">
+        </body>
+    </html>
+```
+
+Hva hvis vi bare vi bare vil sette farge på det midterste elementet? Selektorene vi har sett på hittil endrer jo på alle element av samme type. Vi har andre typer selektorer vi kan jobbe med og ser på disse på neste side.
+
+

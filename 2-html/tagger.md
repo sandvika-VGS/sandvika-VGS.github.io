@@ -77,20 +77,24 @@ Vi henter koden fra kilden. Se etter "Share" og så "embed". Herfra får du hele
 
 Eksempel på form-element
 
-`form` elementet er en ramme for element som tar for seg det å hente informasjon fra bruker, såkalte `input` element. Det er for avansert å lage noe funksjonalitet med dette, men siden vi kan bygge opp utseende ved hjelp av bare html så tar vi de likevel med her.
+`form` elementet er en ramme for andre element som tar for seg det å hente informasjon fra bruker, såkalt `input` element. Vi får ikke enda laget noe funksjonalitet med disse men vi kan bygge opp utseende til nettsiden ved hjelp av elementene.
 
 ```HTML
 <form action="resultat.html">
-    <label for="fornavn">Fornavn</label>
-    <input id="fornavn" type="text">
-    <label for="etternavn">Etternavn</label>
-    <input id="etternavn" type="text">
+    <label for="f_navn">Fornavn</label>
+    <input id="f_navn" type="text">
+    <label for="e_navn">Etternavn</label>
+    <input id="e_navn" type="text">
     <input type="submit" value="Registrer">
 </form>
 ```
 
-* label elementene er beskrivelse/tekst. De er koblet sammen til hvert sitt input element ved at for-attributten til label er lik id-attributten til input.
+* label elementene er beskrivelse/tekst. De er koblet sammen til hvert sitt input element ved at for-attributten til label er lik id-attributten til input (navnene velger vi selv).
 
-* input elementet kan ha mange forskjellige typer (se mer på https://www.w3schools.com/html/html_forms.asp)
+* input elementet her er tekst, men kan være mange forskjellige typer, se mer på https://www.w3schools.com/html/html_forms.asp
 
 * når vi trykker på knappen for å registrere sendes informasjonen til det som står i action-attributtet til form elementet.
+
+## De resterende elementene?
+
+For en mer fullstendig liste over elementer som finnes kan du se videre på https://www.w3schools.com/tags/default.asp, men du kommer langt med det vi har vært gjennom her. Nå begynner nok de aller fleste IT-1 elever å bli mer interessert i å endre på utseende og posisjonering av elementer på nettsiden sin, og da må vi over på det andre språket vi skal lære oss i faget nemlig CSS.
