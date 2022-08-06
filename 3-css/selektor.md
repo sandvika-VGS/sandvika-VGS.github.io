@@ -1,31 +1,36 @@
 # Ulike Selektorer i CSS
 
-Vi har hittil sett på hvordan vi kan endre på alle html element av en type ved å bruke en selektor, men kan vi bare endre ett enkelelement? I andre tilfeller ønsker vi raskt å sette lik stil på forskjellige element, finnes det en raskere måte å gjøre dette på enn å skrive egen css for hvert element? 
 
-Svaret på begge spørsmålene er ja, ved å bruke andre typer selektorer så kan vi med raskt og med full presisjon endre stil på nøyaktig de elementene vi ønsker. Først må vi introdusere to viktige attributter:
+## To viktige attributter
+
+Vi utvider nettsiden vår med en ny del om for eksempel sommerferien og introduserer samtidig to nye attributter nemlig `class` og `id`. Vi legger derfor til følgende tekst til nettsiden:
 
 ```HTML
 <section class="norefjell">
     <h1 class="norefjell">Fjelltur i sommerferien</h1>
     <img src="fjelltopp.jpg" alt="bilde av en fjelltopp" id="fjelltopp">
-    <p class="norefjell">I sommer gikk vi en tur til Høgevarde, det er en (...)</p>
+    <p class="norefjell">I sommer gikk vi en tur til på fjellet.</p>
 </section>
 ```
+*Se etter de to nye attributtene*
 
-Attributtene **class** og **id** er ofte brukt. Id brukes for å få tilgang til et enkelt unikt element, mens class brukes for å raskt få tilgang til en gruppe elementer. Dermed følger det at ingen elementer kan ha samme id, mens mange elementer kan (og bør) ha samme klasse. Når vi planlegger utseende for nettsiden vår er det lurt å tenke over hvordan vi bør sette opp class- og id- attributtene.
+`class` og `id` bruker vi ofte. Sistnevnte brukes for å identifiserer ett enkelt og unikt element, mens class brukes for å identifisere en gruppe elementer. Da følger det at ingen elementer kan ha samme id, mens mange elementer kan ha samme klasse til og med om de ikke er av samme type. I eksempelet over har vi gitt bilde av fjellet en egen id, mens vi har gruppert h1 og p sammen ved at de har samme klasse.
+
+
+Nå kan vi bruke selektorer for å peke på en id eller en klasse i stedet for å endre på alle element samtidig.
 
 ## Class-Selektor
 
-Når vi har en klasse vi ønsker å endre stil på med css kan vi ikke bare skrive navnet på denne slik vi er vant til som en selektor, da leter nettleseren etter ett element med det navnet. Vi må derfor ha en egen skrivemåte for en selektor som skal peke på en klasse:
+
+Når vi skal endre stil på en klasse i CSS kan vi ikke bare skrive navnet på den, da leter nettleseren nemlig etter ett element med det navnet. Vi legger bare på et punktum foran navnet så vil selektoren peke på en klasse.
 
 ```CSS
 .norefjell{
     font-family:cursive;
-    color: lightgrey;
+    color: blue;
 }
 ```
-
-Legg merke til punktumet foran, det indikerer at du skal endre på alle elementer som har klassen "norefjell"
+*Legg merke til punktumet foran, det indikerer at du skal endre på alle elementer som har klassen "norefjell"*
 
 ## Id-Selektor
 
@@ -40,6 +45,53 @@ Tilsvarende som class-selektoren har vi også en egen skrivemåte for id-selekto
 *Denne css-koden endrer bare på fjelltopp-bildet, ingen eventuelle andre bilder på nettsiden.*
 
 Vi bruker altså # foran navnet for å velge et element med en id-attributt.
+
+Vår eksempel-nettside ser nå ut som følger:
+
+```HTML
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Min Side</title>
+            <style>
+                body{
+                     background-color: lightgrey;
+                }
+                p{
+                    font-size: 24px;
+                    color: red;
+                }
+                .norefjell{
+                    font-family:cursive;
+                    color: blue;
+                }
+                #fjelltopp{
+                    border: solid red 2px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Hallo verden!</h1>
+            <p>Katten min er veldig gretten</p>
+            <p>Den er også veldig lat</p>
+            <p>Her er et bilde av katten min:</p>
+            <img src="minkatt.jpg" alt="katten min">
+            <section class="norefjell">
+                <h1 class="norefjell">Fjelltur i sommerferien</h1>
+                <img src="fjelltopp.jpg" alt="bilde av en fjelltopp" id="fjelltopp">
+                <p class="norefjell">I sommer gikk vi en tur til på fjellet.</p>
+            </section>
+        </body>
+    </html>
+```
+
+## Selektorer for barn og etterkommere
+
+
+
+
 
 ## Pseudoselektor
 
