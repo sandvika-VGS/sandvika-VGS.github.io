@@ -1,4 +1,6 @@
-# CSS - "Boksen"
+# Enkel posisjonering
+
+## Boks-modellen
 
 Vi har sett at vi kan endre farge og størrelse på html-elementene våre. Når det gjelder posisjonering og layout, så må vi starte med å lære oss fire viktige css-egenskaper som *alle* html-element består av. For å forstå hvordan disse fungerer er det lurt å forestille seg hver html-element som en egen boks, der denne boksen består av:
 
@@ -55,7 +57,7 @@ h1{
 
 Enheten `px` står for piksler (billedpunkter) og er en enhet for lengde som brukes for skjermer/digitale bilder. Vi ser nærmere på dette i kap 4.2.
 
-![alt text](./bilder/3_3%20cssboksen/cssoverskrift2.png)
+![alt text](./bilder/3_3%20cssboksen/cssoverskrift.png)
 
 Vi ser altså at ved å øke padding fra 0 til 20 piksler så fikk vi mer "luft" rundt teksten i innholds-området. La oss videre se på border-egenskapen, denne har tre verdier vi må definere før vi ser en effekt, vi kan definere alle på en gang:
 
@@ -67,7 +69,7 @@ h1{
 }
 ```
 
-![alt text](./bilder/3_3%20cssboksen/cssoverskrift.png)
+![alt text](./bilder/3_3%20cssboksen/cssoverskrift2.png)
 
 Til slutt setter vi på margin, tilsvarende som padding:
 
@@ -87,8 +89,21 @@ Oppsummert kan vi altså si at alle elementer har følgende boksmodell:
 
 ![alt text](./bilder/3_3%20cssboksen/cssboks.png)
 
-Vi kan også finjustere enda mer ved å bruke left-, right-, top- eller bottom foran de nye egenskapene! For eksempel vil `margin-left: 20px;` bare lage venstremarg, mens `border-bottom: solid black 1px` vil bare lage en understrek.
+Vi kan også finjustere enda mer ved å bruke left-, right-, top- eller bottom foran de nye egenskapene! For eksempel vil `margin-left: 20px;` bare lage venstremarg, mens `border-bottom: solid black 1px;` vil bare lage en understrek.
+
+## Marg på hele siden
+
+Følgende teknikk gir oss en fin marg på hele nettsiden vår:
+
+```CSS
+body{
+    width: 80%;
+    margin: auto;
+}
+```
+Her sider vi at bredden til body skal være 80% av hele skjermen, også vil auto-verdien sørge for å midtstille ved å legge 10% på hver side. Legg merke til at vi kunne fått samme effekt ved å sette både `margin-left` og `margin-right` til 10% hver.
+
 
 ## Div - elementet
 
-Et html-element vi bruker veldig mye er div-elementet. Dette elementet har satt alle delene av boks-modellen til 0, slik at vi kan se på det som en usynlig boks rundt inhholdet. Ved å nøste div-elementer rundt hverandre kan man gruppere innhold som man så kan bestemme utseende på.
+Et html-element vi bruker veldig mye fremover er div-elementet. Dette elementet har satt alle delene av boks-modellen til 0, slik at vi kan se på det som en nøytral boks rundt inhholdet. Elementet passer godt dersom det ikke er naturlig å bruke semantiske element, og brukes som regel for å gruppere elementer når vi skal igang med mer avanserte CSS-teknikker. Siden div-elementet er helt nøytralt kan det av og til være lurt å legge til id-attributter for å gi en beskrivelse av hva du bruker de til.
