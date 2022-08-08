@@ -10,7 +10,9 @@ Du har trolig vært på utallige nettsider hele livet uten å tenke særlig nøy
 
 - Hva ser du?
 
-![alt text](./bilder/introduksjon/bilde.jpg "Eksempel på kildekode")
+![alt text](./bilder/2_1%20-%20introduksjon/bilde.jpg) 
+
+*Eksempel på kildekode*
 
  Her er nok mye uforståelig tekst, som kan virke skremmende på en fersk IT-1 elev, men det er altså slik nettsiden er laget. Nettsiden er skrevet på et eget språk som vi kaller HTML. Dette språket skrives på en spesiell form der vi kan bestemme hva som skal være på nettsiden vår. Når en nettleser leser html-filer med slik tekst, tolker den teksten og lager nettsiden basert på det som er skrevet.
 
