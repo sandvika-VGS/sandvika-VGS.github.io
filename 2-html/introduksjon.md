@@ -53,7 +53,7 @@ Prøv følgende:
 
 Hvis du har utvidelsen "Open in default browser" kan du nå høyreklikke og velge "Open in default browser". Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser. Det siste alternativet er ganske slitsomt i lengden, så sørg for å få hjelp til å installere utvidelsen.
 
-![Min første hjemmeside](./bilder/introduksjon/minside.png)
+![Min første hjemmeside](./bilder/2_1%20-%20introduksjon/minside.png)
 
 Forhåpentligvis ser det nå ut som på bildet. 
 
