@@ -21,7 +21,6 @@ Nå kan vi bruke selektorer for å peke på en id eller en klasse i stedet for �
 
 ## Class-Selektor
 
-
 Når vi skal endre stil på en klasse i CSS kan vi ikke bare skrive navnet på den, da leter nettleseren nemlig etter ett element med det navnet. Vi legger bare på et punktum foran navnet så vil selektoren peke på en klasse.
 
 ```CSS
@@ -47,6 +46,7 @@ Tilsvarende som class-selektoren har vi også en egen skrivemåte for id-selekto
 Vi bruker altså # foran navnet for å velge et element med en id-attributt.
 
 Vår eksempel-nettside ser nå ut som følger:
+
 
 ```HTML
     <!DOCTYPE html>
@@ -87,10 +87,26 @@ Vår eksempel-nettside ser nå ut som følger:
     </html>
 ```
 
+
 ## Selektorer for barn og etterkommere
 
+I kap 2.4 så vi på nøstede elementer som barn og etterkommere. Vi kan bruke slike relasjoner som selektorer for raskt å endre på en bestemt gruppe av elementer.
 
+```CSS
+main>p{
+    color: black;
+}
+```
+Denne selektoren endrer alle p - element som er direkte barn av main.
 
+```CSS
+main p{
+    color: black;
+}
+```
+Her endrer vi alle p - element som ligger innenfor main, altså både barn og etterkommere.
+
+Vi kan kombinere disse selektorene med selektorer for klasse/id.
 
 
 ## Pseudoselektor
@@ -151,3 +167,4 @@ En oversikt over vanlige pseudoklasser:
 |`:checked`        |en radioknapp eller flervalgsboks er valgt|
 |`:nth-child(even)` |velger annen hvert element, partall|
 |`:nth-child(odd)` |velger annen hvert element, oddetall|
+

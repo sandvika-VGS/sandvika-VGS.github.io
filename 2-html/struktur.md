@@ -30,3 +30,27 @@ En vanlig strukturering av nettsiden med semantsike elementer ser slik ut:
 ![Semantiske tagger](./bilder/2_4%20-%20struktur/semantiske-tagger.png)
 
 I nyere tid skrives ikke html nødvendigvis manuelt, og da brukes ikke de semantiske elementene så ofte, men IT-1 så kan det være veldig lurt å ha de med som en slags disposisjon for hvordan nettsiden skal se ut. Disse elementene vil også fungere som gode grupperinger når vi skal endre på utseende til nettsiden vår i kapittel 3.
+
+## Barn og etterkommere
+
+Når vi nøster elementer kan det være greit å ha et språk som raskt gir oversikt over hvordan sammenhengen mellom elementene er. Se på følgende eksempel:
+
+```HTML
+<body>
+    <main>
+        <section>
+            <h2>Hei</h2>
+            <p>tekst om meg selv.</p>
+        </section>
+        <section>
+            <h2>Katten min</h2>
+            <p>Bilder av katten min:</p>
+            <img src="katt1.png">
+            <img src="katt2.png">
+            <img src="katt3.png">
+        </section>
+    </main>
+</body>
+```
+
+Her ligger det mange element nøstet inn under hverandre, main ligger rett under body og omtales derfor som `barn` av body. Det ligger to `section` element inne i main, og disse vil derfor være `barn` av main og `etterkommere` av body. Tilsvarende har det første section elementet to barn, mens det andre har fem. Alle disse syv er etterkommere av både main og body. Når vi senere skal endre utseende og posisjon på elementene våre er det viktig at vi har oversikt over relasjonene deres.
