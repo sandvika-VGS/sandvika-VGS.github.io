@@ -14,7 +14,7 @@ Vi utvider nettsiden vår med en ny del om for eksempel sommerferien og introdus
 ```
 *Se etter de to nye attributtene*
 
-`class` og `id` bruker vi ofte. Sistnevnte brukes for å identifiserer ett enkelt og unikt element, mens class brukes for å identifisere en gruppe elementer. Da følger det at ingen elementer kan ha samme id, mens mange elementer kan ha samme klasse til og med om de ikke er av samme type. I eksempelet over har vi gitt bilde av fjellet en egen id, mens vi har gruppert h1 og p sammen ved at de har samme klasse.
+`class` og `id` bruker vi ofte. Sistnevnte brukes for å identifisere ett enkelt og unikt element, mens class brukes tilsvarende for en gruppe elementer. Da følger det at ingen elementer kan ha samme id, mens mange elementer kan ha samme klasse (til og med om de ikke er av samme type). I eksempelet over har vi gitt bildet en egen id, mens vi har gruppert h1 og p sammen ved at de har samme klasse.
 
 
 Nå kan vi bruke selektorer for å peke på en id eller en klasse i stedet for å endre på alle element samtidig.

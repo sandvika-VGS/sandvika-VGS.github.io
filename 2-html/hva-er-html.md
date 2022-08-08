@@ -11,7 +11,7 @@ HTML kalles for et markeringsspråk og brukes til å strukturere innhold på net
 ``` 
 I hjemmesiden vi lagde i forrige avsnitt er det tre element: `html`, `body` og `h1`. Elementenes oppbygning kan man generelt beskrive som følgende:
 
-![Et HTML-element](Element.png)  
+![Et HTML-element](bilder/2_2%20-%20hva_er_html/element.png)  
 
 1. **Åpningstaggen:** Denne består av navnet på elementet (i dette tilfellet h1), pakket inn i "krokodillemunner".
 2. **Lukketaggen:** Denne er lik som åpningstaggen, bare at vi legger til en skråstrek før navnet på elementet.
@@ -24,7 +24,7 @@ Hva med `html` og `body`? De er begge en del av "skjelettet" til en html-fil. De
 
 **Lag en ny html fil feks "minside.html". Start ved å skrive html og du vil se at du får opp noen forslag:**
 
-![Vs-Code skriver skjelettet](html5.png)
+![Vs-Code skriver skjelettet](bilder/2_2%20-%20hva_er_html/html5.png)
 
 **Velg det midterste alternativet, html:5, og du vil få følgende tekst:**
 
@@ -108,7 +108,7 @@ _Siden h1 har "hoppet" et hakk inn, er det lett å se at det ligger nøstet inn 
 
 Når vi legger til et element så vil vi ofte ha behov for å legge til litt ekstra informasjon. Dersom vi for eksempel skal legge til et bilde på nettsiden så må vi fortelle hvilket bilde og hvor det finnes. Slik informasjon vi legger til som en `attributter`. I dette tilfellet skal vi lage et bilde-element`img` (image), med en attributt `src` (source). I html ser det ut som følger:
 
-![HTML-element med attributt](attributt.png)  
+![HTML-element med attributt](bilder/2_2%20-%20hva_er_html/attributt.png)  
 
 `src` attributtet er altså kilden til bildet, for at dette skal vises **må du ha et bilde med samme navn i samme mappe som html fila**. `alt` attributtet er eventuell tekst som vil synes dersom bildet av en eller annen grunn ikke kan vises. Legg også merke til at img-elementet er litt spesielt da det bare består av en åpnings-tagg. Det er fordi når vi har fylt ut src-attributtet så trenger vi ikke noe mer innhold til bildet, og vi trenger da heller ingen lukke-tagg.
 

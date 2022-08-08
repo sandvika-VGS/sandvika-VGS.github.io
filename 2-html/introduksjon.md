@@ -10,7 +10,7 @@ Du har trolig vært på utallige nettsider hele livet uten å tenke særlig nøy
 
 - Hva ser du?
 
-![alt text](./bilde.jpg "Eksempel på kildekode")
+![alt text](./bilder/introduksjon/bilde.jpg "Eksempel på kildekode")
 
  Her er nok mye uforståelig tekst, som kan virke skremmende på en fersk IT-1 elev, men det er altså slik nettsiden er laget. Nettsiden er skrevet på et eget språk som vi kaller HTML. Dette språket skrives på en spesiell form der vi kan bestemme hva som skal være på nettsiden vår. Når en nettleser leser html-filer med slik tekst, tolker den teksten og lager nettsiden basert på det som er skrevet.
 
@@ -51,7 +51,7 @@ Prøv følgende:
 
 Hvis du har utvidelsen "Open in default browser" kan du nå høyreklikke og velge "Open in default browser". Dersom du ikke har dette alternativet, kan du finne fila i "Utforsker/Finder" og åpne den med en nettleser. Det siste alternativet er ganske slitsomt i lengden, så sørg for å få hjelp til å installere utvidelsen.
 
-![Min første hjemmeside](./minside.png)
+![Min første hjemmeside](./bilder/introduksjon/minside.png)
 
 Forhåpentligvis ser det nå ut som på bildet. 
 
