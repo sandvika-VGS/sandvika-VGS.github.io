@@ -118,7 +118,7 @@ For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene 
 ```
 ![alt text](./navbar5.png)
 
-## Navigasjonsbar (Avansert) - Alternativ 4 
+## Navigasjonsbar - Alternativ 4 
 
 Ofte er det vanlig å ha lenker til nettstedet til venstre, og logg inn eller min side til høyre. Vi grupperer lenkene slik at det bare blir to fleks-element:
 

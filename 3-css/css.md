@@ -9,7 +9,8 @@ Siden CSS er et eget språk skrives det ikke med de samme reglene som html, så 
 
 ## Oppbygningen av CSS-regler
 
-![Et CSS-regelsett](css-regel.png)  
+![Et CSS-regelsett](./bilder/3_1%20-%20css/css-regel.png)
+  
 Hele koden i bildet over utgjør et CSS-regelsett.
 Et regelsett består av flere mindre deler:  
 
