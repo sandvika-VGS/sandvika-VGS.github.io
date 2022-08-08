@@ -13,42 +13,81 @@ Vi starter med en overskrift, og setter en annen bakgrunnsfarge på denne enn re
 
 ![alt text](./bilder/3_3%20cssboksen/cssoverskrift0.png)
 
-Det er nå innholdsdelen som er farget rosa, 
+<details>
+    <summary>Klikk for å se html/css-kode</summary>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(164, 164, 238);
+        }
+        h1{
+            background-color: rgb(223, 109, 128);
+        }
 
+    </style>
+</head>
+<body>
+    <h1>Hei internett</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    Accusantium velit sed nam rem ullam repellendus sequi ex tenetur vitae sunt, 
+    sit consectetur magnam laudantium impedit! Quod ab voluptatibus provident inventore?</p>
+</body>
+</html>  
+ 
 
-![alt text](./cssboks.png "Boks-Modellen")
+</details>
 
-Alle html-element består av boksmodellen ovenfor, men veldig ofte er de "skrudd av" og dermed ikke synlige før vi endrer på egenskapene. La oss ta for oss et h1 element, vi setter på en bakgrunnsfarge og skrur på border i CSS.
+Vi ser at innholdsdelen av h1 elementet er farget rosa. La oss legge til litt padding og se hva som skjer:
 
 ```CSS
 h1{
     background-color: pink;
-    border: solid black 1px;
-}
-```
-
-Da får vi følgende utseende
-
-![alt text](./cssoverskrift.png)
-
-La oss se hva padding gjør:
-
-```CSS
-h1{
-    background-color: pink;
-    border: solid black 1px;
     padding: 20px;
 }
 ```
-![alt text](./cssoverskrift2.png)
 
-Vi ser at padding fyller luft rundt innholdet til elementet, men innenfor den sorte linjen vi tegnet med border. Tilsvarende vil margin fylle luft utenfor den sorte linjen.
-> OBS!
->
-> Ved å sette left-, right-, top- eller bottom- foran i CSS, kan man finjustere både margin, padding og border!
+Enheten `px` står for piksler (billedpunkter) og er en enhet for lengde som brukes for skjermer/digitale bilder. Vi ser nærmere på dette i kap 4.2.
 
-Husk at vi kan endre margin, padding og border på alle html element
+![alt text](./bilder/3_3%20cssboksen/cssoverskrift2.png)
+
+Vi ser altså at ved å øke padding fra 0 til 20 piksler så fikk vi mer "luft" rundt teksten i innholds-området. La oss videre se på border-egenskapen, denne har tre verdier vi må definere før vi ser en effekt, vi kan definere alle på en gang:
+
+```CSS
+h1{
+    background-color: pink;
+    padding: 20px;
+    border: solid black 1px;
+}
+```
+
+![alt text](./bilder/3_3%20cssboksen/cssoverskrift.png)
+
+Til slutt setter vi på margin, tilsvarende som padding:
+
+```CSS
+    h1{
+        background-color: rgb(223, 109, 128);
+        padding: 20px;
+        border: solid black 1px;
+        margin: 20px;
+    }
+```
+![alt text](./bilder/3_3%20cssboksen/cssoverskrift3.png)
+
+Vi ser en marg på alle sider av html-elementet-
+
+Oppsummert kan vi altså si at alle elementer har følgende boksmodell:
+
+![alt text](./bilder/3_3%20cssboksen/cssboks.png)
+
+Vi kan også finjustere enda mer ved å bruke left-, right-, top- eller bottom foran de nye egenskapene! For eksempel vil `margin-left: 20px;` bare lage venstremarg, mens `border-bottom: solid black 1px` vil bare lage en understrek.
 
 ## Div - elementet
 
