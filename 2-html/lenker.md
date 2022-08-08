@@ -13,7 +13,7 @@ I HTML lages hyperlenker med å bruke `<a>` - elementet. Her står bokstaven a s
 Attributtet `href` angir hvor lenken peker.
 Det som står mellom taggene er det som synes på nettsiden. Html-koden ovenfor vil da se slik ut på nettleseren:
 
-![Eksempel](bilder/2_3%20-%20lenker/eksempellenke.png)
+![Eksempel](./bilder/2_3%20-%20lenker/eksempellenke.png)
 
 > Tips: For at lenken skal åpne i en ny fane kan vi legge til attributtet `target="_blank"`   
 > [Sjekk ut w3schools for å se hva mer du kan gjøre med lenker](https://www.w3schools.com/tags/tag_a.asp)

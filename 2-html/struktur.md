@@ -27,6 +27,6 @@ De mest vanlige semantiske taggene er:
 
 En vanlig strukturering av nettsiden med semantsike elementer ser slik ut:
 
-![Semantiske tagger](semantiske-tagger.png)
+![Semantiske tagger](./bilder/2_4%20-%20struktur/semantiske-tagger.png)
 
 I nyere tid skrives ikke html nødvendigvis manuelt, og da brukes ikke de semantiske elementene så ofte, men IT-1 så kan det være veldig lurt å ha de med som en slags disposisjon for hvordan nettsiden skal se ut. Disse elementene vil også fungere som gode grupperinger når vi skal endre på utseende til nettsiden vår i kapittel 3.
