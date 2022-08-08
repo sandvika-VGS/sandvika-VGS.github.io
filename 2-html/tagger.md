@@ -69,11 +69,11 @@ Listene består av li element som er nøstet inn i elementet som bestemmer hva s
 
 Vi henter koden fra kilden. Se etter "Share" og så "embed". Herfra får du hele elementet for youtube/google maps, som du kan kopiere rett inn i html fila di.
 
-![Bilde: Embed fra google](/embed.png)
+![Bilde: Embed fra google](./bilder/2_5%20-%20tagger/embed.png)
 
 ## Hente innhold fra bruker
 
-![Bilde - Utseende til form](form.png)
+![Bilde - Utseende til form](./bilder/2_5%20-%20tagger/form.png)
 
 Eksempel på form-element
 
