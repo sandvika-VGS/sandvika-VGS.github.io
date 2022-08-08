@@ -16,30 +16,30 @@ Vi starter med en overskrift, og setter en annen bakgrunnsfarge på denne enn re
 <details>
     <summary>Klikk for å se html/css-kode</summary>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: rgb(164, 164, 238);
-        }
-        h1{
-            background-color: rgb(223, 109, 128);
-        }
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: rgb(164, 164, 238);
+            }
+            h1{
+                background-color: rgb(223, 109, 128);
+            }
 
-    </style>
-</head>
-<body>
-    <h1>Hei internett</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-    Accusantium velit sed nam rem ullam repellendus sequi ex tenetur vitae sunt, 
-    sit consectetur magnam laudantium impedit! Quod ab voluptatibus provident inventore?</p>
-</body>
-</html>  
+        </style>
+    </head>
+    <body>
+        <h1>Hei internett</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Accusantium velit sed nam rem ullam repellendus sequi ex tenetur vitae sunt, 
+        sit consectetur magnam laudantium impedit! Quod ab voluptatibus provident inventore?</p>
+    </body>
+    </html>  
  
 
 </details>
