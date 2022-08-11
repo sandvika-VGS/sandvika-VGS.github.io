@@ -27,7 +27,7 @@ Som vanlig er det best å starte med et eksempel. De aller fleste nettsteder du 
 ```
 Uten CSS ser det ikke spesielt imponerende ut:
 
-![alt text](./bilder/3_4%20flex//navbar1.png)
+![alt text](./bilder/3_4%20flex/navbar1.png)
 
 Vi skal nå vise hvordan vi ganske enkelt kan posisjonere lenke slik vi ønsker ved hjelp av flex i CSS. Da trenger vi alltid ha et element som forelder for det vi skal posisjonere. Vi ser av koden i eksempelet over, at nav-elementet passer fint som en slik forelder.
 
