@@ -7,13 +7,9 @@ Hittil har vi sett litt hvordan man kan endre stil på elementene vi ønsker, og
 Vi bruker gjerne flex når vi jobber i en dimensjon altså på en linje eller en rad. Dette passer fint til en navigasjonsbar for et nettsted som består av flere sider. Da vil vi gjerne ha en oversiktlig rad med lenker på toppen av nettsidene våre. 
 
 
-## Flexboks.
+## Posisjonering av lenker med Flex
 
-Når vi skal bruke flex må vi alltid ha et element som forelder for alle elementene vi skal posisjonere.
-
-![alt text](./bilder/3_4%20flex/flexboks.png)
-
-La oss bruke flex til å lage en navigasjonsbar. Denne bør ligge i header-elementet. For oversiktens del kan vi så nøste inn et nav element som kan være forelder til alle lenkene våre:
+Som vanlig er det best å starte med et eksempel. De aller fleste nettsteder du besøker består av mange undersider, og har da en felles fane der du lett kan navigere deg rundt. La oss bruke flex til å lage en slik fane med lenker på toppen av nettsidene våre. Det er naturlig å skrive denne koden i et header element, før innholdet som vi legger i main-elementet.             
 
 ```HTML
 <body>
@@ -26,13 +22,20 @@ La oss bruke flex til å lage en navigasjonsbar. Denne bør ligge i header-eleme
             <a href="...">Lenke 5</a>
         </nav>
     </header>
+    <main>
+        (...)
+    </main>
 </body>
 ```
 Uten CSS ser det ikke spesielt imponerende ut:
 
 ![alt text](./navbar1.png)
 
-I css kan vi nå "skru på" flex
+Vi skal nå vise hvordan vi ganske enkelt kan posisjonere lenke slik vi ønsker ved hjelp av flex i CSS. Da trenger vi alltid ha et element som forelder for det vi skal posisjonere. Vi ser av koden i eksempelet over, at nav-elementet passer fint som en slik forelder.
+
+![alt text](./bilder/3_4%20flex/flexboks.png)
+
+Vi starter med å skru på flex på forelder elementet.
 
 ```CSS
 nav{
@@ -40,29 +43,25 @@ nav{
 }
 ```
 
-Legg merke til at ingenting endrer seg enda, vi må sette på egenskapene vi ønsker.
+Legg merke til at ingenting endrer seg enda, vi har bare satt igang verktøyet og må nå vite hvilke egenskaper vi har tilgjengelig.
 
 ## Flex - Egenskaper.
 
 Følgende egenskaper er mye brukt:
 
-* `flex-direction`: row / column. Her bestemmer vi om flex-elementene skal plasseres langs en rad eller kolonne. Standardinnstillingen er rad altså horisontlt, i så tilfelle trenger vi ikke å ha med denne egenskapen.
+* `flex-direction`: row / column. Her bestemmer vi om barna skal plasseres langs en rad eller kolonne. Standardinnstillingen er `row` altså horisontalt, og vi trenger derfor ikke denne egenskapen med mindre lenkene skal ligge vertikalt.
 
-* `justify-content:` flex-start / flex-end / center / space-between /space-around. Denne egenskapen bestemmer hvordan elementene skal legge seg langs raden eller kolonnen.
+* `justify-content:` flex-start / flex-end / center / space-between /space-around. Den viktigste egenskapen for posisjonering. Vi ser nærmere på denne i eksempler nedenfor.
 
-* `align-items:` flex-start / flex-end / center /baseline. Her bestemmer vi hvordan elementene skal legge seg i "motsatt retning". Dersom vi har lagt elementene på en rad, vil align-items justere de i høyden. Motsatt vil elementer i en kolonne kunne justeres horisontalt. 
+* `align-items:` flex-start / flex-end / center /baseline. Her bestemmer vi hvordan elementene skal legge seg i "motsatt retning" av det vi valgte i "flex-direction". Dersom vi har lagt elementene på en rad, vil align-items justere de i høyden. Motsatt vil elementer i en kolonne kunne justeres horisontalt. 
 
-Det finnes flere egenskaper, men dette er de viktigste for oss.
+## Alternativ 1 - Horisontal Spredning
 
-> OBS!
-> Vi kan altså perfekt midtstille et element ved å sette både justify-content og align-items til center.
-
-## Navigasjonsbar - Alternativ 1
-
-La oss jobbe videre med navigasjonsbaren vår, vi setter på litt padding og en border, samt flex-egenskaper:
+La oss pynte på navigasjonsfanen vår, se nøye på hver egenskap og resultatet og prøv å avgjøre hva hver linje gjør.
 
 ```CSS
-.nav{
+nav{
+    background-color: lightgrey;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: solid black 2px;
@@ -70,17 +69,23 @@ La oss jobbe videre med navigasjonsbaren vår, vi setter på litt padding og en 
     justify-content: space-between;
     align-items: center;
 }
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
 ```
 
-Da ser navigasjonsbaren ut som følger:
+![alt text](./bilder/3_4%20flex/navbar2.png)
 
-![alt text](./navbar2.png)
+*Resultatet*
 
-Vi ser at "space-between" verdien gjør at barna til nav fyller hele skjermen, men like mye luft i mellom
+> Vi ser at "space-around" gjør at barna til nav fyller hele skjermen, men like mye luft på 
+> hver side. `text-decoration: none;` er en egenskap som fjerner understreken på lenkene. 
 
-## Navigasjonsbar - Alternativ 2
+## Alternativ 2 - Horisontalt Venstrestilt
 
-Vi legger nå padding på a - elementene våre og bruker flex - start:
+En annen variant er å legge padding på selve lenkene, og bruke "flex-start" i stedet.:
 
 ```CSS
 nav{
@@ -93,12 +98,15 @@ nav{
 }
 
 nav a{
+    color: black;
     padding-right: 30px;
 }
 ```
-![alt text](./navbar3.png)
+![alt text](./bilder/3_4%20flex/navbar3.png)
 
-## Navigasjonsbar på mobil - Alternativ 3
+*Resultat*
+
+## Alternativ 3 - Mobil/Vertikal
 
 For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene i en kolonne. Vi endrer flex-direction og setter litt padding mellom lenkene:
 
@@ -108,19 +116,21 @@ For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene 
             padding-top: 20px;
             padding-bottom: 20px;
             border-bottom: solid black 2px;
+            border-top: solid black 2px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }  
         nav a{
+            color: black;
             padding-bottom: 10px;
         }
 ```
-![alt text](./navbar5.png)
+![alt text](./bilder/3_4%20flex/navbar5.png)
 
-## Navigasjonsbar - Alternativ 4 
+## Alternativ 4 - Horisontalt i grupper
 
-Ofte er det vanlig å ha lenker til nettstedet til venstre, og logg inn eller min side til høyre. Vi grupperer lenkene slik at det bare blir to fleks-element:
+Ofte er det vanlig å ha lenker til nettstedet til venstre, og innlogging eller min side til høyre. Vi nøster lenkene slik at det bare blir to fleks-barn og legger `space-between` på disse:
 
 ```HTML
 <body>
@@ -140,8 +150,6 @@ Ofte er det vanlig å ha lenker til nettstedet til venstre, og logg inn eller mi
 </body>
 ```
 
-Legg merke til at "barna" til flexboksen nå kun er de to div-elementene. Vi kan sette space-between på disse. Dersom vi ønsker kan vi definere div-elementene som **egne** flexbokser og justere a elemente de inneholder!
-
 ```CSS
         .flex-container{
             background-color: lightgray;
@@ -152,10 +160,14 @@ Legg merke til at "barna" til flexboksen nå kun er de to div-elementene. Vi kan
             justify-content: space-between;
             align-items: center;
         }  
-        nav div a{
+        nav a{
+            color: black;
+            text-decoration: none;
             padding-right: 30px;
         }
 ```
 
-![alt text](./navbar4.png)
+![alt text](./bilder/3_4%20flex/navbar4.png)
+
+*Resultat*
 
