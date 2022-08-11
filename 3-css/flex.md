@@ -119,21 +119,21 @@ nav a{
 For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene i en kolonne. Vi endrer flex-direction og setter litt padding mellom lenkene:
 
 ```CSS
-        nav{
-            background-color: lightgray;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            border-bottom: solid black 2px;
-            border-top: solid black 2px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }  
-        nav a{
-            text-decoration: none;
-            color: black;
-            padding-bottom: 10px;
-        }
+nav{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
 ```
 *Resultat:*
 
@@ -155,6 +155,7 @@ Ofte er det vanlig å ha lenker til nettstedet til venstre, og innlogging eller 
             </div>
             <div id="høyre-lenker">
                 <a href="...">Lenke 5</a>
+                <a href="...">Lenke 6</a>
             </div>
         </nav>
     </header>
@@ -162,20 +163,20 @@ Ofte er det vanlig å ha lenker til nettstedet til venstre, og innlogging eller 
 ```
 
 ```CSS
-        .flex-container{
-            background-color: lightgray;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            border-bottom: solid black 2px;
-            display: flex;
-            justify-content: space-between;
+nav{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid black 2px;
+    display: flex;
+    justify-content: space-between;
             align-items: center;
-        }  
-        nav a{
-            color: black;
-            text-decoration: none;
-            padding-right: 30px;
-        }
+}  
+nav a{
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+}
 ```
 
 *Resultat*
