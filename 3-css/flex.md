@@ -2,14 +2,12 @@
 
 ## Plassering av elementer
 
-Hittil har vi sett litt hvordan man kan endre stil på elementene vi ønsker, og vi har jobbet med egenskapene til "Boks-modellen". Ettersom man har hatt et ønske om å ha bedre kontroll over hvordan elementer skal plasseres, er det utviklet flere mer avanserte teknikker som vi nå skal se nærmere på. Den første av disse kalles `flex`.
-
-Vi bruker gjerne flex når vi jobber i en dimensjon altså på en linje eller en rad. Dette passer fint til en navigasjonsbar for et nettsted som består av flere sider. Da vil vi gjerne ha en oversiktlig rad med lenker på toppen av nettsidene våre. 
+Hittil har vi sett litt hvordan man kan endre stil på elementene vi ønsker, og vi har jobbet med egenskapene til "Boks-modellen". Ettersom man har hatt et ønske om å ha bedre kontroll over hvordan elementer skal plasseres, er det utviklet flere mer avanserte teknikker som vi nå skal se nærmere på. Den første av disse kalles `flex`. Vi bruker gjerne flex når vi skal posisjonere elementer i en dimensjon, altså på en linje eller en rad. 
 
 
 ## Posisjonering av lenker med Flex
 
-Som vanlig er det best å starte med et eksempel. De aller fleste nettsteder du besøker består av mange undersider, og har da en felles fane der du lett kan navigere deg rundt. La oss bruke flex til å lage en slik fane med lenker på toppen av nettsidene våre. Det er naturlig å skrive denne koden i et header element, før innholdet som vi legger i main-elementet.             
+Som vanlig er det best å starte med et eksempel. De aller fleste nettsteder du besøker består av mange undersider, og har da en felles fane der du lett kan navigere deg rundt. La oss bruke flex til å lage en slik fane med lenker på toppen av nettsidene våre. Det er naturlig å skrive denne koden i et header element, før resten innholdet som vi legger i main-elementet:
 
 ```HTML
 <body>
@@ -29,7 +27,7 @@ Som vanlig er det best å starte med et eksempel. De aller fleste nettsteder du 
 ```
 Uten CSS ser det ikke spesielt imponerende ut:
 
-![alt text](./navbar1.png)
+![alt text](./bilder/3_4%20flex//navbar1.png)
 
 Vi skal nå vise hvordan vi ganske enkelt kan posisjonere lenke slik vi ønsker ved hjelp av flex i CSS. Da trenger vi alltid ha et element som forelder for det vi skal posisjonere. Vi ser av koden i eksempelet over, at nav-elementet passer fint som en slik forelder.
 
