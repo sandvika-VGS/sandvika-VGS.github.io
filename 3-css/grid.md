@@ -8,7 +8,7 @@ Eksemplet under viser hvordan vi kan lage en enkel grid.
 ## HTML
 
 På samme måte som med flex må vi alltid ha et element som ligger rundt alt vi skal plassere sammen i en grid.
-I koden under har vi et section-element med klassen mini-grid, rundt elementene som skal plasseres ut på nettsiden.
+I koden under har vi et section-element med klassen mini-grid, rundt elementene som skal plasseres ut på nettsiden. 
 
 ```HTML
 <section class="mini-grid">
@@ -53,4 +53,4 @@ Hadde vi skrevet fire 1fr etter hverandre, hadde vi fått fire like store elemen
 
 Resultatet av koden over blir slik:
 
-![enkel grid](./enkel-grid.png)
+![enkel grid](./bilder//enkel-grid.png)

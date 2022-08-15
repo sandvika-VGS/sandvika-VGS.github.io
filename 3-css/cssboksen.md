@@ -2,7 +2,7 @@
 
 ## Boks-modellen
 
-Vi har sett at vi kan endre farge og størrelse på html-elementene våre. Når det gjelder posisjonering og layout, så må vi starte med å lære oss fire viktige css-egenskaper som *alle* html-element består av. For å forstå hvordan disse fungerer er det lurt å forestille seg hver html-element som en egen boks, der denne boksen består av:
+Vi har sett at vi kan endre farge og størrelse på html-elementene våre. Når det gjelder posisjonering og layout, så må vi starte med å lære oss fire viktige css-egenskaper som *alle* html-element består av. For å forstå hvordan disse fungerer er det lurt å forestille seg hvert html-element som en egen boks, der denne består av:
 
 * Content: Innholdet, altså delen der tekst og bilder vises.
 * Padding: Et område som ligger rundt innholdet.
