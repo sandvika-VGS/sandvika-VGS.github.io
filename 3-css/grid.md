@@ -22,12 +22,13 @@ På samme måte som med flex, må vi alltid ha en forelder rundt alt vi skal pla
 
 ## CSS
 
-Vi bruker en selektor for id-en grid, som med fleks må vi først "skru på" grid:
+Vi bruker en selektor for id-en grid, og akkurat som med fleks må vi først "skru på" grid:
 
 ```CSS
 #grid{
   display: grid;
 }
+```
 
 Nå kan vi lage et rutenett til alle barna av elementet ovenfor. Den enkleste måten å gjøre det på er ved å bruke `grid-template-columns`:
 
@@ -106,8 +107,4 @@ Vi satte bredden på rutenettet vårt til 200px, da "låser" vi bredden på rute
 > Skal man ha mange elementer i bredden, kan man bruke repeat.
 > Eks: `repeat(4,1fr)`, som tilsvarer `1fr 1fr 1fr 1fr`
 
-## Nettside
 
-Resultatet av koden over blir slik:
-
-![enkel grid](./bilder/3_5%20-%20grid/enkel-grid.png)
