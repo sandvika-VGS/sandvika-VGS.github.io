@@ -49,41 +49,39 @@ Vi bruker gap for å lage litt luft mellom grid-elementene. Gap fyller bare luft
 Vi legger også en border rundt selve elementene, slik at det er lettere å se selve rutenettet:
 
 <details>
-    <summary>Klikk for å se hele koden
-    </summary>
+    <summary>Klikk for å se hele koden</summary>
     
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <style>
-          #grid{
-              display: grid;
-              grid-template-columns: 200px 200px 200px;
-              gap: 10px;
-          }
-          .boks{
-              border: 1px solid black;
-          }
-
-      </style>
-  </head>
-  <body>
-      <section id="grid">
-          <div class="boks">1</div>
-          <div class="boks">2</div>
-          <div class="boks">3</div>
-          <div class="boks">4</div>
-          <div class="boks">5</div>
-          <div class="boks">6</div>
-          <div class="boks">7</div>
-          <div class="boks">8</div>
-      </section>
-  </body>
-  </html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #grid{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                gap: 10px;
+            }
+            .boks{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="grid">
+            <div class="boks">1</div>
+            <div class="boks">2</div>
+            <div class="boks">3</div>
+            <div class="boks">4</div>
+            <div class="boks">5</div>
+            <div class="boks">6</div>
+            <div class="boks">7</div>
+            <div class="boks">8</div>
+        </section>
+    </body>
+    </html>
 
 </details>
 
