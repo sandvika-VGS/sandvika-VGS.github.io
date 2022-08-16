@@ -170,7 +170,7 @@ nav{
     border-bottom: solid black 2px;
     display: flex;
     justify-content: space-between;
-            align-items: center;
+    align-items: center;
 }  
 nav a{
     color: black;
