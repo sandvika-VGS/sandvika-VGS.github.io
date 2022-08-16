@@ -41,13 +41,13 @@ nav{
 }
 ```
 
-Legg merke til at ingenting endrer seg enda, vi har bare satt igang verktøyet og må nå vite hvilke egenskaper vi har tilgjengelig.
+Legg merke til at ingenting endrer seg enda, vi har bare satt igang verktøyet og må nå vite hvilke muligheter vi har tilgjengelig.
 
 ## Flex - Egenskaper.
 
-Når flex er "skrudd på" har vi endel nye egenskaper å forholde oss til:
+Når flex er "skrudd på" får vi endel nye egenskaper å forholde oss til:
 
-* `flex-direction`: row / column. Her bestemmer vi om barna skal plasseres langs en rad eller kolonne. Standardinnstillingen er `row` altså horisontalt, og vi trenger derfor ikke denne egenskapen med mindre lenkene skal ligge vertikalt.
+* `flex-direction`: row / column. Her bestemmer vi om fleks-elementene skal plasseres langs en rad eller kolonne. Standardinnstillingen er `row` altså horisontalt, og vi trenger derfor ikke denne egenskapen med mindre lenkene våre skal ligge vertikalt.
 
 * `justify-content:` flex-start / flex-end / center / space-between /space-around. Den viktigste egenskapen for posisjonering. Vi ser nærmere på denne i eksempler nedenfor.
 
@@ -89,7 +89,7 @@ nav a{
 
 ### Alternativ 2 - Horisontalt Venstrestilt
 
-En annen variant er å legge padding på selve lenkene, og bruke "flex-start" i stedet.:
+En annen variant er å legge padding på selve lenkene, og bruke "flex-start" i stedet. Flex-start legger alle elementene ved begynnelsen, og padding sørger for at det er luft i mellom:
 
 ```CSS
 nav{
@@ -116,7 +116,7 @@ nav a{
 
 ### Alternativ 3 - Mobil/Vertikal
 
-For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene i en kolonne. Vi endrer flex-direction og setter litt padding mellom lenkene:
+For en nettside til mobiltelefon, er det beste som regel å ha fleks-elementene i en kolonne. Vi endrer flex-direction så lenkene kommer under hverandre. Vi bruker som i forrige eksempel padding for luft mellom lenkene, og til slutt så sentrerer vi lenkene horisontalt ved hjelp av align-items:
 
 ```CSS
 nav{
@@ -184,6 +184,8 @@ nav a{
 ![alt text](./bilder/3_4%20flex/navbar4.png)
 
 
-
+> I eksemplene ovenfor har vi brukt padding for luft mellom elementene. Alternativt kan man 
+> bestemme størrelsen til et fleks-element ved å bruke egenskapen `flex-basis`. Les mer om 
+> denne her: https://mastery.games/post/the-difference-between-width-and-flex-basis/
 
 
