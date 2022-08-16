@@ -38,7 +38,7 @@ For å manuelt lete blant filene og mappene vi har (både lokalt og i skyen) så
 
 VS-Code har også en innebygd utforsker som vi bruker mye i dette faget, for å bruke denne så åpner vi først en mappe så vil VS-Code vise deg hva som som ligger inne i denne. Vi kan åpne og lukke mapper ved å trykke på pilene. Husk at dersom vi åpner en helt ny mappe så betyr ikke det at lagrede filene vi hadde oppe tidligere forsvinner, vi bare utforsker et annet sted.
 
-![Bilde: Navigasjon i VS-Code](/vscode.png)
+![Bilde: Navigasjon i VS-Code](./vscodenav.png.png)
 
 *Ser du hvilke hvordan fil- og mappestrukturen er bygd opp? Hva ligger inne hvor?*
 
