@@ -1,4 +1,4 @@
-# Vanlige HTML-tagger
+# Vanlige HTML-elementer
 
 Vi oppsummerer html-delen av kapittelet ved å se på de vanligste elementene man bør kunne, noen av de har du allerede sett før, mens andre introduseres som nye her.
 
@@ -69,11 +69,11 @@ Listene består av li element som er nøstet inn i elementet som bestemmer hva s
 
 Vi henter koden fra kilden. Se etter "Share" og så "embed". Herfra får du hele elementet for youtube/google maps, som du kan kopiere rett inn i html fila di.
 
-![Bilde: Embed fra google](./bilder/2_5%20-%20tagger/embed.png)
+![Bilde: Embed fra google](./bilder/2_5%20-%20elementer/embed.png)
 
 ## Hente innhold fra bruker
 
-![Bilde - Utseende til form](./bilder/2_5%20-%20tagger/form.png)
+![Bilde - Utseende til form](./bilder/2_5%20-%20elementer/form.png)
 
 Eksempel på form-element
 

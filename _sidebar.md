@@ -10,7 +10,7 @@
   * [2.2 Hvordan skrive HTML](./2-html/hva-er-html.md)
   * [2.3 Hyperlenker](./2-html/lenker.md)
   * [2.4 Strukturering av nettsiden](2-html/struktur.md)
-  * [2.5 De mest brukte elementene](./2-html/tagger.md)
+  * [2.5 De mest brukte elementene](./2-html/elementer.md)
 
   
 * CSS
