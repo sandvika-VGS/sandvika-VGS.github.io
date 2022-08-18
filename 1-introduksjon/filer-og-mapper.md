@@ -45,3 +45,27 @@ VS-Code har også en innebygd utforsker som vi bruker mye i dette faget, for å 
 ## Filtyper og Filnavn
 
 Det finnes veldig mange ulike filtyper, du er trolig mest vant til er sikkert bildefiler, tekstfiler eller eventuelt videofiler. I tillegg er det alle de "usynlige" filene som alle programmene og appene dine består av. Anta at du lagrer en tekst og gir den navnet "Norsk Skriveøkt". Dersom den er skrevet i word blir den faktisk lagret som "Norsk Skriveøkt.docx" der docx står for filtypen. Hittil har dette skjedd automatisk uten at du trenger å forholde deg til det, men med VS Code blir det anderledes. Dette programmet brukes for mange ulike filtyper, og vi må derfor manuelt spesifisere hva slags type fil vi skal lage. Det gjør vi ved å gi den et navn, så ha med et punktum og riktig "filkode" når vi lagrer filene våre. I neste kapittel skal vi for eksempel lage en html-fil. Den må da lagres på formen *navn*.html der du bestemmer navnet selv,
+
+## Oppgaver
+
+### Oppgave 1 - IT-mappe
+
+1. Opprett en IT-mappe på PCen din  
+2. Åpne mappen i VS Code  
+
+### Oppgave 2 - Word-dokument
+
+1. Opprett et nytt word-dokument i MS Word  
+2. Skriv `IT er kult!` i dokumentet  
+3. Lagre dokumentet i IT-mappen din  
+4. Finn word-dokumentet i VS Code, hva får du opp?  
+5. Lag en ny word-fil (`.doc`) i VS Code, som inneholder teksten `Hei på deg!`  
+6. Dobbelklikk på filen i Explorer/Finder, hva skjer?  
+
+### Oppgave 3 - Filnavn
+
+1. Legg et bilde av deg selv i IT-mappen  
+2. Finn bildet i VS Code, hva får du opp?  
+3. Endre navn på bildet, slik at det slutter på `.doc`  
+4. Dobbeltklikk på bildet i Explorer/Finder, hva skjer?  
+5. Hvorfor skjer dette?  
