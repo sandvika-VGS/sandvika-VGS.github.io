@@ -48,7 +48,7 @@ URL'en over er en absolutt URL fordi den viser til den faktiske plasseringen til
 
 Mens en relativ URL viser til plasseringen av en fil i forhold til filen vi er i. Dette høres nok komplisert ut, men se på utforskeren til VS Code:
 
-![Bilde: Utforsker VS Code](bilder/vscode.png)
+![Bilde: Utforsker VS Code](./bilder/2_3%20-%20lenker/vscode.png)
 
 Anta at vi jobber med hjemmeside.html, da er vi i mappen uke 2. Den relative URL'en til 
 bilde.jpeg blir da bare `bilde.jpeg` (siden vi er i samme mappe). Dersom bilde.jpeg derimot er i andre mapper, må vi skrive stien ved å hoppe enten inn eller ut av undermappene.
