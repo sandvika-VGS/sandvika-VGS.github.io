@@ -48,22 +48,22 @@ URL'en over er en absolutt URL fordi den viser til den faktiske plasseringen til
 
 Mens en relativ URL viser til plasseringen av en fil i forhold til filen vi er i. Dette høres nok komplisert ut, men se på utforskeren til VS Code:
 
-![Bilde: Utforsker VS Code](/vscode.png)
+![Bilde: Utforsker VS Code](bilder/vscode.png)
 
 Anta at vi jobber med hjemmeside.html, da er vi i mappen uke 2. Den relative URL'en til 
-bilde2.png blir da bare `bilde2.jpg` (siden vi er i samme mappe). Dersom bilde2.jpg derimot er i andre mapper, må vi skrive stien ved å hoppe enten inn eller ut av undermappene.
+bilde.jpeg blir da bare `bilde.jpeg` (siden vi er i samme mappe). Dersom bilde.jpeg derimot er i andre mapper, må vi skrive stien ved å hoppe enten inn eller ut av undermappene.
 
-Her kommer noen eksempler på hvordan vi kan skriver relative stier til bilde2.jpg ved å enten gå inn i, eller hoppe ut av mapper.
+Her kommer noen eksempler på hvordan vi kan skriver relative stier til bilde.jpeg ved å enten gå inn i, eller hoppe ut av mapper.
 
 ### I samme mappe
 
 ```
 -uke2
   |
-  |-index.html
-  |-bilde2.jpg
+  |-hjemmeside.html
+  |-bilde.jpeg
 ```
-`<img src="bilde2.jpg">`
+`<img src="bilde.jpeg">`
 
 ### Bilde ligger i en bilder-mappe
 
@@ -72,12 +72,12 @@ For å gå inn en undermappe brukes `navnPåMappe/`
 ```
 -uke2
   |
-  |-index.html
+  |-hjemmeside.html
   |-bilder
     |
-    |-bilde2.jpg
+    |-bilde.jpeg
 ```
-`<img src="bilder/bilde2.jpg`
+`<img src="bilder/bilde.jpeg`
 
 ### Bilde og nettsiden ligger i hver sin undermappe
 
@@ -88,10 +88,10 @@ Her må vi først ut av hjem-mappen før vi kan gå inn i bilder-mappen. For å 
   |
   |-hjem
     |
-    |-index.html
+    |-hjemmeside.html
   |-bilder
     |
-    |-bilde2.jpg
+    |-bilde.jpeg
 ```
-`<img src="../bilder/bilde2.jpg`
+`<img src="../bilder/bilde.jpeg`
 
