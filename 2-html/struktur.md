@@ -54,3 +54,15 @@ Når vi nøster elementer kan det være greit å ha et språk som raskt gir over
 ```
 
 Her ligger det mange element nøstet inn under hverandre, main ligger rett under body og omtales derfor som `barn` av body. Det ligger to `section` element inne i main, og disse vil derfor være `barn` av main og `etterkommere` av body. Tilsvarende har det første section elementet to barn, mens det andre har fem. Alle disse syv er etterkommere av både main og body. Når vi senere skal endre utseende og posisjon på elementene våre er det viktig at vi har oversikt over relasjonene deres.
+
+## Oppgaver
+
+1. Lag et nettsted om skolen, bruk https://viken.no/sandvika-vgs/ som inspirasjon
+    - Nettstedet skal bestå av minst fire undersider, f.eks: 
+      - index.html
+      - fag.html
+      - lærere.html
+      - om-skolen.html
+      - kontakt-oss.html
+    - Tekst til nettstedet finner du på skolens nettsted
+    - Bilder finner du på internett
