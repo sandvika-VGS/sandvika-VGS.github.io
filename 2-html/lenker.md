@@ -95,3 +95,14 @@ Her må vi først ut av hjem-mappen før vi kan gå inn i bilder-mappen. For å 
 ```
 `<img src="../bilder/bilde.jpeg`
 
+## Oppgaver
+
+1. Lag en nettside som inneholder lenker til fem nettsider du besøker ofte
+2. Lag en lenke til hjemmesiden du lagde forrige uke
+3. Lag tre HTML-filer, `per.html`, `paal.html` og `espen.html`
+   - Hver HTML-fil skal ha en overskrift og lenker til de to andre HTML-filene
+4. Last ned filen [2-3-lenker-oppgaver.zip](https://raw.githubusercontent.com/sandvika-VGS/sandvika-VGS.github.io/master/2-html/2-3-lenker-oppgaver.zip)
+   - Flytt .zip-filen til IT-mappen din og pakk den ut (Mac: Dobbelklikk på filen i finder / Windows: Høyreklikk og velg pakk ut alle). 
+   - Finn filen `hjemmeside.html` i VS Code
+   - Gjør oppgavene som står i filen
+
