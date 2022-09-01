@@ -103,6 +103,6 @@ Her må vi først ut av hjem-mappen før vi kan gå inn i bilder-mappen. For å 
    - Hver HTML-fil skal ha en overskrift og lenker til de to andre HTML-filene
 4. Last ned filen [2-3-lenker-oppgaver.zip](https://raw.githubusercontent.com/sandvika-VGS/sandvika-VGS.github.io/master/2-html/2-3-lenker-oppgaver.zip)
    - Flytt .zip-filen til IT-mappen din og pakk den ut (Mac: Dobbelklikk på filen i finder / Windows: Høyreklikk og velg pakk ut alle). 
-   - Finn filen `hjemmeside.html` i VS Code
+   - Finn filen `hovedside.html` i VS Code
    - Gjør oppgavene som står i filen
 
