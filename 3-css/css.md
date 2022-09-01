@@ -73,7 +73,7 @@ Hva hvis vi bare vi bare vil sette farge på det midterste avsnittet? Selektoren
 ## Oppgaver
 
 1. Lag et nettsted om solsystemet
-   - Last ned filen [solsystemet.zip](./solsystemet.zip)
+   - Last ned filen [solsystemet.zip](https://raw.githubusercontent.com/sandvika-VGS/sandvika-VGS.github.io/master/3-css/solsystemet.zip)
    - Nettsted skal minst ha:
    - Fire undersider:
      - index.html – hjemmesiden
