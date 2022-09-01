@@ -70,3 +70,17 @@ Alternativt kan vi nøste et `<style>`-element inn i  `<head>` i html-fila vår.
 Hva hvis vi bare vi bare vil sette farge på det midterste avsnittet? Selektorene vi har sett på hittil endrer jo på alle element av samme type. Neste side tar for seg litt mer avanserte selektorer som gir flere muligheter.
 
 
+## Oppgaver
+
+1. Lag et nettsted om solsystemet
+   - Last ned filen [solsystemet.zip](./solsystemet.zip)
+   - Nettsted skal minst ha:
+   - Fire undersider:
+     - index.html – hjemmesiden
+     - solen.html – En infoside om solen
+     - mars.html – En infoside om mars
+     - planetene.html – En oversikt over planetene
+   - Navigasjonsbar
+   - Overskrifter
+   - En egen CSS-fil
+   - En annen bakgrunnsfarge enn hvit
