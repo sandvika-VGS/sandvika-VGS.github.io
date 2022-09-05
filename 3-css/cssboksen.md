@@ -103,7 +103,13 @@ body{
 ```
 Her sider vi at bredden til body skal være 80% av hele skjermen, også vil auto-verdien sørge for å midtstille ved å legge 10% på hver side. Legg merke til at vi kunne fått samme effekt ved å sette både `margin-left` og `margin-right` til 10% hver.
 
-
 ## Div - elementet
 
 Et html-element vi bruker veldig mye fremover er div-elementet. Dette elementet har satt alle delene av boks-modellen til 0, slik at vi kan se på det som en nøytral boks rundt inhholdet. Elementet passer godt dersom det ikke er naturlig å bruke semantiske element, og brukes som regel for å gruppere elementer når vi skal igang med mer avanserte CSS-teknikker. Siden div-elementet er helt nøytralt kan det av og til være lurt å legge til id-attributter for å gi en beskrivelse av hva du bruker de til.
+
+## Oppgaver
+
+1. Lag et p-element med teksten `innhold` og gjenskap CSS-boksen med padding, margin og border.
+   - Tips: `border: solid 1px black;`
+2. Lag en nettside som inneholder tre avsnitt med tekst, teksten skal ha 10 % marg på høyre og venstre side.
+    - Tekst kan du finne på wikipedia, eks: [no.wikipedia.org/wiki/Parlamentarisme](https://no.wikipedia.org/wiki/Parlamentarisme)
