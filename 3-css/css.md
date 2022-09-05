@@ -69,6 +69,90 @@ Alternativt kan vi nøste et `<style>`-element inn i  `<head>` i html-fila vår.
 
 Hva hvis vi bare vi bare vil sette farge på det midterste avsnittet? Selektorene vi har sett på hittil endrer jo på alle element av samme type. Neste side tar for seg litt mer avanserte selektorer som gir flere muligheter.
 
+## Egen CSS-fil
+
+Større nettsteder har som regel en del *stiler* som skal gjelde alle undersidene.
+Da blir det fort veldig tungvindt å skrive CSS-koden direkte i hver eneste HTML-fil, fordi man da ender opp med å måtte skrive sammen koden flere ganger.
+Løsningen på dette er å bruke en egen CSS-fil med filendelsen `.css`.
+
+> Egne css-filer kalles ofte for `style.css`, men filnavnet er egentlig helt valgfritt, så lenge filendelsen er `.css`. 
+
+Eksempel på innholdet i en egen CSS-fil:
+
+```css
+body{
+    background-color: lightgrey;
+    margin: 0;
+}
+
+```
+
+For at nettleseren skal laste inn CSS-koden må vi lage lenker til CSS-filene i HTML.
+Det gjøres med en `<link>`-tagg, med attributtene `rel="stylesheet"` og `href="filnavn.css"`.
+I HTML-filen plasseres `<link>`-taggen nederst i `<head>`, slik:
+
+```html
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML og CSS</title>
+    <link rel="stylesheet" href="style.css"> <!-- link til filen style.css som ligger i samme mappe som denne html-filen -->
+</head>
+<body>
+...
+```
+
+### Stiler som kun gjelder én underside
+
+Noen ganger ønsker man at noen stiler kun skal gjelde for en enkelt underide.
+Da kan man både ha en <link> til en felles CSS-fil og ha en egen <style>-tagg med stilen som kun skal gjelde undersiden.
+For eksempel slik:
+
+```html
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML og CSS</title>
+    <link rel="stylesheet" href="style.css"> <!-- All stil som gjelder alle undersider skrives i style.css -->
+    <style>
+        /* stil som kun gjelder denne undersiden skrives her */
+        body{
+            background-image: url("bilder/solsystemet.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+...
+```
+
+### Flere CSS-filer
+
+Noen ganger ønsker man at noen stiler kun skal gjelde flere enn én underside, men ikke alle.
+Da kan man bruke flere CSS-filer, med lenker eks. slik:
+
+> Rekkefølgen på <link>-taggene har noe å si. Nettleseren leser koden ovenfra og ned, derfor vil stilene i den nederste overskrive stilene i linkene over.
+
+```html
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML og CSS</title>
+    <link rel="stylesheet" href="style.css"> <!-- All stil som gjelder alle undersider skrives i style.css -->
+    <link rel="stylesheet" href="produktsider.css"> <!-- Stiler som kun skal gjelde noen få undersider skrives i en egen fil -->
+</head>
+<body>
+...
+```
 
 ## Oppgaver
 
